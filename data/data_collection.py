@@ -13,12 +13,19 @@ if __name__ == '__main__':
     import numpy
     import json
 
+    face = Face('data/Arial Unicode.ttf')
+    face.set_char_size( 48*64 )
+
     inputFile = open('data/input.json')
     data = json.load(inputFile)
+    inputFile.close()
 
+    outputFile = open('data/output.json','w')
+    outputFile.write('{\n"languages": [')
     for language in data['languages']:
-        face = Face('data/Arial Unicode.ttf')
-        face.set_char_size( 48*64 )
+
+        outputFile.write('\n{"language": "' + language['language'] +'",')
+        outputFile.write('\n"chars":[')
 
         total_chars, total_contours, total_lines, total_curves = 0,0,0,0
 
@@ -28,7 +35,6 @@ if __name__ == '__main__':
             char2 = char_range[1] if len(char_range) > 1 else char1
             for i in range(int(char1,0),int(char2, 0)+1):
                 ch = unichr(i)
-                print ch
                 face.load_char(ch)
                 slot = face.glyph
 
@@ -36,7 +42,6 @@ if __name__ == '__main__':
                 points = numpy.array(outline.points, dtype=[('x',float), ('y',float)])
                 x, y = points['x'], points['y']
 
-                #axis.scatter(points['x'], points['y'], alpha=.25)
                 start, end = 0, 0
                 lines, curves1, curves2 = 0, 0, 0
 
@@ -75,13 +80,21 @@ if __name__ == '__main__':
                 total_contours = total_contours + num_contours
                 total_lines = total_lines + lines
                 total_curves = total_curves + curves1+curves2
-                print 'char: ', ch
-                print 'contours: ', num_contours
-                print 'lines: ', lines
-                print 'curves: ', curves1+curves2
+                outputFile.write('\n{"char": "' + ch.encode('utf-8') + '",')
+                outputFile.write('\n"contours": ' + str(num_contours) + ',')
+                outputFile.write('\n"lines": ' + str(lines) + ',')
+                outputFile.write('\n"curves": ' + str(curves1+curves2) + '}')
 
         total_chars = float(total_chars)
-        print 'characters: ', total_chars,','
-        print 'total contours: ', total_contours, ',\nevarage contours: ', (total_contours/total_chars),','
-        print 'total lines: ', total_lines, ',\nevarage lines: ',(total_lines/total_chars),','
-        print 'total curves: ', total_curves, ',\nevarage curves: ',(total_curves / total_chars)
+        outputFile.write('\n],')
+        outputFile.write('\n"total_chars": ' + str(total_chars) + ',')
+        outputFile.write('\n"total_contours": ' + str(total_contours) + ',')
+        outputFile.write('\n"evarage_contours": ' + str(total_contours/total_chars) + ',')
+        outputFile.write('\n"total_lines": ' + str(total_lines) + ',')
+        outputFile.write('\n"evarage_lines": ' + str(total_lines/total_chars) + ',')
+        outputFile.write('\n"total_curves": ' + str(total_curves) + ',')
+        outputFile.write('\n"evarage_curves": ' + str(total_curves / total_chars))
+        outputFile.write('},')
+
+    outputFile.write('\n]\n}')
+    outputFile.close()
