@@ -24,12 +24,10 @@ if __name__ == '__main__':
     data = json.load(inputFile)
     inputFile.close()
 
-    outputFile = open('data/output.json','w')
-    outputFile.write('{\n"languages": [')
+    languages_arr = []
     for language in data['languages']:
 
-        outputFile.write('\n{"language": "' + language['language'] +'",')
-        outputFile.write('\n"chars":[')
+        language_dic = {"language": language['language'], "chars": []}
 
         total_chars, total_contours, total_lines, total_curves = 0,0,0,0
 
@@ -84,21 +82,21 @@ if __name__ == '__main__':
                 total_contours = total_contours + num_contours
                 total_lines = total_lines + lines
                 total_curves = total_curves + curves1+curves2
-                outputFile.write('\n{"char": "' + ch.encode('utf-8') + '",')
-                outputFile.write('\n"contours": ' + str(num_contours) + ',')
-                outputFile.write('\n"lines": ' + str(lines) + ',')
-                outputFile.write('\n"curves": ' + str(curves1+curves2) + '}')
+                char_dic = {"char": ch.encode('utf-8'), "contours": str(num_contours),"lines": str(lines),"curves": str(curves1+curves2)}
+                language_dic["chars"].append(char_dic)
 
         total_chars = float(total_chars)
-        outputFile.write('\n],')
-        outputFile.write('\n"total_chars": ' + str(total_chars) + ',')
-        outputFile.write('\n"total_contours": ' + str(total_contours) + ',')
-        outputFile.write('\n"evarage_contours": ' + str(total_contours/total_chars) + ',')
-        outputFile.write('\n"total_lines": ' + str(total_lines) + ',')
-        outputFile.write('\n"evarage_lines": ' + str(total_lines/total_chars) + ',')
-        outputFile.write('\n"total_curves": ' + str(total_curves) + ',')
-        outputFile.write('\n"evarage_curves": ' + str(total_curves / total_chars))
-        outputFile.write('},')
+        language_dic["total_chars"] = total_chars
+        language_dic["total_contours"] = total_contours
+        language_dic["evarage_contours"] = (total_contours/total_chars)
+        language_dic["total_lines"] = total_lines
+        language_dic["evarage_lines"] = (total_lines/total_chars)
+        language_dic["total_curves"] = total_curves
+        language_dic["evarage_curves"] = (total_curves / total_chars)
+        languages_arr.append(language_dic)
 
-    outputFile.write('\n]\n}')
+    outputFile = open('data/output.json','w')
+    outputFile.write('{\n"languages":')
+    outputFile.write(json.dumps(languages_arr,indent=4))
+    outputFile.write('}')
     outputFile.close()
