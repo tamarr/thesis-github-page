@@ -1,39 +1,51 @@
-[{
-	language: hebrew,
-	ranges: [[05C6],[05D0,05EA]],
-	total contours:  31,
-	evarage contours:  1.14814814815,
-	total lines:  173,
-	evarage lines:  6.40740740741,
-	total curves:  144,
-	evarage curves:  5.33333333333
-},{
-	language: arabic,
-	ranges: [[0622,063F],[0641,064A]],
-	total contours:  69 ,
-	evarage contours:  2.3 ,
-	total lines:  245 ,
-	evarage lines:  8.16666666667 ,
-	total curves:  234 ,
-	evarage curves:  7.8
-},{
-	language: latin,
-	ranges: [[0041,005A],[0061,007A]],
-	total contours:  36,
-	evarage contours:  1.38461538462,
-	total lines:  199,
-	evarage lines:  7.65384615385,
-	total curves:  145,
-	evarage curves:  5.57692307692
-},{
-	language: thai,
-	ranges:[[0E01,0E2F]],
-	total contours:  111 ,
-	evarage contours:  2.36170212766 ,
-	total lines:  416 ,
-	evarage lines:  8.85106382979 ,
-	total curves:  835 ,
-	evarage curves:  17.7659574468
+{
+    "languages": [
+        {
+            "language": "hebrew",
+            "ranges": [
+                [
+                    "0x05C6"
+                ],
+                [
+                    "0x05D0",
+                    "0x05EA"
+                ]
+            ]
+        },
+        {
+            "language": "arabic",
+            "ranges": [
+                [
+                    "0x0622",
+                    "0x063F"
+                ],
+                [
+                    "0x0641",
+                    "0x064A"
+                ]
+            ]
+        },
+        {
+            "language": "latin",
+            "ranges": [
+                [
+                    "0x0041",
+                    "0x005A"
+                ],
+                [
+                    "0x0061",
+                    "0x007A"
+                ]
+            ]
+        },
+        {
+            "language": "thai",
+            "ranges": [
+                [
+                    "0x0E01",
+                    "0x0E2F"
+                ]
+            ]
+        }
+    ]
 }
-
-]
