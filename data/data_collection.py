@@ -2,8 +2,12 @@
 
 # -----------------------------------------------------------------------------
 #
-#  FreeType high-level python API - Copyright 2011 Nicolas P. Rougier
-#  Distributed under the terms of the new BSD license.
+#  This script was created by Tamar Rucham, based on the FreeType library example 
+#  glyph_vector.py
+#
+#  Assuming the ttf file and input file in a data folder from cyrrently run script
+#  this script will generate the statistics for each character in the given ranges
+#  for the given languages, as well as general statistics for the language
 #
 # -----------------------------------------------------------------------------
 
