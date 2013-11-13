@@ -12,6 +12,10 @@
   stroke-opacity: .6;
 }
 
+.title {
+  font-family: Arial;
+}
+
 </style>
 
 <head>
@@ -50,7 +54,7 @@ d3.json("test.json", function(error, graph) {
       .nodes(graph.nodes)
       .links(graph.links)
       .linkDistance(function(d){
-        return d.value*50;
+        return d.value*20;
       })
       .start();
 

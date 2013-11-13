@@ -17,7 +17,7 @@ if __name__ == '__main__':
     import numpy
     import json
 
-    face = Face('data/Arial Unicode.ttf')
+    face = Face('data/Tahoma.ttf')
     face.set_char_size( 48*64 )
 
     inputFile = open('data/input.json')

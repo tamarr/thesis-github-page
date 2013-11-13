@@ -1,11 +1,8 @@
 {
     "languages": [
         {
-            "language": "hebrew",
+            "language": "Hebrew",
             "ranges": [
-                [
-                    "0x05C6"
-                ],
                 [
                     "0x05D0",
                     "0x05EA"
@@ -13,11 +10,11 @@
             ]
         },
         {
-            "language": "arabic",
+            "language": "Arabic",
             "ranges": [
                 [
-                    "0x0622",
-                    "0x063F"
+                    "0x0621",
+                    "0x063A"
                 ],
                 [
                     "0x0641",
@@ -26,7 +23,7 @@
             ]
         },
         {
-            "language": "latin",
+            "language": "Latin",
             "ranges": [
                 [
                     "0x0041",
@@ -39,11 +36,47 @@
             ]
         },
         {
-            "language": "thai",
+            "language": "Thai",
             "ranges": [
                 [
                     "0x0E01",
                     "0x0E2F"
+                ], [
+                    "0x0E40",
+                    "0x0E44"
+                ]
+            ]
+        },
+        {
+            "language":"Devanagari",
+            "ranges": [
+                [
+                    "0x0904",
+                    "0x0939"
+                ], [
+                    "0x0958",
+                    "0x0961"
+                ]
+            ]
+        },
+        {
+            "language": "Greek",
+            "ranges": [
+                [
+                    "0x0391",
+                    "0x03A9"
+                ], [
+                    "0x03B1",
+                    "0x03C9"
+                ]
+            ]
+        },
+        {
+            "language": "Cryllic",
+            "ranges": [
+                [
+                    "0x0410",
+                    "0x044F"
                 ]
             ]
         }

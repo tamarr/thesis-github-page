@@ -26,106 +26,106 @@
     {
         "source": "Hebrew", 
         "target": "Arabic", 
-        "value": 5.916666666666667
+        "value": 10.148148148148149
     }, 
     {
         "source": "Hebrew", 
         "target": "Latin", 
-        "value": 2.2435897435897436
+        "value": 7.195156695156696
     }, 
     {
         "source": "Hebrew", 
         "target": "Thai", 
-        "value": 11.666666666666668
+        "value": 8.296296296296296
     }, 
     {
         "source": "Hebrew", 
         "target": "Devanagari", 
-        "value": 7.666666666666667
+        "value": 8.296296296296296
     }, 
     {
         "source": "Hebrew", 
         "target": "Greek", 
-        "value": 2.3066666666666666
+        "value": 5.245925925925926
     }, 
     {
         "source": "Hebrew", 
         "target": "Cryllic", 
-        "value": 2.979166666666667
+        "value": 12.129050925925926
     }, 
     {
         "source": "Arabic", 
         "target": "Latin", 
-        "value": 6.442307692307693
+        "value": 8.52136752136752
     }, 
     {
         "source": "Arabic", 
         "target": "Thai", 
-        "value": 5.750000000000002
+        "value": 18.444444444444443
     }, 
     {
         "source": "Arabic", 
         "target": "Devanagari", 
-        "value": 12.25
+        "value": 18.444444444444443
     }, 
     {
         "source": "Arabic", 
         "target": "Greek", 
-        "value": 6.05
+        "value": 8.604444444444443
     }, 
     {
         "source": "Arabic", 
         "target": "Cryllic", 
-        "value": 6.0625
+        "value": 8.835069444444443
     }, 
     {
         "source": "Latin", 
         "target": "Thai", 
-        "value": 12.192307692307695
+        "value": 15.26923076923077
     }, 
     {
         "source": "Latin", 
         "target": "Devanagari", 
-        "value": 5.807692307692307
+        "value": 15.26923076923077
     }, 
     {
         "source": "Latin", 
         "target": "Greek", 
-        "value": 0.3923076923076936
+        "value": 1.9492307692307698
     }, 
     {
         "source": "Latin", 
         "target": "Cryllic", 
-        "value": 1.9735576923076934
+        "value": 4.93389423076923
     }, 
     {
         "source": "Thai", 
         "target": "Devanagari", 
-        "value": 18.0
+        "value": 0.0
     }, 
     {
         "source": "Thai", 
         "target": "Greek", 
-        "value": 11.8
+        "value": 13.32
     }, 
     {
         "source": "Thai", 
         "target": "Cryllic", 
-        "value": 11.197115384615385
+        "value": 20.203125
     }, 
     {
         "source": "Devanagari", 
         "target": "Greek", 
-        "value": 6.2
+        "value": 13.32
     }, 
     {
         "source": "Devanagari", 
         "target": "Cryllic", 
-        "value": 7.78125
+        "value": 20.203125
     }, 
     {
         "source": "Greek", 
         "target": "Cryllic", 
-        "value": 1.5812499999999998
+        "value": 6.883125
     }
 ]}

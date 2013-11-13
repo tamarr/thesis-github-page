@@ -1,0 +1,1841 @@
+{
+"nodes":[
+    {
+        "name": "\u05d0"
+    }, 
+    {
+        "name": "\u05d1"
+    }, 
+    {
+        "name": "\u05d2"
+    }, 
+    {
+        "name": "\u05d3"
+    }, 
+    {
+        "name": "\u05d4"
+    }, 
+    {
+        "name": "\u05d5"
+    }, 
+    {
+        "name": "\u05d6"
+    }, 
+    {
+        "name": "\u05d7"
+    }, 
+    {
+        "name": "\u05d8"
+    }, 
+    {
+        "name": "\u05d9"
+    }, 
+    {
+        "name": "\u05da"
+    }, 
+    {
+        "name": "\u05db"
+    }, 
+    {
+        "name": "\u05dc"
+    }, 
+    {
+        "name": "\u05dd"
+    }, 
+    {
+        "name": "\u05de"
+    }, 
+    {
+        "name": "\u05df"
+    }, 
+    {
+        "name": "\u05e0"
+    }, 
+    {
+        "name": "\u05e1"
+    }, 
+    {
+        "name": "\u05e2"
+    }, 
+    {
+        "name": "\u05e3"
+    }, 
+    {
+        "name": "\u05e4"
+    }, 
+    {
+        "name": "\u05e5"
+    }, 
+    {
+        "name": "\u05e6"
+    }, 
+    {
+        "name": "\u05e7"
+    }, 
+    {
+        "name": "\u05e8"
+    }, 
+    {
+        "name": "\u05e9"
+    }, 
+    {
+        "name": "\u05ea"
+    }
+],
+"links":[
+    {
+        "source": "\u05d0", 
+        "target": "\u05d1", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d2", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d3", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d4", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d6", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d7", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d8", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05d9", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05da", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05db", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05dc", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05dd", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05de", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05df", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e0", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e1", 
+        "value": 18.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e2", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e3", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e4", 
+        "value": 16.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e6", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e8", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05e9", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d0", 
+        "target": "\u05ea", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d2", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d3", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d4", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d6", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05d9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05da", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05db", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05dd", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05de", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05df", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e1", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e2", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e4", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e6", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e7", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e8", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d1", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d3", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d4", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d5", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d6", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d7", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d8", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05d9", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05da", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05db", 
+        "value": 9.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05dc", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05dd", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05de", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05df", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e0", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e1", 
+        "value": 13.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e2", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e3", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e4", 
+        "value": 11.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e5", 
+        "value": 1.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e6", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e7", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e8", 
+        "value": 7.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05e9", 
+        "value": 3.0
+    }, 
+    {
+        "source": "\u05d2", 
+        "target": "\u05ea", 
+        "value": 5.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d4", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d6", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d7", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d8", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05d9", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05da", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05db", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05dc", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05dd", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05de", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05df", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e0", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e1", 
+        "value": 18.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e2", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e3", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e4", 
+        "value": 16.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e8", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05e9", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d3", 
+        "target": "\u05ea", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05d5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05d6", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05d7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05d8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05d9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05da", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05db", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05dd", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05de", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05df", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e1", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e2", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e4", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e6", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e7", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e8", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d4", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05d6", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05d7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05d8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05d9", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05da", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05db", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05dd", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05de", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05df", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e1", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e4", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e8", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d5", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05d7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05d8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05d9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05da", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05db", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05dd", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05de", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05df", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e1", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e4", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e8", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d6", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05d8", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05d9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05da", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05db", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05dc", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05dd", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05de", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05df", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e0", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e1", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e3", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e4", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e8", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05e9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d7", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05d9", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05da", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05db", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05dc", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05dd", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05de", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05df", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e0", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e1", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e2", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e3", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e4", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e6", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e7", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05e9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d8", 
+        "target": "\u05ea", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05da", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05db", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05dd", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05de", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05df", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e1", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e4", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e8", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05d9", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05db", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05dc", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05dd", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05de", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05df", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e1", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e4", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e8", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05da", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05dc", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05dd", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05de", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05df", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e0", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e1", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e2", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e3", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e4", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e7", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05e9", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05db", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05dd", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05de", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05df", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e0", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e1", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e3", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e4", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e8", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05e9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dc", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05de", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05df", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e0", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e1", 
+        "value": 16.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e2", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e3", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e4", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05e9", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05dd", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05df", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e0", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e1", 
+        "value": 16.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e2", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e3", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e4", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e6", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e8", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05e9", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05de", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e0", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e1", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e4", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e8", 
+        "value": 0.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05df", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e1", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e2", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e3", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e4", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e5", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e6", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e7", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e8", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05e9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e0", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e2", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e3", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e4", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e5", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e6", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e7", 
+        "value": 14.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e8", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05e9", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e1", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e3", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e4", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e5", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e8", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e2", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e4", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e5", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e6", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e7", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e8", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05e9", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e3", 
+        "target": "\u05ea", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05e5", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05e6", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05e7", 
+        "value": 12.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05e8", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05e9", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e4", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e5", 
+        "target": "\u05e6", 
+        "value": 2.0
+    }, 
+    {
+        "source": "\u05e5", 
+        "target": "\u05e7", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e5", 
+        "target": "\u05e8", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e5", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e5", 
+        "target": "\u05ea", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e6", 
+        "target": "\u05e7", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e6", 
+        "target": "\u05e8", 
+        "value": 10.0
+    }, 
+    {
+        "source": "\u05e6", 
+        "target": "\u05e9", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e6", 
+        "target": "\u05ea", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e7", 
+        "target": "\u05e8", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e7", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e7", 
+        "target": "\u05ea", 
+        "value": 6.0
+    }, 
+    {
+        "source": "\u05e8", 
+        "target": "\u05e9", 
+        "value": 4.0
+    }, 
+    {
+        "source": "\u05e8", 
+        "target": "\u05ea", 
+        "value": 8.0
+    }, 
+    {
+        "source": "\u05e9", 
+        "target": "\u05ea", 
+        "value": 4.0
+    }
+]}

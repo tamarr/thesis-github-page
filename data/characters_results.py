@@ -1,7 +1,7 @@
 import json
 
 def getDiff(char1, char2):
-	return 0-(abs(float(char1['lines']) - float(char2['lines'])) + abs(float(char1['curves']) - float(char2['curves'])))
+	return (abs(float(char1['lines']) - float(char2['lines'])) + abs(float(char1['curves']) - float(char2['curves'])))
 
 # def generateCharJson():
 inputFile = open('data/output.json')
@@ -18,7 +18,7 @@ for language in languages_info:
 	for single_char in chars_arr:
 		index += 1
 		char_name = single_char['char']
-		names_arr.append(char_name)
+		names_arr.append({"name":char_name})
 
 		# Now iterate through the rest of the chars and determine link weight
 		for i in range(index, len(chars_arr)):
