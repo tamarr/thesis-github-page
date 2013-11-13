@@ -23,7 +23,7 @@
 </head>
 
 <body>
-  <h4>A basic connected graph for Latin, Arabic, Hebrew and Thai</h4>
+  <h4>A basic heatmap for Latin, Arabic, Hebrew, Thai, Devangari, Greek and Cryllic</h4>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -41,101 +41,61 @@ var mySVG = d3.select("body")
    .attr("width", width) 
    .attr("height", height)
    .style('position','absolute')
-   .style('top',0)
-   .style('left',0);
+   .style('top',50)
+   .style('left',50);
 
-d3.json("test.json", function(error, graph) {
+d3.json("languages_heatmap.json", function(error, data) {
   var hash_lookup = [];
-  minData = 0, maxData = 0;
-  // make it so we can lookup nodes in O(1):
-  graph.nodes.forEach(function(d, i) {
-    hash_lookup[d.name] = d;
-  });
-  graph.links.forEach(function(d, i) {
-    d.source = hash_lookup[d.source];
-    d.target = hash_lookup[d.target];
-    if (d.value < minData) {
-      minData = d.value;
-    } else if (d.value > maxData) {
-      maxData = d.value;
-    }
-  });
 
 //define a color scale using the min and max expression values
 var colorScale = d3.scale.linear()
-  .domain([minData, 0, maxData])
-  .range(["blue", "white", "red"]);
+  .domain([data.minData, data.maxData])
+  .range(["green", "white"]);
 
 //generate heatmap rows
 var heatmapRow = mySVG.selectAll(".heatmap")
-   .data(graph.links)
+   .data(data.data)
    .enter().append("g");
 
 //generate heatmap columns
 var heatmapRects = heatmapRow
    .selectAll(".rect")
    .data(function(d) {
-      return d.value;
+      return d;
    }).enter().append("svg:rect")
    .attr('width',w)
    .attr('height',h)
    .attr('x', function(d) {
-      return (d[2] * w) + 25;
+      return (d[2] * w) + 100;
    })
    .attr('y', function(d) {
       return (d[1] * h) + 50;
    })
    .style('fill',function(d) {
-      return colorScale(d.value);
+      return colorScale(d[0]);
    });
 
-/*label columns
 var columnLabel = mySVG.selectAll(".colLabel")
-   .data(cols)
+   .data(data.labels)
    .enter().append('svg:text')
    .attr('x', function(d,i) {
-      return ((i + 0.5) * w) + 25;
+      return ((i + 0.5) * w) + 100;
    })
    .attr('y', 30)
    .attr('class','label')
    .style('text-anchor','middle')
    .text(function(d) {return d;});
 
-//expression value label
-var expLab = d3.select("body")
-   .append('div')
-   .style('height',23)
-   .style('position','absolute')
-   .style('background','FFE53B')
-   .style('opacity',0.8)
-   .style('top',0)
-   .style('padding',10)
-   .style('left',40)
-   .style('display','none');
-*/
-//heatmap mouse events
-heatmapRow
-   .on('mouseover', function(d,i) {
-      d3.select(this)
-         .attr('stroke-width',1)
-         .attr('stroke','black')
-
-      output = '<b>' + rows[i] + '</b><br>';
-      for (var j = 0 , count = data[i].length; j < count; j ++ ) {
-         output += data[i][j][0] + ", ";
-      }
-      expLab
-         .style('top',(i * h))
-         .style('display','block')
-         .html(output.substring(0,output.length - 3));
-})
-.on('mouseout', function(d,i) {
-   d3.select(this)
-      .attr('stroke-width',0)
-      .attr('stroke','none')
-   expLab
-      .style('display','none')
-});
+var rowLabel = mySVG.selectAll(".rowLabel")
+   .data(data.labels)
+   .enter().append('svg:text')
+   .attr('y', function(d,i) {
+      return ((i + 0.5) * h) + 50;
+   })
+   .attr('x', 50)
+   .attr('class','label')
+   .style('text-anchor','middle')
+   .text(function(d) {return d;});
 
 });
 
