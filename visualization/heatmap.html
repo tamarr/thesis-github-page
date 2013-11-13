@@ -49,7 +49,7 @@ d3.json("languages_heatmap.json", function(error, data) {
 
 //define a color scale using the min and max expression values
 var colorScale = d3.scale.linear()
-  .domain([data.minData, data.maxData])
+  .domain([data.minData, data.maxData + 5])
   .range(["green", "white"]);
 
 //generate heatmap rows
