@@ -2,13 +2,8 @@ var language_color = '#B40404';
 var language_link_color = '#F5A9A9';
 var language_back_color = '#610B0B';
 
-window.onload = function() {
-}
-
 function generate_lang(data, svg){
-    tab = document.getElementById(data.name);
-    if (!tab) return;
-    root_origin = tab.offsetTop - 70;
+    root_origin = 0;
     var height = 750;
     var width = 700;
     var color = language_color;
@@ -80,18 +75,10 @@ function generate_lang(data, svg){
     var link = d3.svg.diagonal()
      .projection(function(d)
      {
-     y = (from_left) ? d.y: width - d.y + 100;
-     x =  d.x;
-     if (between) {
-        if (d.name !== data.name) {
-        y = (from_left) ? d.y + 10 : width - 10;
-        x = link_node;
-        } else {
-        x = root_origin;
-        }
-     }
+         y = d.y;
+         x =  d.x;
 
-     if (d.name !== data.name) x += 20;
+         if (d.name !== data.name) x += 20;
          return [y, x];
      });
 
@@ -133,12 +120,12 @@ function generate_lang(data, svg){
      return 'stroke: ' + color +'; fill: ' + color + ';';
       })
      .attr("r", function(d){
-     return 2;
+     return 4;
      });
 
     nodeGroup.append("svg:text")
      .attr("text-anchor", "end")
-     .attr("class","label font")
+     .attr("class","tree_label")
      .attr("dx", 30)
      .attr("dy", -6)
      .text(function(d)
@@ -150,4 +137,8 @@ function generate_lang(data, svg){
     .attr('style', 'fill:'+color);
 
     return layoutRoot;
+}
+
+function getID(name) {
+    return name.replace(' ','') + '_node';
 }
