@@ -1,0 +1,131 @@
+{
+"nodes":[
+    {
+        "name": "Hebrew"
+    }, 
+    {
+        "name": "Arabic"
+    }, 
+    {
+        "name": "Latin"
+    }, 
+    {
+        "name": "Thai"
+    }, 
+    {
+        "name": "Devanagari"
+    }, 
+    {
+        "name": "Greek"
+    }, 
+    {
+        "name": "Cryllic"
+    }
+],
+"links":[
+    {
+        "source": "Hebrew", 
+        "target": "Arabic", 
+        "value": 5.342592592592592
+    }, 
+    {
+        "source": "Hebrew", 
+        "target": "Latin", 
+        "value": 2.1951566951566948
+    }, 
+    {
+        "source": "Hebrew", 
+        "target": "Thai", 
+        "value": 14.182336182336183
+    }, 
+    {
+        "source": "Hebrew", 
+        "target": "Devanagari", 
+        "value": 16.49363425925926
+    }, 
+    {
+        "source": "Hebrew", 
+        "target": "Greek", 
+        "value": 2.3059259259259255
+    }, 
+    {
+        "source": "Hebrew", 
+        "target": "Cryllic", 
+        "value": 3.3478009259259256
+    }, 
+    {
+        "source": "Arabic", 
+        "target": "Latin", 
+        "value": 6.13034188034188
+    }, 
+    {
+        "source": "Arabic", 
+        "target": "Thai", 
+        "value": 8.839743589743591
+    }, 
+    {
+        "source": "Arabic", 
+        "target": "Devanagari", 
+        "value": 11.151041666666668
+    }, 
+    {
+        "source": "Arabic", 
+        "target": "Greek", 
+        "value": 6.241111111111111
+    }, 
+    {
+        "source": "Arabic", 
+        "target": "Cryllic", 
+        "value": 7.282986111111111
+    }, 
+    {
+        "source": "Latin", 
+        "target": "Thai", 
+        "value": 13.307692307692307
+    }, 
+    {
+        "source": "Latin", 
+        "target": "Devanagari", 
+        "value": 15.618990384615383
+    }, 
+    {
+        "source": "Latin", 
+        "target": "Greek", 
+        "value": 0.6353846153846163
+    }, 
+    {
+        "source": "Latin", 
+        "target": "Cryllic", 
+        "value": 1.1814903846153841
+    }, 
+    {
+        "source": "Thai", 
+        "target": "Devanagari", 
+        "value": 12.506009615384617
+    }, 
+    {
+        "source": "Thai", 
+        "target": "Greek", 
+        "value": 13.943076923076923
+    }, 
+    {
+        "source": "Thai", 
+        "target": "Cryllic", 
+        "value": 13.537259615384617
+    }, 
+    {
+        "source": "Devanagari", 
+        "target": "Greek", 
+        "value": 16.254375
+    }, 
+    {
+        "source": "Devanagari", 
+        "target": "Cryllic", 
+        "value": 14.4375
+    }, 
+    {
+        "source": "Greek", 
+        "target": "Cryllic", 
+        "value": 1.8168750000000005
+    }
+]}

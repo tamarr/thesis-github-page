@@ -23,7 +23,6 @@
 </head>
 
 <body>
-  <h4>A basic heatmap</h4>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
@@ -42,7 +41,7 @@ var mySVG = d3.select("body")
    .attr("height", height)
    .style('position','absolute')
    .style('top',50)
-   .style('left',50);
+   .style('left',350);
 
 d3.json("languages_heatmap.json", function(error, data) {
   var hash_lookup = [];
@@ -86,7 +85,7 @@ var columnLabel = mySVG.selectAll(".colLabel")
    .style('text-anchor','middle')
    .text(function(d) {return d;});
 
-var rowLabel = mySVG.selectAll(".rowLabel")
+/*var rowLabel = mySVG.selectAll(".rowLabel")
    .data(data.labels)
    .enter().append('svg:text')
    .attr('y', function(d,i) {
@@ -97,6 +96,6 @@ var rowLabel = mySVG.selectAll(".rowLabel")
    .style('text-anchor','middle')
    .text(function(d) {return d;});
 
-});
+});*/
 
 </script>
