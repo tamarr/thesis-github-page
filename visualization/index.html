@@ -23,65 +23,79 @@
 </head>
 
 <body>
-  <h4>A basic connected graph for Latin, Arabic, Hebrew and Thai</h4>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
 
 var width = 960,
     height = 650;
 
-var color = d3.scale.category20();
+//height of each row in the heatmap
+var h = 50;
+//width of each column in the heatmap
+var w = 70;
 
-var force = d3.layout.force()
-    .size([width, height]);
+//attach a SVG element to the document's body
+var mySVG = d3.select("body")
+   .append("svg")
+   .attr("width", width) 
+   .attr("height", height)
+   .style('position','absolute')
+   .style('top',50)
+   .style('left',350);
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width)
-    .attr("height", height);
-
-d3.json("test.json", function(error, graph) {
+d3.json("languages_heatmap.json", function(error, data) {
   var hash_lookup = [];
-  // make it so we can lookup nodes in O(1):
-  graph.nodes.forEach(function(d, i) {
-    hash_lookup[d.name] = d;
-  });
-  graph.links.forEach(function(d, i) {
-    d.source = hash_lookup[d.source];
-    d.target = hash_lookup[d.target];
-  });
 
-  force
-      .nodes(graph.nodes)
-      .links(graph.links)
-      .linkDistance(function(d){
-        return d.value*20;
-      })
-      .start();
+//define a color scale using the min and max expression values
+var colorScale = d3.scale.linear()
+  .domain([data.minData, data.maxData + 10])
+  .range(["green", "white"]);
 
-  var link = svg.selectAll(".link")
-      .data(graph.links)
-    .enter().append("line")
-      .attr("class", "link")
-      .style("stroke-width", function(d) { return Math.sqrt(d.value); });
+//generate heatmap rows
+var heatmapRow = mySVG.selectAll(".heatmap")
+   .data(data.data)
+   .enter().append("g");
 
-  var node = svg.selectAll(".node")
-      .data(graph.nodes)
-    .enter().append("circle")
-      .attr("class", "node")
-      .attr("r", 5);
-      
-  node.append("title")
-      .text(function(d) { return d.name; });
+//generate heatmap columns
+var heatmapRects = heatmapRow
+   .selectAll(".rect")
+   .data(function(d) {
+      return d;
+   }).enter().append("svg:rect")
+   .attr('width',w)
+   .attr('height',h)
+   .attr('x', function(d) {
+      return (d[2] * w) + 100;
+   })
+   .attr('y', function(d) {
+      return (d[1] * h) + 50;
+   })
+   .style('fill',function(d) {
+      return colorScale(d[0]);
+   });
 
-  force.on("tick", function() {
-    link.attr("x1", function(d) { return d.source.x; })
-        .attr("y1", function(d) { return d.source.y; })
-        .attr("x2", function(d) { return d.target.x; })
-        .attr("y2", function(d) { return d.target.y; });
+var columnLabel = mySVG.selectAll(".colLabel")
+   .data(data.labels)
+   .enter().append('svg:text')
+   .attr('x', function(d,i) {
+      return ((i + 0.5) * w) + 100;
+   })
+   .attr('y', 30)
+   .attr('class','label')
+   .style('text-anchor','middle')
+   .text(function(d) {return d;});
 
-    node.attr("cx", function(d) { return d.x; })
-        .attr("cy", function(d) { return d.y; });
-  });
-});
+/*var rowLabel = mySVG.selectAll(".rowLabel")
+   .data(data.labels)
+   .enter().append('svg:text')
+   .attr('y', function(d,i) {
+      return ((i + 0.5) * h) + 50;
+   })
+   .attr('x', 50)
+   .attr('class','label')
+   .style('text-anchor','middle')
+   .text(function(d) {return d;});
+
+});*/
 
 </script>
