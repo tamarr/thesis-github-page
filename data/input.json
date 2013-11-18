@@ -79,6 +79,141 @@
                     "0x044F"
                 ]
             ]
+        },
+        {
+            "language": "Telugu",
+            "ranges": [
+                [
+                    "0x0C05",
+                    "0x0C0C"
+                ],
+                [
+                    "0x0C0E",
+                    "0x0C10"
+                ],
+                [
+                    "0x0C12",
+                    "0x0C28"
+                ],
+                [
+                    "0x0C2A",
+                    "0x0C33"
+                ],
+                [
+                    "0x0C35",
+                    "0x0C39"
+                ]
+            ]
+        },
+        {
+
+            "language": "Oriya",
+            "Arial": false,
+            "ranges": [
+                [
+                    "0x0B05",
+                    "0x0B0C"
+                ]
+            ]
+        },
+        {
+            "language": "Kannada",
+            "Arial": false,
+            "ranges": [
+                [
+                    "0x0C85",
+                    "0x0C8B"
+                ]
+            ]
+        },
+        {
+            "language": "Tamil",
+            "ranges": [
+                [
+                    "0x0B85",
+                    "0x0B8A"
+                ],
+                [
+                    "0x0B8E",
+                    "0x0B90"
+                ],
+                [
+                    "0x0B92",
+                    "0x0B95"
+                ],
+                [
+                    "0x0B99",
+                    "0x0B9A"
+                ],
+                [
+                    "0x0BA3",
+                    "0x0BA4"
+                ],
+                [
+                    "0x0BA8",
+                    "0x0BAA"
+                ],
+                [
+                    "0x0BAE",
+                    "0x0BB9"
+                ]
+            ]
+        },
+        {
+            "language": "Malayalam",
+            "ranges": [
+                [
+                    "0x0D05",
+                    "0x0D0C"
+                ],
+                [
+                    "0x0D0E",
+                    "0x0D10"
+                ],
+                [
+                    "0x0D12",
+                    "0x0D3A"
+                ]
+            ]
+        },
+        {
+            "language": "Gujarati",
+            "ranges": [
+                [
+                    "0x0A85",
+                    "0x0A8D"
+                ],
+                [
+                    "0x0A8F",
+                    "0x0A91"
+                ],
+                [
+                    "0x0A93",
+                    "0x0AA8"
+                ],
+                [
+                    "0x0AAA",
+                    "0x0AB0"
+                ],
+                [
+                    "0x0AB2",
+                    "0x0AB3"
+                ],
+                [
+                    "0x0AB5",
+                    "0x0AB9"
+                ]
+            ]
+        },
+        {
+            "language": "Gurmukhi",
+            "Arial": false,
+            "ranges": [
+                [
+                    "0x0A05",
+                    "0x0A0A"
+                ]
+            ]
         }
     ]
 }

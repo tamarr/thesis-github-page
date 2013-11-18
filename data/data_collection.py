@@ -5,7 +5,7 @@
 #  This script was created by Tamar Rucham, based on the FreeType library example 
 #  glyph_vector.py
 #
-#  Assuming the ttf file and input file in a data folder from cyrrently run script
+#  Assuming the ttf file and input file in a data folder from currently run script
 #  this script will generate the statistics for each character in the given ranges
 #  for the given languages, as well as general statistics for the language
 #
@@ -26,7 +26,8 @@ if __name__ == '__main__':
 
     languages_arr = []
     for language in data['languages']:
-
+        if "Arial" in language and language["Arial"] == False: continue
+        print language['language']
         language_dic = {"language": language['language'], "chars": []}
 
         total_chars, total_contours, total_lines, total_curves = 0,0,0,0
