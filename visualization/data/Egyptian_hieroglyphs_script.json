@@ -5,15 +5,6 @@
             "name": "Proto-Sinaitic",
             "children": [
                 {
-                    "name": "South Arabian",
-                    "children": [
-                        {
-                            "name": "Ge'ez script",
-                            "children": []
-                        }
-                    ]
-                },
-                {
                     "name": "Proto-Canaanite alphabet",
                     "children": [
                         {
@@ -25,20 +16,6 @@
                                         {
                                             "name": "Syriac",
                                             "children": [
-                                                {
-                                                    "name": "Sogdian alphabet",
-                                                    "children": [
-                                                        {
-                                                            "name": "Old Uyghur alphabet",
-                                                            "children": [
-                                                                {
-                                                                    "name": "Mongolian script",
-                                                                    "children": []
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
                                                 {
                                                     "name": "Nabataean",
                                                     "children": [
@@ -64,15 +41,6 @@
                                                                     "children": []
                                                                 }
                                                             ]
-                                                        },
-                                                        {
-                                                            "name": "Mon",
-                                                            "children": [
-                                                                {
-                                                                    "name": "Burmese script",
-                                                                    "children": []
-                                                                }
-                                                            ]
                                                         }
                                                     ]
                                                 },
@@ -86,35 +54,8 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "Kalinga",
-                                                    "children": [
-                                                        {
-                                                            "name": "Oriya alphabet",
-                                                            "children": []
-                                                        }
-                                                    ]
-                                                },
-                                                {
-                                                    "name": "Kadamba",
-                                                    "children": [
-                                                        {
-                                                            "name": "Kannada",
-                                                            "children": [
-                                                                {
-                                                                    "name": "Kannada alphabet",
-                                                                    "children": []
-                                                                }
-                                                            ]
-                                                        }
-                                                    ]
-                                                },
-                                                {
                                                     "name": "Southern branch\n",
                                                     "children": [
-                                                        {
-                                                            "name": "Sinhala alphabet",
-                                                            "children": []
-                                                        },
                                                         {
                                                             "name": "Tamil alphabet",
                                                             "children": []
@@ -148,34 +89,6 @@
                                                                 {
                                                                     "name": "Gujarati alphabet",
                                                                     "children": []
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "name": "Śāradā",
-                                                            "children": [
-                                                                {
-                                                                    "name": "Laṇḍā",
-                                                                    "children": [
-                                                                        {
-                                                                            "name": "Gurmukhi alphabet",
-                                                                            "children": []
-                                                                        }
-                                                                    ]
-                                                                }
-                                                            ]
-                                                        },
-                                                        {
-                                                            "name": "Siddham",
-                                                            "children": [
-                                                                {
-                                                                    "name": "Assamese/Bengali",
-                                                                    "children": [
-                                                                        {
-                                                                            "name": "Assamese script",
-                                                                            "children": []
-                                                                        }
-                                                                    ]
                                                                 }
                                                             ]
                                                         }

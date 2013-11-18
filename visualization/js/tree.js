@@ -3,40 +3,19 @@ var language_link_color = '#F5A9A9';
 var language_back_color = '#610B0B';
 
 function generate_lang(data, svg){
-    root_origin = 0;
-    var height = 750;
-    var width = 700;
+    root_origin = 100;
+    var height = 700;
+    var width = 600;
     var color = language_color;
     var link_color = language_link_color;
     
     root = data;
-    root.x0 = 0;
+    root.x0 = 50;
     root.y0 = root_origin;
-    
-    // Calculate a box for the tree
-    var levelWidth = [1];
-    var childCount = function(level, n) {
-
-    if(n.children && n.children.length > 0) {
-        if(levelWidth.length <= level + 1) levelWidth.push(0);
-
-        levelWidth[level+1] += n.children.length;
-        n.children.forEach(function(d) {
-        childCount(level + 1, d);
-        });
-    }
-    };
-    childCount(0, root); 
-    var spacing = 50;
-    var newWidth = newHeight = d3.max(levelWidth) * spacing;
-    if (newWidth > width - 100) {
-    newWidth = width - 100;
-    newHeight = height;
-    }
 
     var tree = d3.layout.tree()
     .sort(null)
-    .size([newHeight, newWidth])
+    .size([height, width])
     .children(function(d)
     {
     if(!d.children || d.children.length === 0)
@@ -111,7 +90,7 @@ function generate_lang(data, svg){
      x = d.x;
 
      if (d.name !== data.name) x += 20;
-         return "translate(" + y + "," + x + ")";
+        return "translate(" + y + "," + x + ")";
      })
     
     nodeGroup.append("svg:circle")
@@ -120,7 +99,7 @@ function generate_lang(data, svg){
      return 'stroke: ' + color +'; fill: ' + color + ';';
       })
      .attr("r", function(d){
-     return 4;
+        return 4;
      });
 
     nodeGroup.append("svg:text")

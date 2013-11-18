@@ -1,6 +1,40 @@
 {
     "languages": [
         {
+            "language": "Greek",
+            "ranges": [
+                [
+                    "0x0391",
+                    "0x03A9"
+                ], [
+                    "0x03B1",
+                    "0x03C9"
+                ]
+            ]
+        },
+        {
+            "language": "Cryllic",
+            "ranges": [
+                [
+                    "0x0410",
+                    "0x044F"
+                ]
+            ]
+        },
+        {
+            "language": "Latin",
+            "ranges": [
+                [
+                    "0x0041",
+                    "0x005A"
+                ],
+                [
+                    "0x0061",
+                    "0x007A"
+                ]
+            ]
+        },
+        {
             "language": "Hebrew",
             "ranges": [
                 [
@@ -19,19 +53,6 @@
                 [
                     "0x0641",
                     "0x064A"
-                ]
-            ]
-        },
-        {
-            "language": "Latin",
-            "ranges": [
-                [
-                    "0x0041",
-                    "0x005A"
-                ],
-                [
-                    "0x0061",
-                    "0x007A"
                 ]
             ]
         },
@@ -56,27 +77,6 @@
                 ], [
                     "0x0958",
                     "0x0961"
-                ]
-            ]
-        },
-        {
-            "language": "Greek",
-            "ranges": [
-                [
-                    "0x0391",
-                    "0x03A9"
-                ], [
-                    "0x03B1",
-                    "0x03C9"
-                ]
-            ]
-        },
-        {
-            "language": "Cryllic",
-            "ranges": [
-                [
-                    "0x0410",
-                    "0x044F"
                 ]
             ]
         },
