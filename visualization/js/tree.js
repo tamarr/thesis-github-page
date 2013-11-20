@@ -73,7 +73,7 @@ function generate_lang(data, svg){
 
         var idx = order.indexOf(d.name)
 
-         if (!d.children) {
+         if (idx >= 0) {
             y = 400;
             x = 50 * idx + 100;
         }
@@ -111,7 +111,7 @@ function generate_lang(data, svg){
 
     var idx = order.indexOf(d.name)
 
-     if (!d.children) {
+     if (idx >= 0) {
         y = 400;
         x = 50 * idx + 120;
     }
