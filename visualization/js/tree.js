@@ -5,9 +5,22 @@ var language_back_color = '#610B0B';
 function generate_lang(data, svg){
     root_origin = 100;
     var height = 700;
-    var width = 600;
+    var width = 400;
     var color = language_color;
     var link_color = language_link_color;
+    var order = [
+    "Greek", 
+    "Cryllic", 
+    "Latin", 
+    "Hebrew", 
+    "Arabic", 
+    "Thai", 
+    "Telugu", 
+    "Tamil", 
+    "Malayalam", 
+    "Devanagari", 
+    "Gujarati"
+    ]
     
     root = data;
     root.x0 = 50;
@@ -57,8 +70,14 @@ function generate_lang(data, svg){
          y = d.y;
          x =  d.x;
 
-         if (d.name !== data.name) x += 20;
-         return [y, x];
+
+        var idx = order.indexOf(d.name)
+
+         if (!d.children) {
+            y = 400;
+            x = 50 * idx + 100;
+        }
+        return [y, x];
      });
 
     layoutRoot.selectAll("path.link")
@@ -89,8 +108,14 @@ function generate_lang(data, svg){
      y = d.y;
      x = d.x;
 
-     if (d.name !== data.name) x += 20;
-        return "translate(" + y + "," + x + ")";
+
+    var idx = order.indexOf(d.name)
+
+     if (!d.children) {
+        y = 400;
+        x = 50 * idx + 120;
+    }
+     return "translate(" + y + "," + x + ")";
      })
     
     nodeGroup.append("svg:circle")

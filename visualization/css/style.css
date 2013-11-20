@@ -10,7 +10,7 @@
 .heatmap {
     position: absolute;
     top: 50px;
-    left: 550px;
+    left: 400px;
 }
 
 .tree {
@@ -31,7 +31,7 @@
 {
     position: absolute;
     top: 50;
-    left: 150;
+    left: 100;
 }
 
 path.link {
@@ -40,7 +40,6 @@ path.link {
 }
 
 .tree_label {
-    font-size: 0.7em;
+    font-size: 1em;
     font-family: Arial;
-    fill: green;
 }

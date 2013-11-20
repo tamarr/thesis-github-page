@@ -69,18 +69,6 @@
             ]
         },
         {
-            "language":"Devanagari",
-            "ranges": [
-                [
-                    "0x0904",
-                    "0x0939"
-                ], [
-                    "0x0958",
-                    "0x0961"
-                ]
-            ]
-        },
-        {
             "language": "Telugu",
             "ranges": [
                 [
@@ -173,6 +161,18 @@
                 [
                     "0x0D12",
                     "0x0D3A"
+                ]
+            ]
+        },
+        {
+            "language":"Devanagari",
+            "ranges": [
+                [
+                    "0x0904",
+                    "0x0939"
+                ], [
+                    "0x0958",
+                    "0x0961"
                 ]
             ]
         },

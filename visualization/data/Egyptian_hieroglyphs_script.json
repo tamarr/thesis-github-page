@@ -5,13 +5,13 @@
             "name": "Proto-Sinaitic",
             "children": [
                 {
-                    "name": "Proto-Canaanite alphabet",
+                    "name": "Proto-Canaanite",
                     "children": [
                         {
-                            "name": "Phoenician alphabet",
+                            "name": "Phoenician",
                             "children": [
                                 {
-                                    "name": "Aramaic alphabet",
+                                    "name": "Aramaic",
                                     "children": [
                                         {
                                             "name": "Syriac",
@@ -20,7 +20,7 @@
                                                     "name": "Nabataean",
                                                     "children": [
                                                         {
-                                                            "name": "Arabic alphabet",
+                                                            "name": "Arabic",
                                                             "children": []
                                                         }
                                                     ]
@@ -34,10 +34,10 @@
                                                     "name": "Pallava",
                                                     "children": [
                                                         {
-                                                            "name": "Khmer script",
+                                                            "name": "Khmer",
                                                             "children": [
                                                                 {
-                                                                    "name": "Thai alphabet",
+                                                                    "name": "Thai",
                                                                     "children": []
                                                                 }
                                                             ]
@@ -45,34 +45,34 @@
                                                     ]
                                                 },
                                                 {
-                                                    "name": "Bhattiprolu script",
+                                                    "name": "Bhattiprolu",
                                                     "children": [
                                                         {
-                                                            "name": "Telugu alphabet",
+                                                            "name": "Telugu",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "name": "Southern branch\n",
+                                                    "name": "Southern branch",
                                                     "children": [
                                                         {
-                                                            "name": "Tamil alphabet",
+                                                            "name": "Tamil",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "name": "Grantha script",
+                                                    "name": "Grantha",
                                                     "children": [
                                                         {
-                                                            "name": "Malayalam alphabet",
+                                                            "name": "Malayalam",
                                                             "children": []
                                                         }
                                                     ]
                                                 },
                                                 {
-                                                    "name": "Gupta script",
+                                                    "name": "Gupta",
                                                     "children": [
                                                         {
                                                             "name": "Nāgarī",
@@ -81,13 +81,13 @@
                                                                     "name": "Devanāgarī",
                                                                     "children": [
                                                                         {
-                                                                            "name": "Devanagari alphabet",
+                                                                            "name": "Devanagari",
                                                                             "children": []
                                                                         }
                                                                     ]
                                                                 },
                                                                 {
-                                                                    "name": "Gujarati alphabet",
+                                                                    "name": "Gujarati",
                                                                     "children": []
                                                                 }
                                                             ]
@@ -97,29 +97,29 @@
                                             ]
                                         },
                                         {
-                                            "name": "Hebrew alphabet",
+                                            "name": "Hebrew",
                                             "children": []
                                         }
                                     ]
                                 },
                                 {
-                                    "name": "Greek alphabet",
+                                    "name": "Greek",
                                     "children": [
                                         {
-                                            "name": "Etruscan alphabet",
+                                            "name": "Etruscan",
                                             "children": [
                                                 {
                                                     "name": "Latin",
                                                     "children": [
                                                         {
-                                                            "name": "Latin alphabet",
+                                                            "name": "Latin",
                                                             "children": []
                                                         }
                                                     ]
                                                 }
                                             ]
                                         }, {
-                                            "name": "Cyrillic alphabet",
+                                            "name": "Cyrillic",
                                             "children": []
                                         }
                                     ]

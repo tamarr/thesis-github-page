@@ -1,11 +1,11 @@
-function load() {
-   var width = 960,
+function load(order) {
+   var width = 1050,
        height = 650;
 
    //height of each row in the heatmap
    var h = 50;
    //width of each column in the heatmap
-   var w = 70;
+   var w = 80;
 
    //attach a SVG element to the document's body
    var mySVG = d3.select("body")

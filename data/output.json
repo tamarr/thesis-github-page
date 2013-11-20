@@ -1,1452 +1,6 @@
 {
 "languages":[
     {
-        "evarage_contours": 1.1481481481481481, 
-        "language": "Hebrew", 
-        "chars": [
-            {
-                "char": "\u05d0", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05d1", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05d2", 
-                "lines": "9", 
-                "contours": "1", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u05d3", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "\u05d4", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05d5", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05d6", 
-                "lines": "7", 
-                "contours": "1", 
-                "curves": "3"
-            }, 
-            {
-                "char": "\u05d7", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05d8", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u05d9", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05da", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05db", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u05dc", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05dd", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "2"
-            }, 
-            {
-                "char": "\u05de", 
-                "lines": "11", 
-                "contours": "1", 
-                "curves": "5"
-            }, 
-            {
-                "char": "\u05df", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05e0", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05e1", 
-                "lines": "1", 
-                "contours": "2", 
-                "curves": "11"
-            }, 
-            {
-                "char": "\u05e2", 
-                "lines": "5", 
-                "contours": "1", 
-                "curves": "3"
-            }, 
-            {
-                "char": "\u05e3", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u05e4", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u05e5", 
-                "lines": "9", 
-                "contours": "1", 
-                "curves": "7"
-            }, 
-            {
-                "char": "\u05e6", 
-                "lines": "10", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u05e7", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05e8", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u05e9", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u05ea", 
-                "lines": "7", 
-                "contours": "1", 
-                "curves": "9"
-            }
-        ], 
-        "total_chars": 27.0, 
-        "total_curves": 144, 
-        "total_lines": 173, 
-        "total_contours": 31, 
-        "evarage_lines": 6.407407407407407, 
-        "evarage_curves": 5.333333333333333
-    }, 
-    {
-        "evarage_contours": 2.2777777777777777, 
-        "language": "Arabic", 
-        "chars": [
-            {
-                "char": "\u0621", 
-                "lines": "3", 
-                "contours": "1", 
-                "curves": "9"
-            }, 
-            {
-                "char": "\u0622", 
-                "lines": "7", 
-                "contours": "3", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0623", 
-                "lines": "11", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0624", 
-                "lines": "8", 
-                "contours": "4", 
-                "curves": "18"
-            }, 
-            {
-                "char": "\u0625", 
-                "lines": "11", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0626", 
-                "lines": "9", 
-                "contours": "3", 
-                "curves": "20"
-            }, 
-            {
-                "char": "\u0627", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "\u0628", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0629", 
-                "lines": "8", 
-                "contours": "4", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u062a", 
-                "lines": "10", 
-                "contours": "3", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u062b", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u062c", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u062d", 
-                "lines": "3", 
-                "contours": "1", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u062e", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u062f", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u0630", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u0631", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0632", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0633", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0634", 
-                "lines": "24", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0635", 
-                "lines": "4", 
-                "contours": "2", 
-                "curves": "15"
-            }, 
-            {
-                "char": "\u0636", 
-                "lines": "8", 
-                "contours": "3", 
-                "curves": "15"
-            }, 
-            {
-                "char": "\u0637", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0638", 
-                "lines": "11", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0639", 
-                "lines": "5", 
-                "contours": "1", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u063a", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0641", 
-                "lines": "5", 
-                "contours": "3", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0642", 
-                "lines": "9", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0643", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0644", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0645", 
-                "lines": "3", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0646", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0647", 
-                "lines": "0", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0648", 
-                "lines": "1", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0649", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u064a", 
-                "lines": "10", 
-                "contours": "3", 
-                "curves": "14"
-            }
-        ], 
-        "total_chars": 36.0, 
-        "total_curves": 359, 
-        "total_lines": 256, 
-        "total_contours": 82, 
-        "evarage_lines": 7.111111111111111, 
-        "evarage_curves": 9.972222222222221
-    }, 
-    {
-        "evarage_contours": 1.3461538461538463, 
-        "language": "Latin", 
-        "chars": [
-            {
-                "char": "A", 
-                "lines": "11", 
-                "contours": "2", 
-                "curves": "2"
-            }, 
-            {
-                "char": "B", 
-                "lines": "9", 
-                "contours": "3", 
-                "curves": "8"
-            }, 
-            {
-                "char": "C", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "D", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "E", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "F", 
-                "lines": "10", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "G", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "H", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "I", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "J", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "K", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "L", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "M", 
-                "lines": "16", 
-                "contours": "1", 
-                "curves": "2"
-            }, 
-            {
-                "char": "N", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "O", 
-                "lines": "0", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "P", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "Q", 
-                "lines": "2", 
-                "contours": "2", 
-                "curves": "14"
-            }, 
-            {
-                "char": "R", 
-                "lines": "11", 
-                "contours": "2", 
-                "curves": "6"
-            }, 
-            {
-                "char": "S", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "11"
-            }, 
-            {
-                "char": "T", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "U", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "V", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "2"
-            }, 
-            {
-                "char": "W", 
-                "lines": "17", 
-                "contours": "1", 
-                "curves": "6"
-            }, 
-            {
-                "char": "X", 
-                "lines": "11", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "Y", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "2"
-            }, 
-            {
-                "char": "Z", 
-                "lines": "11", 
-                "contours": "1", 
-                "curves": "1"
-            }, 
-            {
-                "char": "a", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "13"
-            }, 
-            {
-                "char": "b", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "c", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "d", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "e", 
-                "lines": "3", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "f", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "g", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "h", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "i", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "0"
-            }, 
-            {
-                "char": "j", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "4"
-            }, 
-            {
-                "char": "k", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "l", 
-                "lines": "4", 
-                "contours": "1", 
-                "curves": "0"
-            }, 
-            {
-                "char": "m", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "n", 
-                "lines": "9", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "o", 
-                "lines": "0", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "p", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "q", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "r", 
-                "lines": "7", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "s", 
-                "lines": "2", 
-                "contours": "1", 
-                "curves": "12"
-            }, 
-            {
-                "char": "t", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "u", 
-                "lines": "9", 
-                "contours": "1", 
-                "curves": "4"
-            }, 
-            {
-                "char": "v", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "2"
-            }, 
-            {
-                "char": "w", 
-                "lines": "16", 
-                "contours": "1", 
-                "curves": "2"
-            }, 
-            {
-                "char": "x", 
-                "lines": "11", 
-                "contours": "1", 
-                "curves": "1"
-            }, 
-            {
-                "char": "y", 
-                "lines": "8", 
-                "contours": "1", 
-                "curves": "7"
-            }, 
-            {
-                "char": "z", 
-                "lines": "10", 
-                "contours": "1", 
-                "curves": "4"
-            }
-        ], 
-        "total_chars": 52.0, 
-        "total_curves": 243, 
-        "total_lines": 413, 
-        "total_contours": 70, 
-        "evarage_lines": 7.9423076923076925, 
-        "evarage_curves": 4.673076923076923
-    }, 
-    {
-        "evarage_contours": 2.3846153846153846, 
-        "language": "Thai", 
-        "chars": [
-            {
-                "char": "\u0e01", 
-                "lines": "6", 
-                "contours": "1", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0e02", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e03", 
-                "lines": "14", 
-                "contours": "2", 
-                "curves": "15"
-            }, 
-            {
-                "char": "\u0e04", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0e05", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0e06", 
-                "lines": "12", 
-                "contours": "3", 
-                "curves": "21"
-            }, 
-            {
-                "char": "\u0e07", 
-                "lines": "4", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e08", 
-                "lines": "3", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e09", 
-                "lines": "7", 
-                "contours": "3", 
-                "curves": "20"
-            }, 
-            {
-                "char": "\u0e0a", 
-                "lines": "12", 
-                "contours": "3", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e0b", 
-                "lines": "16", 
-                "contours": "3", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e0c", 
-                "lines": "9", 
-                "contours": "3", 
-                "curves": "24"
-            }, 
-            {
-                "char": "\u0e0d", 
-                "lines": "10", 
-                "contours": "4", 
-                "curves": "29"
-            }, 
-            {
-                "char": "\u0e0e", 
-                "lines": "7", 
-                "contours": "3", 
-                "curves": "27"
-            }, 
-            {
-                "char": "\u0e0f", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "26"
-            }, 
-            {
-                "char": "\u0e10", 
-                "lines": "13", 
-                "contours": "4", 
-                "curves": "36"
-            }, 
-            {
-                "char": "\u0e11", 
-                "lines": "13", 
-                "contours": "2", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0e12", 
-                "lines": "15", 
-                "contours": "3", 
-                "curves": "26"
-            }, 
-            {
-                "char": "\u0e13", 
-                "lines": "9", 
-                "contours": "3", 
-                "curves": "24"
-            }, 
-            {
-                "char": "\u0e14", 
-                "lines": "6", 
-                "contours": "2", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e15", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e16", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e17", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e18", 
-                "lines": "12", 
-                "contours": "1", 
-                "curves": "11"
-            }, 
-            {
-                "char": "\u0e19", 
-                "lines": "7", 
-                "contours": "3", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e1a", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u0e1b", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u0e1c", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e1d", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e1e", 
-                "lines": "11", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e1f", 
-                "lines": "11", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e20", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e21", 
-                "lines": "7", 
-                "contours": "3", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e22", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e23", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "18"
-            }, 
-            {
-                "char": "\u0e24", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e25", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e26", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e27", 
-                "lines": "3", 
-                "contours": "2", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0e28", 
-                "lines": "9", 
-                "contours": "2", 
-                "curves": "20"
-            }, 
-            {
-                "char": "\u0e29", 
-                "lines": "12", 
-                "contours": "3", 
-                "curves": "23"
-            }, 
-            {
-                "char": "\u0e2a", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e2b", 
-                "lines": "6", 
-                "contours": "3", 
-                "curves": "20"
-            }, 
-            {
-                "char": "\u0e2c", 
-                "lines": "16", 
-                "contours": "3", 
-                "curves": "21"
-            }, 
-            {
-                "char": "\u0e2d", 
-                "lines": "7", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e2e", 
-                "lines": "8", 
-                "contours": "3", 
-                "curves": "25"
-            }, 
-            {
-                "char": "\u0e2f", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "11"
-            }, 
-            {
-                "char": "\u0e40", 
-                "lines": "3", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0e41", 
-                "lines": "6", 
-                "contours": "4", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0e42", 
-                "lines": "5", 
-                "contours": "2", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0e43", 
-                "lines": "3", 
-                "contours": "3", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0e44", 
-                "lines": "4", 
-                "contours": "2", 
-                "curves": "16"
-            }
-        ], 
-        "total_chars": 52.0, 
-        "total_curves": 911, 
-        "total_lines": 437, 
-        "total_contours": 124, 
-        "evarage_lines": 8.403846153846153, 
-        "evarage_curves": 17.51923076923077
-    }, 
-    {
-        "evarage_contours": 3.5, 
-        "language": "Devanagari", 
-        "chars": [
-            {
-                "char": "\u0904", 
-                "lines": "8", 
-                "contours": "2", 
-                "curves": "0"
-            }, 
-            {
-                "char": "\u0905", 
-                "lines": "14", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0906", 
-                "lines": "21", 
-                "contours": "2", 
-                "curves": "15"
-            }, 
-            {
-                "char": "\u0907", 
-                "lines": "13", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0908", 
-                "lines": "16", 
-                "contours": "4", 
-                "curves": "22"
-            }, 
-            {
-                "char": "\u0909", 
-                "lines": "10", 
-                "contours": "2", 
-                "curves": "11"
-            }, 
-            {
-                "char": "\u090a", 
-                "lines": "11", 
-                "contours": "2", 
-                "curves": "18"
-            }, 
-            {
-                "char": "\u090b", 
-                "lines": "20", 
-                "contours": "2", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u090c", 
-                "lines": "12", 
-                "contours": "2", 
-                "curves": "18"
-            }, 
-            {
-                "char": "\u090d", 
-                "lines": "18", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u090e", 
-                "lines": "20", 
-                "contours": "4", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u090f", 
-                "lines": "15", 
-                "contours": "2", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0910", 
-                "lines": "22", 
-                "contours": "4", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u0911", 
-                "lines": "24", 
-                "contours": "4", 
-                "curves": "21"
-            }, 
-            {
-                "char": "\u0912", 
-                "lines": "24", 
-                "contours": "1", 
-                "curves": "23"
-            }, 
-            {
-                "char": "\u0913", 
-                "lines": "26", 
-                "contours": "1", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0914", 
-                "lines": "24", 
-                "contours": "1", 
-                "curves": "22"
-            }, 
-            {
-                "char": "\u0915", 
-                "lines": "15", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0916", 
-                "lines": "17", 
-                "contours": "5", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0917", 
-                "lines": "13", 
-                "contours": "3", 
-                "curves": "7"
-            }, 
-            {
-                "char": "\u0918", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "11"
-            }, 
-            {
-                "char": "\u0919", 
-                "lines": "16", 
-                "contours": "4", 
-                "curves": "13"
-            }, 
-            {
-                "char": "\u091a", 
-                "lines": "17", 
-                "contours": "4", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u091b", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "23"
-            }, 
-            {
-                "char": "\u091c", 
-                "lines": "15", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u091d", 
-                "lines": "19", 
-                "contours": "4", 
-                "curves": "20"
-            }, 
-            {
-                "char": "\u091e", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u091f", 
-                "lines": "12", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0920", 
-                "lines": "9", 
-                "contours": "4", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u0921", 
-                "lines": "12", 
-                "contours": "3", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0922", 
-                "lines": "11", 
-                "contours": "4", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0923", 
-                "lines": "16", 
-                "contours": "4", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0924", 
-                "lines": "15", 
-                "contours": "3", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u0925", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u0926", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u0927", 
-                "lines": "12", 
-                "contours": "4", 
-                "curves": "19"
-            }, 
-            {
-                "char": "\u0928", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u0929", 
-                "lines": "18", 
-                "contours": "4", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u092a", 
-                "lines": "15", 
-                "contours": "4", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u092b", 
-                "lines": "17", 
-                "contours": "4", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u092c", 
-                "lines": "14", 
-                "contours": "5", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u092d", 
-                "lines": "15", 
-                "contours": "4", 
-                "curves": "13"
-            }, 
-            {
-                "char": "\u092e", 
-                "lines": "19", 
-                "contours": "4", 
-                "curves": "3"
-            }, 
-            {
-                "char": "\u092f", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0930", 
-                "lines": "8", 
-                "contours": "3", 
-                "curves": "9"
-            }, 
-            {
-                "char": "\u0931", 
-                "lines": "12", 
-                "contours": "4", 
-                "curves": "9"
-            }, 
-            {
-                "char": "\u0932", 
-                "lines": "15", 
-                "contours": "3", 
-                "curves": "9"
-            }, 
-            {
-                "char": "\u0933", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0934", 
-                "lines": "18", 
-                "contours": "5", 
-                "curves": "17"
-            }, 
-            {
-                "char": "\u0935", 
-                "lines": "13", 
-                "contours": "4", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0936", 
-                "lines": "14", 
-                "contours": "5", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u0937", 
-                "lines": "17", 
-                "contours": "5", 
-                "curves": "4"
-            }, 
-            {
-                "char": "\u0938", 
-                "lines": "14", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0939", 
-                "lines": "14", 
-                "contours": "3", 
-                "curves": "15"
-            }, 
-            {
-                "char": "\u0958", 
-                "lines": "19", 
-                "contours": "5", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u0959", 
-                "lines": "21", 
-                "contours": "6", 
-                "curves": "16"
-            }, 
-            {
-                "char": "\u095a", 
-                "lines": "17", 
-                "contours": "4", 
-                "curves": "7"
-            }, 
-            {
-                "char": "\u095b", 
-                "lines": "19", 
-                "contours": "4", 
-                "curves": "6"
-            }, 
-            {
-                "char": "\u095c", 
-                "lines": "16", 
-                "contours": "4", 
-                "curves": "14"
-            }, 
-            {
-                "char": "\u095d", 
-                "lines": "15", 
-                "contours": "5", 
-                "curves": "12"
-            }, 
-            {
-                "char": "\u095e", 
-                "lines": "21", 
-                "contours": "5", 
-                "curves": "10"
-            }, 
-            {
-                "char": "\u095f", 
-                "lines": "18", 
-                "contours": "5", 
-                "curves": "8"
-            }, 
-            {
-                "char": "\u0960", 
-                "lines": "21", 
-                "contours": "2", 
-                "curves": "23"
-            }, 
-            {
-                "char": "\u0961", 
-                "lines": "13", 
-                "contours": "2", 
-                "curves": "25"
-            }
-        ], 
-        "total_chars": 64.0, 
-        "total_curves": 795, 
-        "total_lines": 1012, 
-        "total_contours": 224, 
-        "evarage_lines": 15.8125, 
-        "evarage_curves": 12.421875
-    }, 
-    {
         "evarage_contours": 1.44, 
         "language": "Greek", 
         "chars": [
@@ -2153,6 +707,1056 @@
         "total_contours": 97, 
         "evarage_lines": 9.109375, 
         "evarage_curves": 4.6875
+    }, 
+    {
+        "evarage_contours": 1.3461538461538463, 
+        "language": "Latin", 
+        "chars": [
+            {
+                "char": "A", 
+                "lines": "11", 
+                "contours": "2", 
+                "curves": "2"
+            }, 
+            {
+                "char": "B", 
+                "lines": "9", 
+                "contours": "3", 
+                "curves": "8"
+            }, 
+            {
+                "char": "C", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "D", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "E", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "F", 
+                "lines": "10", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "G", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "H", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "I", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "J", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "K", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "L", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "M", 
+                "lines": "16", 
+                "contours": "1", 
+                "curves": "2"
+            }, 
+            {
+                "char": "N", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "O", 
+                "lines": "0", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "P", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "Q", 
+                "lines": "2", 
+                "contours": "2", 
+                "curves": "14"
+            }, 
+            {
+                "char": "R", 
+                "lines": "11", 
+                "contours": "2", 
+                "curves": "6"
+            }, 
+            {
+                "char": "S", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "11"
+            }, 
+            {
+                "char": "T", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "U", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "V", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "2"
+            }, 
+            {
+                "char": "W", 
+                "lines": "17", 
+                "contours": "1", 
+                "curves": "6"
+            }, 
+            {
+                "char": "X", 
+                "lines": "11", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "Y", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "2"
+            }, 
+            {
+                "char": "Z", 
+                "lines": "11", 
+                "contours": "1", 
+                "curves": "1"
+            }, 
+            {
+                "char": "a", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "13"
+            }, 
+            {
+                "char": "b", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "c", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "d", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "e", 
+                "lines": "3", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "f", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "g", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "h", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "i", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "0"
+            }, 
+            {
+                "char": "j", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "k", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "l", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "m", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "n", 
+                "lines": "9", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "o", 
+                "lines": "0", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "p", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "q", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "r", 
+                "lines": "7", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "s", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "12"
+            }, 
+            {
+                "char": "t", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "u", 
+                "lines": "9", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "v", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "2"
+            }, 
+            {
+                "char": "w", 
+                "lines": "16", 
+                "contours": "1", 
+                "curves": "2"
+            }, 
+            {
+                "char": "x", 
+                "lines": "11", 
+                "contours": "1", 
+                "curves": "1"
+            }, 
+            {
+                "char": "y", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "7"
+            }, 
+            {
+                "char": "z", 
+                "lines": "10", 
+                "contours": "1", 
+                "curves": "4"
+            }
+        ], 
+        "total_chars": 52.0, 
+        "total_curves": 243, 
+        "total_lines": 413, 
+        "total_contours": 70, 
+        "evarage_lines": 7.9423076923076925, 
+        "evarage_curves": 4.673076923076923
+    }, 
+    {
+        "evarage_contours": 1.1481481481481481, 
+        "language": "Hebrew", 
+        "chars": [
+            {
+                "char": "\u05d0", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05d1", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05d2", 
+                "lines": "9", 
+                "contours": "1", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u05d3", 
+                "lines": "8", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "\u05d4", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05d5", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05d6", 
+                "lines": "7", 
+                "contours": "1", 
+                "curves": "3"
+            }, 
+            {
+                "char": "\u05d7", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05d8", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u05d9", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05da", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05db", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u05dc", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05dd", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "2"
+            }, 
+            {
+                "char": "\u05de", 
+                "lines": "11", 
+                "contours": "1", 
+                "curves": "5"
+            }, 
+            {
+                "char": "\u05df", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05e0", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05e1", 
+                "lines": "1", 
+                "contours": "2", 
+                "curves": "11"
+            }, 
+            {
+                "char": "\u05e2", 
+                "lines": "5", 
+                "contours": "1", 
+                "curves": "3"
+            }, 
+            {
+                "char": "\u05e3", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u05e4", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u05e5", 
+                "lines": "9", 
+                "contours": "1", 
+                "curves": "7"
+            }, 
+            {
+                "char": "\u05e6", 
+                "lines": "10", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u05e7", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05e8", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u05e9", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u05ea", 
+                "lines": "7", 
+                "contours": "1", 
+                "curves": "9"
+            }
+        ], 
+        "total_chars": 27.0, 
+        "total_curves": 144, 
+        "total_lines": 173, 
+        "total_contours": 31, 
+        "evarage_lines": 6.407407407407407, 
+        "evarage_curves": 5.333333333333333
+    }, 
+    {
+        "evarage_contours": 2.2777777777777777, 
+        "language": "Arabic", 
+        "chars": [
+            {
+                "char": "\u0621", 
+                "lines": "3", 
+                "contours": "1", 
+                "curves": "9"
+            }, 
+            {
+                "char": "\u0622", 
+                "lines": "7", 
+                "contours": "3", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0623", 
+                "lines": "11", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0624", 
+                "lines": "8", 
+                "contours": "4", 
+                "curves": "18"
+            }, 
+            {
+                "char": "\u0625", 
+                "lines": "11", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0626", 
+                "lines": "9", 
+                "contours": "3", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u0627", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "0"
+            }, 
+            {
+                "char": "\u0628", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0629", 
+                "lines": "8", 
+                "contours": "4", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u062a", 
+                "lines": "10", 
+                "contours": "3", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u062b", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u062c", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u062d", 
+                "lines": "3", 
+                "contours": "1", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u062e", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u062f", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u0630", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u0631", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0632", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0633", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0634", 
+                "lines": "24", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0635", 
+                "lines": "4", 
+                "contours": "2", 
+                "curves": "15"
+            }, 
+            {
+                "char": "\u0636", 
+                "lines": "8", 
+                "contours": "3", 
+                "curves": "15"
+            }, 
+            {
+                "char": "\u0637", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0638", 
+                "lines": "11", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0639", 
+                "lines": "5", 
+                "contours": "1", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u063a", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0641", 
+                "lines": "5", 
+                "contours": "3", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0642", 
+                "lines": "9", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0643", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0644", 
+                "lines": "4", 
+                "contours": "1", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0645", 
+                "lines": "3", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0646", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0647", 
+                "lines": "0", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0648", 
+                "lines": "1", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0649", 
+                "lines": "2", 
+                "contours": "1", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u064a", 
+                "lines": "10", 
+                "contours": "3", 
+                "curves": "14"
+            }
+        ], 
+        "total_chars": 36.0, 
+        "total_curves": 359, 
+        "total_lines": 256, 
+        "total_contours": 82, 
+        "evarage_lines": 7.111111111111111, 
+        "evarage_curves": 9.972222222222221
+    }, 
+    {
+        "evarage_contours": 2.3846153846153846, 
+        "language": "Thai", 
+        "chars": [
+            {
+                "char": "\u0e01", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0e02", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e03", 
+                "lines": "14", 
+                "contours": "2", 
+                "curves": "15"
+            }, 
+            {
+                "char": "\u0e04", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0e05", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0e06", 
+                "lines": "12", 
+                "contours": "3", 
+                "curves": "21"
+            }, 
+            {
+                "char": "\u0e07", 
+                "lines": "4", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e08", 
+                "lines": "3", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e09", 
+                "lines": "7", 
+                "contours": "3", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u0e0a", 
+                "lines": "12", 
+                "contours": "3", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e0b", 
+                "lines": "16", 
+                "contours": "3", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e0c", 
+                "lines": "9", 
+                "contours": "3", 
+                "curves": "24"
+            }, 
+            {
+                "char": "\u0e0d", 
+                "lines": "10", 
+                "contours": "4", 
+                "curves": "29"
+            }, 
+            {
+                "char": "\u0e0e", 
+                "lines": "7", 
+                "contours": "3", 
+                "curves": "27"
+            }, 
+            {
+                "char": "\u0e0f", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "26"
+            }, 
+            {
+                "char": "\u0e10", 
+                "lines": "13", 
+                "contours": "4", 
+                "curves": "36"
+            }, 
+            {
+                "char": "\u0e11", 
+                "lines": "13", 
+                "contours": "2", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0e12", 
+                "lines": "15", 
+                "contours": "3", 
+                "curves": "26"
+            }, 
+            {
+                "char": "\u0e13", 
+                "lines": "9", 
+                "contours": "3", 
+                "curves": "24"
+            }, 
+            {
+                "char": "\u0e14", 
+                "lines": "6", 
+                "contours": "2", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e15", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e16", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e17", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e18", 
+                "lines": "12", 
+                "contours": "1", 
+                "curves": "11"
+            }, 
+            {
+                "char": "\u0e19", 
+                "lines": "7", 
+                "contours": "3", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e1a", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u0e1b", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u0e1c", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e1d", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e1e", 
+                "lines": "11", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e1f", 
+                "lines": "11", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e20", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e21", 
+                "lines": "7", 
+                "contours": "3", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e22", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e23", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "18"
+            }, 
+            {
+                "char": "\u0e24", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e25", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e26", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e27", 
+                "lines": "3", 
+                "contours": "2", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0e28", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u0e29", 
+                "lines": "12", 
+                "contours": "3", 
+                "curves": "23"
+            }, 
+            {
+                "char": "\u0e2a", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e2b", 
+                "lines": "6", 
+                "contours": "3", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u0e2c", 
+                "lines": "16", 
+                "contours": "3", 
+                "curves": "21"
+            }, 
+            {
+                "char": "\u0e2d", 
+                "lines": "7", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e2e", 
+                "lines": "8", 
+                "contours": "3", 
+                "curves": "25"
+            }, 
+            {
+                "char": "\u0e2f", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "11"
+            }, 
+            {
+                "char": "\u0e40", 
+                "lines": "3", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0e41", 
+                "lines": "6", 
+                "contours": "4", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0e42", 
+                "lines": "5", 
+                "contours": "2", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0e43", 
+                "lines": "3", 
+                "contours": "3", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0e44", 
+                "lines": "4", 
+                "contours": "2", 
+                "curves": "16"
+            }
+        ], 
+        "total_chars": 52.0, 
+        "total_curves": 911, 
+        "total_lines": 437, 
+        "total_contours": 124, 
+        "evarage_lines": 8.403846153846153, 
+        "evarage_curves": 17.51923076923077
     }, 
     {
         "evarage_contours": 2.7346938775510203, 
@@ -2987,6 +2591,402 @@
         "total_contours": 112, 
         "evarage_lines": 5.9423076923076925, 
         "evarage_curves": 18.923076923076923
+    }, 
+    {
+        "evarage_contours": 3.5, 
+        "language": "Devanagari", 
+        "chars": [
+            {
+                "char": "\u0904", 
+                "lines": "8", 
+                "contours": "2", 
+                "curves": "0"
+            }, 
+            {
+                "char": "\u0905", 
+                "lines": "14", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0906", 
+                "lines": "21", 
+                "contours": "2", 
+                "curves": "15"
+            }, 
+            {
+                "char": "\u0907", 
+                "lines": "13", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0908", 
+                "lines": "16", 
+                "contours": "4", 
+                "curves": "22"
+            }, 
+            {
+                "char": "\u0909", 
+                "lines": "10", 
+                "contours": "2", 
+                "curves": "11"
+            }, 
+            {
+                "char": "\u090a", 
+                "lines": "11", 
+                "contours": "2", 
+                "curves": "18"
+            }, 
+            {
+                "char": "\u090b", 
+                "lines": "20", 
+                "contours": "2", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u090c", 
+                "lines": "12", 
+                "contours": "2", 
+                "curves": "18"
+            }, 
+            {
+                "char": "\u090d", 
+                "lines": "18", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u090e", 
+                "lines": "20", 
+                "contours": "4", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u090f", 
+                "lines": "15", 
+                "contours": "2", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0910", 
+                "lines": "22", 
+                "contours": "4", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u0911", 
+                "lines": "24", 
+                "contours": "4", 
+                "curves": "21"
+            }, 
+            {
+                "char": "\u0912", 
+                "lines": "24", 
+                "contours": "1", 
+                "curves": "23"
+            }, 
+            {
+                "char": "\u0913", 
+                "lines": "26", 
+                "contours": "1", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0914", 
+                "lines": "24", 
+                "contours": "1", 
+                "curves": "22"
+            }, 
+            {
+                "char": "\u0915", 
+                "lines": "15", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0916", 
+                "lines": "17", 
+                "contours": "5", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0917", 
+                "lines": "13", 
+                "contours": "3", 
+                "curves": "7"
+            }, 
+            {
+                "char": "\u0918", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "11"
+            }, 
+            {
+                "char": "\u0919", 
+                "lines": "16", 
+                "contours": "4", 
+                "curves": "13"
+            }, 
+            {
+                "char": "\u091a", 
+                "lines": "17", 
+                "contours": "4", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u091b", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "23"
+            }, 
+            {
+                "char": "\u091c", 
+                "lines": "15", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u091d", 
+                "lines": "19", 
+                "contours": "4", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u091e", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u091f", 
+                "lines": "12", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0920", 
+                "lines": "9", 
+                "contours": "4", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u0921", 
+                "lines": "12", 
+                "contours": "3", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0922", 
+                "lines": "11", 
+                "contours": "4", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0923", 
+                "lines": "16", 
+                "contours": "4", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0924", 
+                "lines": "15", 
+                "contours": "3", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u0925", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u0926", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u0927", 
+                "lines": "12", 
+                "contours": "4", 
+                "curves": "19"
+            }, 
+            {
+                "char": "\u0928", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u0929", 
+                "lines": "18", 
+                "contours": "4", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u092a", 
+                "lines": "15", 
+                "contours": "4", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u092b", 
+                "lines": "17", 
+                "contours": "4", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u092c", 
+                "lines": "14", 
+                "contours": "5", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u092d", 
+                "lines": "15", 
+                "contours": "4", 
+                "curves": "13"
+            }, 
+            {
+                "char": "\u092e", 
+                "lines": "19", 
+                "contours": "4", 
+                "curves": "3"
+            }, 
+            {
+                "char": "\u092f", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0930", 
+                "lines": "8", 
+                "contours": "3", 
+                "curves": "9"
+            }, 
+            {
+                "char": "\u0931", 
+                "lines": "12", 
+                "contours": "4", 
+                "curves": "9"
+            }, 
+            {
+                "char": "\u0932", 
+                "lines": "15", 
+                "contours": "3", 
+                "curves": "9"
+            }, 
+            {
+                "char": "\u0933", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0934", 
+                "lines": "18", 
+                "contours": "5", 
+                "curves": "17"
+            }, 
+            {
+                "char": "\u0935", 
+                "lines": "13", 
+                "contours": "4", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0936", 
+                "lines": "14", 
+                "contours": "5", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u0937", 
+                "lines": "17", 
+                "contours": "5", 
+                "curves": "4"
+            }, 
+            {
+                "char": "\u0938", 
+                "lines": "14", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0939", 
+                "lines": "14", 
+                "contours": "3", 
+                "curves": "15"
+            }, 
+            {
+                "char": "\u0958", 
+                "lines": "19", 
+                "contours": "5", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u0959", 
+                "lines": "21", 
+                "contours": "6", 
+                "curves": "16"
+            }, 
+            {
+                "char": "\u095a", 
+                "lines": "17", 
+                "contours": "4", 
+                "curves": "7"
+            }, 
+            {
+                "char": "\u095b", 
+                "lines": "19", 
+                "contours": "4", 
+                "curves": "6"
+            }, 
+            {
+                "char": "\u095c", 
+                "lines": "16", 
+                "contours": "4", 
+                "curves": "14"
+            }, 
+            {
+                "char": "\u095d", 
+                "lines": "15", 
+                "contours": "5", 
+                "curves": "12"
+            }, 
+            {
+                "char": "\u095e", 
+                "lines": "21", 
+                "contours": "5", 
+                "curves": "10"
+            }, 
+            {
+                "char": "\u095f", 
+                "lines": "18", 
+                "contours": "5", 
+                "curves": "8"
+            }, 
+            {
+                "char": "\u0960", 
+                "lines": "21", 
+                "contours": "2", 
+                "curves": "23"
+            }, 
+            {
+                "char": "\u0961", 
+                "lines": "13", 
+                "contours": "2", 
+                "curves": "25"
+            }
+        ], 
+        "total_chars": 64.0, 
+        "total_curves": 795, 
+        "total_lines": 1012, 
+        "total_contours": 224, 
+        "evarage_lines": 15.8125, 
+        "evarage_curves": 12.421875
     }, 
     {
         "evarage_contours": 2.0625, 
