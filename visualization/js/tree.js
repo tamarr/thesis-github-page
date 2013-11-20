@@ -67,17 +67,18 @@ function generate_lang(data, svg){
     var link = d3.svg.diagonal()
     .projection(function(d)
     {
-       y = d.y;
-       x =  d.x;
+     y = d.y;
+     x =  d.x;
 
 
-       var idx = order.indexOf(d.name)
+     var idx = order.indexOf(d.name)
 
-       if (idx >= 0) {
+     if (idx >= 0) {
         y = 400;
         x = 50 * idx + 100;
     }
-    return [y, x];
+}
+return [y, x];
 });
 
     layoutRoot.selectAll("path.link")
@@ -86,8 +87,8 @@ function generate_lang(data, svg){
     .append("svg:path")
     .attr("class", "link")
     .attr('style', function(d){
-       return 'stroke: ' + link_color +'; ';
-   })
+     return 'stroke: ' + link_color +'; ';
+ })
     .attr("d", link);
 
  /*
@@ -105,24 +106,25 @@ function generate_lang(data, svg){
      .attr("id", function(d) {return getID(d.name);})
      .attr("transform", function(d)
      {
-       y = d.y;
-       x = d.x;
+         y = d.y;
+         x = d.x;
 
 
-       var idx = order.indexOf(d.name)
+         var idx = order.indexOf(d.name)
 
-       if (idx >= 0) {
-        y = 400;
-        x = 50 * idx + 120;
+         if (idx >= 0) {
+            y = 400;
+            x = 50 * idx + 120;
+        }
     }
     return "translate(" + y + "," + x + ")";
 })
-     
+
      nodeGroup.append("svg:circle")
      .attr("class", "node-dot")
      .attr('style', function(d){
-       return 'stroke: ' + color +'; fill: ' + color + ';';
-   })
+         return 'stroke: ' + color +'; fill: ' + color + ';';
+     })
      .attr("r", function(d){
         return 4;
     });
@@ -134,10 +136,10 @@ function generate_lang(data, svg){
      .attr("dy", -6)
      .text(function(d)
      {
-       if (d.name !== data.name) {
-           return d.name;
-       }
-   })
+         if (d.name !== data.name) {
+             return d.name;
+         }
+     })
      .attr('style', 'fill:'+color);
 
      return layoutRoot;
