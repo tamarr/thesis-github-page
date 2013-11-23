@@ -7,6 +7,20 @@ function load(order) {
    //width of each column in the heatmap
    var w = 80;
 
+   var order = [
+    "Greek", 
+    "Cyrillic", 
+    "Latin", 
+    "Hebrew", 
+    "Arabic", 
+    "Thai", 
+    "Telugu", 
+    "Tamil", 
+    "Malayalam", 
+    "Devanagari", 
+    "Gujarati"
+    ]
+
    //attach a SVG element to the document's body
    var mySVG = d3.select("body")
       .append("svg")
@@ -19,7 +33,7 @@ function load(order) {
 
       //define a color scale using the min and max expression values
       var colorScale = d3.scale.linear()
-        .domain([data.minData, data.maxData + 10])
+        .domain([data.minData, data.maxData])
         .range(["green", "white"]);
 
       //generate heatmap rows
@@ -43,6 +57,11 @@ function load(order) {
          })
          .style('fill',function(d) {
             return colorScale(d[0]);
+         }).on("mouseover", function() {
+            d3.select(this).append("svg:title")
+            .text(function(d) {return "test";})
+            .attr("x", function(d) {return 0;})
+            .attr("y", function (d) {return 0;}); 
          });
 
       var columnLabel = mySVG.selectAll(".colLabel")
@@ -55,17 +74,6 @@ function load(order) {
          .attr('class','label')
          .style('text-anchor','middle')
          .text(function(d) {return d;});
-
-      /*var rowLabel = mySVG.selectAll(".rowLabel")
-         .data(data.labels)
-         .enter().append('svg:text')
-         .attr('y', function(d,i) {
-            return ((i + 0.5) * h) + 50;
-         })
-         .attr('x', 50)
-         .attr('class','label')
-         .style('text-anchor','middle')
-         .text(function(d) {return d;});*/
 
       return mySVG;
 

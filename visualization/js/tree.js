@@ -77,7 +77,7 @@ function generate_lang(data, svg){
     {
      y = d.y;
      x =  d.x;
-     
+
      return [y, x];
  });
 
@@ -108,7 +108,7 @@ function generate_lang(data, svg){
      {
          y = d.y;
          x = d.x;
-         
+
          return "translate(" + y + "," + x + ")";
      });
 
@@ -125,12 +125,11 @@ function generate_lang(data, svg){
      .attr("text-anchor", "end")
      .attr("class","tree_label")
      .attr("dx", 30)
-     .attr("dy", -6)
+     .attr("dy", -10)
      .text(function(d)
      {
-         if (d.name !== data.name) {
-             return d.name;
-         }
+        if (d.name !== data.name)
+         return d.name;
      })
      .attr('style', 'fill:'+color);
 
