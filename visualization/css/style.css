@@ -4,13 +4,14 @@
 
 .label {
   font-family: Arial;
+  font-size:0.9em;
   fill: green;
 }
 
 .heatmap {
     position: absolute;
     top: 50px;
-    left: 400px;
+    left: 220px;
 }
 
 .tree {
@@ -40,6 +41,6 @@ path.link {
 }
 
 .tree_label {
-    font-size: 1em;
+    font-size: 0.9em;
     font-family: Arial;
 }

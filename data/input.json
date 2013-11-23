@@ -69,52 +69,6 @@
             ]
         },
         {
-            "language": "Telugu",
-            "ranges": [
-                [
-                    "0x0C05",
-                    "0x0C0C"
-                ],
-                [
-                    "0x0C0E",
-                    "0x0C10"
-                ],
-                [
-                    "0x0C12",
-                    "0x0C28"
-                ],
-                [
-                    "0x0C2A",
-                    "0x0C33"
-                ],
-                [
-                    "0x0C35",
-                    "0x0C39"
-                ]
-            ]
-        },
-        {
-
-            "language": "Oriya",
-            "Arial": false,
-            "ranges": [
-                [
-                    "0x0B05",
-                    "0x0B0C"
-                ]
-            ]
-        },
-        {
-            "language": "Kannada",
-            "Arial": false,
-            "ranges": [
-                [
-                    "0x0C85",
-                    "0x0C8B"
-                ]
-            ]
-        },
-        {
             "language": "Tamil",
             "ranges": [
                 [
@@ -165,18 +119,52 @@
             ]
         },
         {
-            "language":"Devanagari",
+            "language": "Telugu",
             "ranges": [
                 [
-                    "0x0904",
-                    "0x0939"
-                ], [
-                    "0x0958",
-                    "0x0961"
+                    "0x0C05",
+                    "0x0C0C"
+                ],
+                [
+                    "0x0C0E",
+                    "0x0C10"
+                ],
+                [
+                    "0x0C12",
+                    "0x0C28"
+                ],
+                [
+                    "0x0C2A",
+                    "0x0C33"
+                ],
+                [
+                    "0x0C35",
+                    "0x0C39"
                 ]
             ]
         },
         {
+
+            "language": "Oriya",
+            "Arial": false,
+            "ranges": [
+                [
+                    "0x0B05",
+                    "0x0B0C"
+                ]
+            ]
+        },
+        {
+            "language": "Kannada",
+            "Arial": false,
+            "ranges": [
+                [
+                    "0x0C85",
+                    "0x0C8B"
+                ]
+            ]
+        },
+                {
             "language": "Gujarati",
             "ranges": [
                 [
@@ -202,6 +190,18 @@
                 [
                     "0x0AB5",
                     "0x0AB9"
+                ]
+            ]
+        },
+        {
+            "language":"Devanagari",
+            "ranges": [
+                [
+                    "0x0904",
+                    "0x0939"
+                ], [
+                    "0x0958",
+                    "0x0961"
                 ]
             ]
         },
