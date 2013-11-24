@@ -10,6 +10,7 @@ inputFile.close()
 
 names_arr = []
 data_arr = []
+languages_data = []
 maxData = 0
 languages_info = data['languages']
 row_index = 0
@@ -29,6 +30,12 @@ for language1 in languages_info:
 		col_index += 1
 
 	data_arr.append(row_arr)
+
+	lang_data_dict = {'name': lang1_name, 'chars':[]}
+	for char in language1['chars']:
+		lang_data_dict['chars'].append(char['char'])
+
+	languages_data.append(lang_data_dict)
 	row_index += 1
 
 
@@ -37,7 +44,9 @@ outputFile.write('{\n"labels":')
 outputFile.write(json.dumps(names_arr,indent=4))
 outputFile.write(',\n"data":')
 outputFile.write(json.dumps(data_arr,indent=4))
+outputFile.write(',\n"languages_data":')
+outputFile.write(json.dumps(languages_data,indent=4))
 outputFile.write(',\n"minData":0')
 outputFile.write(',\n"maxData":{}'.format(maxData))
-outputFile.write('}')
+outputFile.write('\n}')
 
