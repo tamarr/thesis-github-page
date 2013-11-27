@@ -12,9 +12,49 @@
 # -----------------------------------------------------------------------------
 
 from freetype import *
+import numpy
+
+def CalcChar(singleChar, face):
+    face.load_char(singleChar)
+    slot = face.glyph
+
+    outline = slot.outline
+    points = numpy.array(outline.points, dtype=[('x',float), ('y',float)])
+    x, y = points['x'], points['y']
+
+    start, end = 0, 0
+    lines, curves1, curves2 = 0, 0, 0
+
+    # Iterate over each contour
+    for i in range(len(outline.contours)):
+        end    = outline.contours[i]
+        points = outline.points[start:end+1] 
+        points.append(points[0])
+        tags   = outline.tags[start:end+1]
+        tags.append(tags[0])
+
+        segments = [ [points[0],], ]
+
+        for j in range(1, len(points) ):
+            segments[-1].append(points[j])
+            if tags[j] & (1 << 0) and j < (len(points)-1):
+                segments.append( [points[j],] )
+        for segment in segments:
+            if len(segment) == 2:
+                lines+=1
+            elif len(segment) == 3:
+                curves1+=1
+            else:
+                # as reference - inner curves for complex curves
+                for i in range(1,len(segment)-2):
+                    A,B = segment[i], segment[i+1]
+                    C = ((A[0]+B[0])/2.0, (A[1]+B[1])/2.0)
+                curves2+=1
+        start = end+1
+
+    return len(outline.contours), lines, (curves1 + curves2)
 
 if __name__ == '__main__':
-    import numpy
     import json
 
     face = Face('data/Arial Unicode.ttf')
@@ -38,52 +78,14 @@ if __name__ == '__main__':
             char2 = char_range[1] if len(char_range) > 1 else char1
             for i in range(int(char1,0),int(char2, 0)+1):
                 ch = unichr(i)
-                face.load_char(ch)
-                slot = face.glyph
-
-                outline = slot.outline
-                points = numpy.array(outline.points, dtype=[('x',float), ('y',float)])
-                x, y = points['x'], points['y']
-
-                start, end = 0, 0
-                lines, curves1, curves2 = 0, 0, 0
-
-                # Iterate over each contour
-                for i in range(len(outline.contours)):
-                    end    = outline.contours[i]
-                    points = outline.points[start:end+1] 
-                    points.append(points[0])
-                    tags   = outline.tags[start:end+1]
-                    tags.append(tags[0])
-
-                    segments = [ [points[0],], ]
-
-                    for j in range(1, len(points) ):
-                        segments[-1].append(points[j])
-                        if tags[j] & (1 << 0) and j < (len(points)-1):
-                            segments.append( [points[j],] )
-                    for segment in segments:
-                        if len(segment) == 2:
-                            lines+=1
-                        elif len(segment) == 3:
-                            curves1+=1
-                        else:
-                            # as reference - inner curves for complex curves
-                            for i in range(1,len(segment)-2):
-                                A,B = segment[i], segment[i+1]
-                                C = ((A[0]+B[0])/2.0, (A[1]+B[1])/2.0)
-                            curves2+=1
-                    start = end+1
-                
-                num_contours = len(outline.contours)
-                if(num_contours == 0):
-                    continue
+                contours, lines, curves = CalcChar(ch, face)
 
                 total_chars = total_chars + 1
-                total_contours = total_contours + num_contours
+                total_contours = total_contours + contours
                 total_lines = total_lines + lines
-                total_curves = total_curves + curves1+curves2
-                char_dic = {"char": ch.encode('utf-8'), "contours": str(num_contours),"lines": str(lines),"curves": str(curves1+curves2)}
+                total_curves = total_curves + curves
+                char_dic = {"char": ch.encode('utf-8'), "contours": str(contours),
+                            "lines": str(lines),"curves": str(curves)}
                 language_dic["chars"].append(char_dic)
 
         total_chars = float(total_chars)
