@@ -1,0 +1,11 @@
+Latin:
+average diff:  1.90933333333
+
+Arabic:
+average diff:  2.69803921569
+
+Devanagari:
+average diff:  1.75483870968
+
+Thai:
+average diff:  2.87466666667
