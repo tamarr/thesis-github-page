@@ -43,7 +43,6 @@ if __name__ == '__main__':
 
     for scriptName, charsRange in scripts.items():
         total_diff = 0
-        print scriptName
 
         for iteration in range(num_iterations):
             diff = 0
@@ -60,4 +59,4 @@ if __name__ == '__main__':
             slice2 = run(charsSlice2, face)
             total_diff += getDiff(slice1, slice2)
 
-        print 'average diff: ', (total_diff / float(num_iterations))
+        print scriptName, ' average diff: ', (total_diff / float(num_iterations))
