@@ -12,7 +12,7 @@
 # -----------------------------------------------------------------------------
 
 from freetype import *
-from data_collection import CalcChar
+from data_collection import CalcChar, scripts
 
 def run(chars, face):
     total_chars, total_contours, total_lines, total_curves = 0,0,0,0
@@ -35,29 +35,29 @@ if __name__ == '__main__':
     import random
     from languages_heatmap_results import getDiff
 
+
     face = Face('data/Arial Unicode.ttf')
     face.set_char_size( 48*64 )
 
-    num_iterations = 15
-    total_diff = 0
+    num_iterations = 150
 
-    charsRange = range(0x0041,0x005A) + range(0x0061, 0x007A)
-    for iteration in range(15):
-        print 'iteration: ', iteration
-        diff = 0
+    for scriptName, charsRange in scripts.items():
+        total_diff = 0
+        print scriptName
 
-        # Create two random subsets of the characters
-        charsSlice1 = copy.deepcopy(charsRange)
-        charsSlice2 = []
-        for i in range(len(charsRange) / 2):
-            # Dynamically get the len of the remaining of the array
-            randIdx = random.randint(0, len(charsSlice1) - 1)
-            charsSlice2.append(charsSlice1.pop(randIdx))
+        for iteration in range(num_iterations):
+            diff = 0
 
-        slice1 = run(charsSlice1, face)
-        slice2 = run(charsSlice2, face)
-        diff += getDiff(slice1, slice2)
-        print diff
-        total_diff += diff
+            # Create two random subsets of the characters
+            charsSlice1 = copy.deepcopy(charsRange)
+            charsSlice2 = []
+            for i in range(len(charsRange) / 2):
+                # Dynamically get the len of the remaining of the array
+                randIdx = random.randint(0, len(charsSlice1) - 1)
+                charsSlice2.append(charsSlice1.pop(randIdx))
 
-    print 'average diff: ', (total_diff / float(num_iterations))
+            slice1 = run(charsSlice1, face)
+            slice2 = run(charsSlice2, face)
+            total_diff += getDiff(slice1, slice2)
+
+        print 'average diff: ', (total_diff / float(num_iterations))
