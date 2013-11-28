@@ -14,21 +14,22 @@
 from freetype import *
 import numpy
 
+# Extend the end of each script by 1 because of how ranges work
 scripts = {
-        'Latin': range(0x0041,0x005A) + range(0x0061, 0x007A),
-        'Greek': range(0x0391,0x03A9) + range(0x03B1, 0x03C9),
-        'Cryllic': range(0x0410,0x044F),
-        'Hebrew': range(0x05D0,0x05EA),
-        'Arabic': range(0x0621,0x063A) + range(0x0641, 0x064A),
-        'Thai': range(0x0E01,0x0E2F) + range(0x0E40, 0x0E44),
-        'Tamil': range(0x0B85,0x0B8A) + range(0x0B8E, 0x0B90) + range(0x0B92, 0x0B95)
-                + range(0x0B99, 0x0B9A) + range(0x0BA3, 0x0BA4) + range(0x0BA8, 0x0BAA) + range(0x0BAE, 0x0BB9),
-        'Malayalam': range(0x0D05,0x0D0C) + range(0x0D0E, 0x0D10) + range(0x0D12, 0x0D3A),
-        'Telugu': range(0x0C05,0x0C0C) + range(0x0C0E, 0x0C10) + range(0x0C12, 0x0C28)
-                 + range(0x0C2A, 0x0C33) + range(0x0C35, 0x0C39),
-        'Gujarati': range(0x0A85,0x0A8D) + range(0x0A8F, 0x0A91) + range(0x0A93, 0x0AA8) + range(0x0AAA, 0x0AB0)
-                 + range(0x0AB2, 0x0AB3) + range(0x0AB5, 0x0AB9),
-        'Devanagari': range(0x0904,0x0939) + range(0x0958, 0x0961)
+    'Latin': range(0x0041,0x005A+1) + range(0x0061, 0x007A+1),
+    'Greek': range(0x0391,0x03A9+1) + range(0x03B1, 0x03C9+1),
+    'Cryllic': range(0x0410,0x044F+1),
+    'Hebrew': range(0x05D0,0x05EA+1),
+    'Arabic': range(0x0621,0x063A+1) + range(0x0641, 0x064A+1),
+    'Thai': range(0x0E01,0x0E2F+1) + range(0x0E40, 0x0E44+1),
+    'Tamil': range(0x0B85,0x0B8A+1) + range(0x0B8E, 0x0B90+1) + range(0x0B92, 0x0B95+1)
+            + range(0x0B99, 0x0B9A+1) + range(0x0BA3, 0x0BA4+1) + range(0x0BA8, 0x0BAA+1) + range(0x0BAE, 0x0BB9+1),
+    'Malayalam': range(0x0D05,0x0D0C+1) + range(0x0D0E, 0x0D10+1) + range(0x0D12, 0x0D3A+1),
+    'Telugu': range(0x0C05,0x0C0C+1) + range(0x0C0E, 0x0C10+1) + range(0x0C12, 0x0C28+1)
+             + range(0x0C2A, 0x0C33+1) + range(0x0C35, 0x0C39+1),
+    'Gujarati': range(0x0A85,0x0A8D+1) + range(0x0A8F, 0x0A91+1) + range(0x0A93, 0x0AA8+1) + range(0x0AAA, 0x0AB0+1)
+             + range(0x0AB2, 0x0AB3+1) + range(0x0AB5, 0x0AB9+1),
+    'Devanagari': range(0x0904,0x0939+1) + range(0x0958, 0x0961+1)
 }
 
 def CalcChar(singleChar, face):
@@ -77,33 +78,24 @@ if __name__ == '__main__':
     face = Face('data/Arial Unicode.ttf')
     face.set_char_size( 48*64 )
 
-    inputFile = open('data/input.json')
-    data = json.load(inputFile)
-    inputFile.close()
-
     languages_arr = []
-    for language in data['languages']:
-        if "Arial" in language and language["Arial"] == False: continue
-        print language['language']
-        language_dic = {"language": language['language'], "chars": []}
+    for scriptName, charsRange in scripts.items():
+        print scriptName
+        language_dic = {"language": scriptName, "chars": []}
 
         total_chars, total_contours, total_lines, total_curves = 0,0,0,0
 
-        ranges = language['ranges']
-        for char_range in ranges:
-            char1 = char_range[0]
-            char2 = char_range[1] if len(char_range) > 1 else char1
-            for i in range(int(char1,0),int(char2, 0)+1):
-                ch = unichr(i)
-                contours, lines, curves = CalcChar(ch, face)
+        for i in charsRange:
+            ch = unichr(i)
+            contours, lines, curves = CalcChar(ch, face)
 
-                total_chars = total_chars + 1
-                total_contours = total_contours + contours
-                total_lines = total_lines + lines
-                total_curves = total_curves + curves
-                char_dic = {"char": ch.encode('utf-8'), "contours": str(contours),
-                            "lines": str(lines),"curves": str(curves)}
-                language_dic["chars"].append(char_dic)
+            total_chars = total_chars + 1
+            total_contours = total_contours + contours
+            total_lines = total_lines + lines
+            total_curves = total_curves + curves
+            char_dic = {"char": ch.encode('utf-8'), "contours": str(contours),
+                        "lines": str(lines),"curves": str(curves)}
+            language_dic["chars"].append(char_dic)
 
         total_chars = float(total_chars)
         language_dic["total_chars"] = total_chars

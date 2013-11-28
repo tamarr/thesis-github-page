@@ -1,13 +1,13 @@
 For 150 iterations:
 
-Telugu average diff:  		2.37696969697
-Cryllic average diff:  	1.68096774194
-Greek average diff:  		2.05611111111
-Malayalam average diff:  	3.01748888889
-Thai average diff:  		2.00746666667
-Latin average diff:  		1.70186666667
-Gujarati average diff:  	2.74349206349
-Hebrew average diff:  		1.58769230769
-Devanagari average diff:  	1.86666666667
-Arabic average diff:  		2.46117647059
-Tamil average diff:  		5.67769230769
+Telugu average diff:  2.09956666667
+Cryllic average diff:  1.74125
+Greek average diff:  1.70133333333
+Malayalam average diff:  2.83846153846
+Thai average diff:  2.10051282051
+Latin average diff:  1.77897435897
+Gujarati average diff:  2.57555555556
+Hebrew average diff:  1.60644688645
+Devanagari average diff:  1.87208333333
+Arabic average diff:  2.44296296296
+Tamil average diff:  4.40833333333
