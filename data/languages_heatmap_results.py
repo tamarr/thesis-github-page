@@ -8,11 +8,28 @@ inputFile = open('data/output.json')
 data = json.load(inputFile)
 inputFile.close()
 
+order = [
+    "Greek", 
+    "Latin", 
+    "Cyrillic", 
+    "Hebrew", 
+    "Arabic", 
+    "Thai", 
+    "Tamil", 
+    "Malayalam", 
+    "Telugu",
+    "Gujarati",
+    "Devanagari"
+]
+
+# Sort the list by order
+languages_info = data['languages']
+languages_info.sort(key=lambda x: order.index(x["language"]))
+
 names_arr = []
 data_arr = []
 languages_data = []
 maxData = 0
-languages_info = data['languages']
 row_index = 0
 for language1 in languages_info:
 
@@ -31,9 +48,9 @@ for language1 in languages_info:
 
 	data_arr.append(row_arr)
 
-	lang_data_dict = {'name': lang1_name, 'chars':[]}
+	lang_data_dict = {lang1_name:[]}
 	for char in language1['chars']:
-		lang_data_dict['chars'].append(char['char'])
+		lang_data_dict[lang1_name].append(char['char'])
 
 	languages_data.append(lang_data_dict)
 	row_index += 1

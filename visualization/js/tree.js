@@ -11,8 +11,8 @@ function generate_lang(data, svg){
 
     var order = [
     "Greek", 
-    "Cyrillic", 
     "Latin", 
+    "Cyrillic", 
     "Hebrew", 
     "Arabic", 
     "Thai", 
@@ -104,7 +104,8 @@ function generate_lang(data, svg){
      nodeGroup.append("svg:circle")
      .attr("class", "node-dot")
      .attr('style', function(d){
-         return 'stroke: ' + color +'; fill: ' + color + ';';
+        var fill_color = (order.indexOf(d.name) >= 0) ? color : 'white'
+        return 'stroke: ' + color +'; fill: ' + fill_color + ';';
      })
      .attr("r", function(d){
         return 4;
