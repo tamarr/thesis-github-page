@@ -7,20 +7,6 @@ function load(order) {
    //width of each column in the heatmap
    var w = 50;
 
-   var order = [
-   "Greek", 
-   "Cyrillic", 
-   "Latin", 
-   "Hebrew", 
-   "Arabic", 
-   "Thai", 
-   "Tamil", 
-   "Malayalam", 
-   "Telugu",
-   "Gujarati",
-   "Devanagari"
-   ]
-
    //attach a SVG element to the document's body
    var mySVG = d3.select("body")
    .append("svg")

@@ -10,15 +10,22 @@
 <body>
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script>
-  var order = ["Thai", "Telugu", "Tamil", "Malayalam", "Devanagari", "Gujarati", "Hebrew", "Arabic", "Latin", "Greek", "Cyrillic"]
+  var order = [
+   "Greek", 
+   "Latin", 
+   "Cyrillic", 
+   "Hebrew", 
+   "Arabic", 
+   "Thai", 
+   "Tamil", 
+   "Malayalam", 
+   "Telugu",
+   "Gujarati",
+   "Devanagari"
+  ];
+  
   load(order);
   d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {
-    var svg = d3.select("body")
-      .append("svg")
-      .attr("width", 300) 
-      .attr("height", 300)
-      .attr('class','tree');
-
-    generate_lang(data, svg);
+    generate_lang(data, order);
   });
 </script>

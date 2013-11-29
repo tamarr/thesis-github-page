@@ -2,26 +2,18 @@ var language_color = 'green';
 var language_link_color = 'green';
 var language_back_color = 'green';
 
-function generate_lang(data, svg){
+function generate_lang(data, order) {
+    var svg = d3.select("body")
+      .append("svg")
+      .attr("width", 300) 
+      .attr("height", 300)
+      .attr('class','tree');
+
     root_origin = 100;
     var height = 750;
     var width = 250;
     var color = language_color;
     var link_color = language_link_color;
-
-    var order = [
-    "Greek", 
-    "Latin", 
-    "Cyrillic", 
-    "Hebrew", 
-    "Arabic", 
-    "Thai", 
-    "Tamil", 
-    "Malayalam", 
-    "Telugu",
-    "Gujarati",
-    "Devanagari"
-    ]
     
     root = data;
     root.x0 = 50;
