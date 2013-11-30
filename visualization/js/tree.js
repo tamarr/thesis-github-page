@@ -6,13 +6,11 @@ function generate_lang(order) {
   d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {  
     var svg = d3.select("body")
       .append("svg")
-      .attr("width", 300) 
-      .attr("height", 300)
       .attr('class','tree');
 
     root_origin = 100;
     var height = 750;
-    var width = 250;
+    var width = 300;
     var color = language_color;
     var link_color = language_link_color;
     
@@ -54,7 +52,7 @@ function generate_lang(order) {
             d.x = root_origin;
         } else if (idx >= 0) {
             d.y = 250;
-            d.x = 50 * idx + 170;
+            d.x = 50 * idx + 120;
         }
 
         if(d.name == "Greek") d.y -= 50;
@@ -62,7 +60,7 @@ function generate_lang(order) {
     }); 
 
     var links = tree.links(nodes);
-    var layoutRoot = svg.attr("width", width+100).attr("height", height + 100).attr('class','svg_position')
+    var layoutRoot = svg.attr("width", width).attr("height", height)
     .append("svg:g")
 
     // Edges between nodes as a <path class="link" />
