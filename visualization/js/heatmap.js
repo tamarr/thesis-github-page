@@ -1,3 +1,5 @@
+var lastSelected = null;
+
 function load(order) {
   var width = 650,
   height = 750;
@@ -52,9 +54,21 @@ function load(order) {
       .attr("x", function(d) {return 0;})
       .attr("y", function (d) {return 0;}); 
     }).on('click', function(d){
+      // Show extra data on the right-hand side
       displayData(order[d[1]], order[d[2]]);
+      // Redraw the columns to color the selected scripts
+      redrawColumnLabels(mySVG, data, order[d[1]], order[d[2]]);
+
+      // Highlight selected rect and unselect previous
+      self = d3.select(this);
+      self.attr('class', 'selected');
+      if (lastSelected) lastSelected.attr('class', '');
+      lastSelected = self;
+
+      redrawSelectedNodes(order[d[1]], order[d[2]]);
     });
 
+    // First time we create the labels - redrawColumnLabels will update
     var columnLabel = mySVG.selectAll(".colLabel")
     .data(data.labels)
     .enter().append('svg:text')
@@ -68,9 +82,18 @@ function load(order) {
     })
     .text(function(d) {return d;});
 
-    return mySVG;
-
   });
+}
+
+function redrawColumnLabels(svg, data, script1, script2) {
+  svg.selectAll(".label")
+    .data(data.labels)
+    .attr('class',function(d){
+      var str = 'label';
+      if (d === script1) str += ' script1_color';
+      else if (d === script2) str += ' script2_color';
+      return str;
+    })
 }
 
 function getLabelX(i, w) {

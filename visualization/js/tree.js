@@ -1,8 +1,9 @@
 var color = 'green';
+var svg = null;
 
 function generate_lang(order) {
   d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {  
-    var svg = d3.select("body")
+    svg = d3.select("body")
       .append("svg")
       .attr('class','tree');
 
@@ -107,7 +108,7 @@ function generate_lang(order) {
     .attr("text-anchor", "end")
     .attr("class",function(d){
         var name = "tree_label";
-        if (isLiveScript(d.name)) name += ' bold';
+        if (isLiveScript(d.name)) name += ' bigger';
         return name;
     })
     .attr("dx", function(d){
@@ -133,7 +134,7 @@ function generate_lang(order) {
         else
             return 'Egyptian Hieroglyphs';
     })
-     .attr('style', 'fill:'+color);
+    .attr('style', 'fill:'+color);
 
     return layoutRoot;
   });
@@ -145,4 +146,16 @@ function getID(name) {
 
 function isLiveScript(name) {
     return (order.indexOf(name) >= 0);
+}
+
+
+function redrawSelectedNodes(script1, script2) {
+    if (!svg) return;
+
+    svg.selectAll('.node-dot').attr('class', function(d){
+        var str = 'node-dot';
+        if (d.name === script1) str += ' script1_color';
+        else if (d.name === script2) str += ' script2_color';
+        return str;
+    })
 }

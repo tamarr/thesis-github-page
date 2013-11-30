@@ -32,8 +32,8 @@ function displayData(script1, script2) {
 
     document.getElementById('data').style.visibility = 'visible';
 
-    div.append('div').attr('class','script').attr('id', 'script1')
-    div.append('div').attr('class','script').attr('id', 'script2')
+    div.append('div').attr('class','script script1_color').attr('id', 'script1')
+    div.append('div').attr('class','script script2_color').attr('id', 'script2')
 
     // Put all chars in a column
     var script1Chars = '<div class="scriptName">' + script1 + '</div>' + convertArrayToStr(data[script1]);

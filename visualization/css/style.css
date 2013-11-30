@@ -1,7 +1,3 @@
-.title {
-  font-family: Arial;
-}
-
 .label {
   font-family: Arial;
   font-size:0.9em;
@@ -12,6 +8,10 @@
     position: absolute;
     top: 50px;
     left: 220px;
+}
+
+.selected {
+    stroke:yellow;
 }
 
 .tree {
@@ -45,11 +45,15 @@
 }
 
 .script1_color {
-    color: red;
+    color: #800000;
+    fill: #800000;
+    font-weight: bold;
 }
 
 .script2_color {
-    color: blue;
+    color: #000080;
+    fill: #000080;
+    font-weight: bold;
 }
 
 .scriptName {
@@ -65,13 +69,6 @@
     margin-top: 20px;
 }
 
-.svg_position
-{
-    position: absolute;
-    top: 50;
-    left: 100;
-}
-
 path.link {
     fill: none;
     stroke: gray;
@@ -82,6 +79,6 @@ path.link {
     font-family: Arial;
 }
 
-.bold {
+.bigger {
     font-size: 0.9em;
 }
