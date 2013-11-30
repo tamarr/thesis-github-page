@@ -155,7 +155,7 @@ function redrawSelectedNodes(script1, script2) {
     svg.selectAll('.node-dot').attr('style', function(d){
         var fill_color = (isLiveScript(d.name)) ? color : 'white'
         if (d.name === script1) fill_color = '#FF8800';
-        else if (d.name === script2) fill_color = '#CC3399';
+        else if (d.name === script2) fill_color = '#FF8800';
         return 'stroke: ' + color +'; fill: ' + fill_color + ';';
 
     });
@@ -163,7 +163,7 @@ function redrawSelectedNodes(script1, script2) {
     svg.selectAll('.tree_label').attr('style', function(d){
         var str = 'fill: ';
         if (d.name === script1) str += '#FF8800; font-weight: bold;';
-        else if (d.name === script2) str +='#CC3399; font-weight: bold;';
+        else if (d.name === script2) str +='#FF8800; font-weight: bold;';
         else str += color;
         return str;
     });

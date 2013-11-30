@@ -11,7 +11,7 @@
 }
 
 .selected {
-    stroke:yellow;
+    stroke:#FF8800;
 }
 
 .tree {
@@ -51,8 +51,8 @@
 }
 
 .script2_color {
-    color: #CC3399;
-    fill: #CC3399;
+    color: #FF8800;
+    fill: #FF8800;
     font-weight: bold;
 }
 
