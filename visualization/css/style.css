@@ -11,7 +11,8 @@
 }
 
 .selected {
-    stroke:#FF8800;
+    stroke:#E2A600;
+    stroke-width: 2px;
 }
 
 .tree {
@@ -45,14 +46,14 @@
 }
 
 .script1_color {
-    color: #FF8800;
-    fill: #FF8800;
+    color: #E2A600;
+    fill: #E2A600;
     font-weight: bold;
 }
 
 .script2_color {
-    color: #FF8800;
-    fill: #FF8800;
+    color: #E2A600;
+    fill: #E2A600;
     font-weight: bold;
 }
 

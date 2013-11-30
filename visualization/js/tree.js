@@ -154,16 +154,16 @@ function redrawSelectedNodes(script1, script2) {
 
     svg.selectAll('.node-dot').attr('style', function(d){
         var fill_color = (isLiveScript(d.name)) ? color : 'white'
-        if (d.name === script1) fill_color = '#FF8800';
-        else if (d.name === script2) fill_color = '#FF8800';
+        if (d.name === script1) fill_color = '#E2A600';
+        else if (d.name === script2) fill_color = '#E2A600';
         return 'stroke: ' + color +'; fill: ' + fill_color + ';';
 
     });
 
     svg.selectAll('.tree_label').attr('style', function(d){
         var str = 'fill: ';
-        if (d.name === script1) str += '#FF8800; font-weight: bold;';
-        else if (d.name === script2) str +='#FF8800; font-weight: bold;';
+        if (d.name === script1) str += '#E2A600; font-weight: bold;';
+        else if (d.name === script2) str +='#E2A600; font-weight: bold;';
         else str += color;
         return str;
     });
