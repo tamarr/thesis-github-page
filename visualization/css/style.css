@@ -11,8 +11,7 @@
 }
 
 .selected {
-    stroke:#E2A600;
-    stroke-width: 2px;
+    stroke: black;
 }
 
 .tree {
