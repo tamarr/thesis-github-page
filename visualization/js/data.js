@@ -41,4 +41,15 @@ function displayData(script1, script2) {
 
     document.getElementById('script1').innerHTML = script1Chars;
     document.getElementById('script2').innerHTML = script2Chars;
+
+    div.append('div').attr('id', "basic_choropleth");
+
+    var basic_choropleth = new Datamap({
+        element: document.getElementById("basic_choropleth"),
+        projection: 'mercator',
+        fills: {
+        defaultFill: "#ABDDA4",
+        authorHasTraveledTo: "#fa0fa0"
+        }
+    });
 }

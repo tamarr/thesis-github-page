@@ -25,9 +25,18 @@
     top: 150px;
     left: 950px;    
     border: 2px solid limegreen;
-    width: 250px;
+    width: 400px;
+    height: 550px;
     padding: 5px;
     visibility: hidden;
+}
+
+#basic_choropleth {
+    top: 50px;
+    left: 0px;
+    position: relative; 
+    width: 400px; 
+    height: 300px;
 }
 
 .script {
