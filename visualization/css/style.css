@@ -24,7 +24,7 @@
     position: absolute;
     top: 150px;
     left: 950px;    
-    border: 3px solid green;
+    border: 2px solid limegreen;
     width: 250px;
     padding: 5px;
     visibility: hidden;
@@ -45,14 +45,14 @@
 }
 
 .script1_color {
-    color: #800000;
-    fill: #800000;
+    color: #FF8800;
+    fill: #FF8800;
     font-weight: bold;
 }
 
 .script2_color {
-    color: #000080;
-    fill: #000080;
+    color: #CC3399;
+    fill: #CC3399;
     font-weight: bold;
 }
 

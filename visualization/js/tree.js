@@ -152,10 +152,19 @@ function isLiveScript(name) {
 function redrawSelectedNodes(script1, script2) {
     if (!svg) return;
 
-    svg.selectAll('.node-dot').attr('class', function(d){
-        var str = 'node-dot';
-        if (d.name === script1) str += ' script1_color';
-        else if (d.name === script2) str += ' script2_color';
+    svg.selectAll('.node-dot').attr('style', function(d){
+        var fill_color = (isLiveScript(d.name)) ? color : 'white'
+        if (d.name === script1) fill_color = '#FF8800';
+        else if (d.name === script2) fill_color = '#CC3399';
+        return 'stroke: ' + color +'; fill: ' + fill_color + ';';
+
+    });
+
+    svg.selectAll('.tree_label').attr('style', function(d){
+        var str = 'fill: ';
+        if (d.name === script1) str += '#FF8800; font-weight: bold;';
+        else if (d.name === script2) str +='#CC3399; font-weight: bold;';
+        else str += color;
         return str;
-    })
+    });
 }
