@@ -2,7 +2,8 @@ var language_color = 'green';
 var language_link_color = 'green';
 var language_back_color = 'green';
 
-function generate_lang(data, order) {
+function generate_lang(order) {
+  d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {  
     var svg = d3.select("body")
       .append("svg")
       .attr("width", 300) 
@@ -115,7 +116,8 @@ function generate_lang(data, order) {
     })
      .attr('style', 'fill:'+color);
 
-     return layoutRoot;
+    return layoutRoot;
+  });
 }
 
  function getID(name) {

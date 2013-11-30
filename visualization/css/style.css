@@ -20,6 +20,35 @@
     left: 50px;
 }
 
+#data {
+    position: absolute;
+    top: 150px;
+    left: 950px;    
+    border: 3px solid green;
+    width: 250px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.script {
+    font-family: Arial;
+    position: relative;
+    width: 40%;
+}
+
+#script1 {
+    float: left;
+}
+
+#script2 {
+    float: right;
+}
+
+.scriptName {
+    font-weight: bold;
+    margin: 2px;
+}
+
 .header
 {
     font-size: 1em;

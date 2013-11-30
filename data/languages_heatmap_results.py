@@ -28,14 +28,14 @@ languages_info.sort(key=lambda x: order.index(x["language"]))
 
 names_arr = []
 data_arr = []
-languages_data = []
+languages_data = {}
 maxData = 0
 row_index = 0
 for language1 in languages_info:
 
 	lang1_name = language1['language']
 	names_arr.append(lang1_name)
-	row_arr = []
+	row_arr, charsArr = [], []
 	col_index = 0
 
 	# Now iterate through the rest of the chars and determine link weight
@@ -48,11 +48,10 @@ for language1 in languages_info:
 
 	data_arr.append(row_arr)
 
-	lang_data_dict = {lang1_name:[]}
 	for char in language1['chars']:
-		lang_data_dict[lang1_name].append(char['char'])
+		charsArr.append(char['char'])
 
-	languages_data.append(lang_data_dict)
+	languages_data[lang1_name] = charsArr
 	row_index += 1
 
 
