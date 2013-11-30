@@ -1,6 +1,4 @@
-var language_color = 'green';
-var language_link_color = 'green';
-var language_back_color = 'green';
+var color = 'green';
 
 function generate_lang(order) {
   d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {  
@@ -11,8 +9,6 @@ function generate_lang(order) {
     root_origin = 100;
     var height = 750;
     var width = 300;
-    var color = language_color;
-    var link_color = language_link_color;
     
     root = data;
     root.x0 = 50;
@@ -51,12 +47,17 @@ function generate_lang(order) {
             d.y = 10; 
             d.x = root_origin;
         } else if (idx >= 0) {
-            d.y = 250;
-            d.x = 50 * idx + 120;
+            d.y = 210;
+            d.x = 50 * idx + 125;
+        } else {
+            d.y -= 30;
         }
 
         if(d.name == "Greek") d.y -= 50;
-        else if (d.name == "Brāhmī" || d.name == "Nāgarī") d.x += 100;
+        else if (d.name == "Brāhmī" || d.name == "Nāgarī") {
+            d.x += 100;
+            d.y -= 20;
+        }
     }); 
 
     var links = tree.links(nodes);
@@ -77,7 +78,7 @@ function generate_lang(order) {
     .append("svg:path")
     .attr("class", "link")
     .attr('style', function(d){
-        return 'stroke: ' + link_color +'; ';
+        return 'stroke: ' + color +'; ';
     })
     .attr("d", link);
 
@@ -89,28 +90,48 @@ function generate_lang(order) {
      .attr("id", function(d) {return getID(d.name);})
      .attr("transform", function(d)
      {
-         return "translate(" + d.y + "," + d.x + ")";
+        return "translate(" + d.y + "," + d.x + ")";
      });
 
      nodeGroup.append("svg:circle")
      .attr("class", "node-dot")
      .attr('style', function(d){
-        var fill_color = (order.indexOf(d.name) >= 0) ? color : 'white'
+        var fill_color = (isLiveScript(d.name)) ? color : 'white'
         return 'stroke: ' + color +'; fill: ' + fill_color + ';';
      })
      .attr("r", function(d){
         return 4;
     });
 
-     nodeGroup.append("svg:text")
-     .attr("text-anchor", "end")
-     .attr("class","tree_label")
-     .attr("dx", 30)
-     .attr("dy", -10)
-     .text(function(d)
-     {
+    nodeGroup.append("svg:text")
+    .attr("text-anchor", "end")
+    .attr("class",function(d){
+        var name = "tree_label";
+        if (isLiveScript(d.name)) name += ' bold';
+        return name;
+    })
+    .attr("dx", function(d){
+        if (isLiveScript(d.name)) {
+            return 80;
+        } else if (d.name === data.name) {
+            return 130;
+        }
+
+        return 30;
+    })
+    .attr("dy", function(d){
+        if (isLiveScript(d.name)) {
+            return 5;
+        };
+
+        return -10;
+    })
+    .text(function(d)
+    {
         if (d.name !== data.name)
-         return d.name;
+            return d.name;
+        else
+            return 'Egyptian Hieroglyphs';
     })
      .attr('style', 'fill:'+color);
 
@@ -118,6 +139,10 @@ function generate_lang(order) {
   });
 }
 
- function getID(name) {
+function getID(name) {
     return name.replace(' ','') + '_node';
+}
+
+function isLiveScript(name) {
+    return (order.indexOf(name) >= 0);
 }

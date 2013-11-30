@@ -44,6 +44,14 @@
     float: right;
 }
 
+.script1_color {
+    color: red;
+}
+
+.script2_color {
+    color: blue;
+}
+
 .scriptName {
     font-weight: bold;
     margin: 2px;
@@ -70,6 +78,10 @@ path.link {
 }
 
 .tree_label {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-family: Arial;
+}
+
+.bold {
+    font-size: 0.9em;
 }
