@@ -3187,7 +3187,7 @@
         "evarage_curves": 9.972222222222221
     }, 
     {
-        "evarage_contours": 2.40625, 
+        "evarage_contours": 2.3714285714285714, 
         "language": "Tamil", 
         "chars": [
             {
@@ -3279,6 +3279,24 @@
                 "lines": "15", 
                 "contours": "3", 
                 "curves": "6"
+            }, 
+            {
+                "char": "\u0b9c", 
+                "lines": "4", 
+                "contours": "3", 
+                "curves": "35"
+            }, 
+            {
+                "char": "\u0b9e", 
+                "lines": "9", 
+                "contours": "2", 
+                "curves": "20"
+            }, 
+            {
+                "char": "\u0b9f", 
+                "lines": "6", 
+                "contours": "1", 
+                "curves": "0"
             }, 
             {
                 "char": "\u0ba3", 
@@ -3383,11 +3401,11 @@
                 "curves": "29"
             }
         ], 
-        "total_chars": 32.0, 
-        "total_curves": 591, 
-        "total_lines": 300, 
-        "total_contours": 77, 
-        "evarage_lines": 9.375, 
-        "evarage_curves": 18.46875
+        "total_chars": 35.0, 
+        "total_curves": 646, 
+        "total_lines": 319, 
+        "total_contours": 83, 
+        "evarage_lines": 9.114285714285714, 
+        "evarage_curves": 18.457142857142856
     }
 ]}

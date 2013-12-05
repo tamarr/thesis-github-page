@@ -11,7 +11,7 @@
 }
 
 .selected {
-    stroke: black;
+    stroke: yellow;
 }
 
 .tree {
@@ -43,6 +43,7 @@
     font-family: Arial;
     position: relative;
     width: 40%;
+    height: 200px;
 }
 
 #script1 {
@@ -70,8 +71,7 @@
     margin: 2px;
 }
 
-.header
-{
+.header {
     font-size: 1em;
     font-weight: bold;
     padding: 15px;

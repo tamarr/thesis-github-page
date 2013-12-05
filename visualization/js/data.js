@@ -7,6 +7,20 @@ function loadData(script_chars) {
     div = d3.select("body")
     .append("div")
     .attr('id','data');
+
+    // Setup the extra data area
+    div.append('div').attr('class','script script1_color').attr('id', 'script1')
+    div.append('div').attr('class','script script2_color').attr('id', 'script2')
+    div.append('div').attr('id', 'basic_choropleth');
+
+        var basic_choropleth = new Datamap({
+        element: document.getElementById("basic_choropleth"),
+        projection: 'mercator',
+        fills: {
+        defaultFill: "#ABDDA4",
+        authorHasTraveledTo: "#fa0fa0"
+        }
+    });
 }
 
 function convertArrayToStr(arr) {
@@ -32,24 +46,10 @@ function displayData(script1, script2) {
 
     document.getElementById('data').style.visibility = 'visible';
 
-    div.append('div').attr('class','script script1_color').attr('id', 'script1')
-    div.append('div').attr('class','script script2_color').attr('id', 'script2')
-
     // Put all chars in a column
     var script1Chars = '<div class="scriptName">' + script1 + '</div>' + convertArrayToStr(data[script1]);
     var script2Chars = '<div class="scriptName">' + script2 + '</div>' + convertArrayToStr(data[script2]);
 
     document.getElementById('script1').innerHTML = script1Chars;
     document.getElementById('script2').innerHTML = script2Chars;
-
-    div.append('div').attr('id', "basic_choropleth");
-
-    var basic_choropleth = new Datamap({
-        element: document.getElementById("basic_choropleth"),
-        projection: 'mercator',
-        fills: {
-        defaultFill: "#ABDDA4",
-        authorHasTraveledTo: "#fa0fa0"
-        }
-    });
 }

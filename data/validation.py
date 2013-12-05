@@ -2,12 +2,9 @@
 
 # -----------------------------------------------------------------------------
 #
-#  This script was created by Tamar Rucham, based on the FreeType library example 
-#  glyph_vector.py
+#  This script was created by Tamar Rucham
 #
-#  Assuming the ttf file and input file in a data folder from currently run script
-#  this script will generate the statistics for each character in the given ranges
-#  for the given languages, as well as general statistics for the language
+#  Measures the the algorithm in data_collection and languages_heatmap_results
 #
 # -----------------------------------------------------------------------------
 
@@ -59,4 +56,4 @@ if __name__ == '__main__':
             slice2 = run(charsSlice2, face)
             total_diff += getDiff(slice1, slice2)
 
-        print scriptName, ' average diff: ', (total_diff / float(num_iterations))
+        print scriptName, ': ', (total_diff / float(num_iterations))
