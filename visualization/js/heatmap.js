@@ -25,7 +25,7 @@ function load(order) {
     //define a color scale using the min and max expression values
     var colorScale = d3.scale.linear()
     .domain([data.minData, data.maxData])
-    .range(["green", "white"]);
+    .range(["white", "green"]);
 
     //generate heatmap rows
     var heatmapRow = mySVG.selectAll(".heatmap")
@@ -50,7 +50,7 @@ function load(order) {
       return colorScale(d[0]);
     }).on("mouseover", function() {
       d3.select(this).append("svg:title")
-      .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
+      .text(function(d) {return order[d[1]] + " & " + order[d[2]] +'='+d[0];})
       .attr("x", function(d) {return 0;})
       .attr("y", function (d) {return 0;}); 
     }).on('click', function(d){
