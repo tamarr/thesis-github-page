@@ -50,7 +50,7 @@ function load(order) {
       return colorScale(d[0]);
     }).on("mouseover", function() {
       d3.select(this).append("svg:title")
-      .text(function(d) {return order[d[1]] + " & " + order[d[2]] +'='+d[0];})
+      .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
       .attr("x", function(d) {return 0;})
       .attr("y", function (d) {return 0;}); 
     }).on('click', function(d){

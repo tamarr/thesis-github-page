@@ -28,6 +28,7 @@
     width: 400px;
     height: 550px;
     padding: 5px;
+    visibility: hidden;
 }
 
 #basic_choropleth {
