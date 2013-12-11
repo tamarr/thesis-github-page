@@ -5,9 +5,9 @@ function load(order) {
   height = 750;
 
   //height of each row in the heatmap
-  var h = 40;
+  var h = 50;
   //width of each column in the heatmap
-  var w = 40;
+  var w = 50;
 
   //attach a SVG element to the document's body
   var mySVG = d3.select("body")
