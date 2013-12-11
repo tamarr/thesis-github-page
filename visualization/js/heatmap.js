@@ -5,9 +5,9 @@ function load(order) {
   height = 750;
 
   //height of each row in the heatmap
-  var h = 50;
+  var h = 40;
   //width of each column in the heatmap
-  var w = 50;
+  var w = 40;
 
   //attach a SVG element to the document's body
   var mySVG = d3.select("body")
@@ -55,7 +55,7 @@ function load(order) {
       .attr("y", function (d) {return 0;}); 
     }).on('click', function(d){
       // Show extra data on the right-hand side
-      displayData(order[d[1]], order[d[2]]);
+      displayData(order[d[1]], order[d[2]], d[0]);
       // Redraw the columns to color the selected scripts
       redrawColumnLabels(mySVG, data, order[d[1]], order[d[2]]);
 

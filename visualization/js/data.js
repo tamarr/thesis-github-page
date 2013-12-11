@@ -8,9 +8,18 @@ function loadData(script_chars) {
     .append("div")
     .attr('id','data');
 
-    // Setup the extra data area
+    // Setup the character set display
     div.append('div').attr('class','script script1_color').attr('id', 'script1')
     div.append('div').attr('class','script script2_color').attr('id', 'script2')
+
+    // Setup the scale
+    var svg = div.append("svg").attr('id', 'scale')
+      .append("g").attr("transform", "translate(30,10)");
+
+    svg.append("g")
+        .attr("class", "axis");
+
+    // Setup the map
     div.append('div').attr('id', 'basic_choropleth');
 
         var basic_choropleth = new Datamap({
@@ -25,14 +34,14 @@ function loadData(script_chars) {
 
 function convertArrayToStr(arr) {
     var str = '';
-    for (char1 in arr) {
-        str += arr[char1] + ' ';
+    for (entry in arr) {
+        str += arr[entry] + ' ';
     }
 
     return str;
 }
 
-function displayData(script1, script2) {
+function displayData(script1, script2, weight) {
     if (data == null || div == null) {
         alert('scripts data or div not loaded');
         return;
@@ -52,4 +61,17 @@ function displayData(script1, script2) {
 
     document.getElementById('script1').innerHTML = script1Chars;
     document.getElementById('script2').innerHTML = script2Chars;
+
+    scale = d3.select(".axis")
+
+    var x = d3.scale.linear()
+        .domain([0, 1])
+        .range([0, 350]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .tickValues([0, weight, 1])
+        .orient("bottom");
+
+    scale.call(xAxis);
 }

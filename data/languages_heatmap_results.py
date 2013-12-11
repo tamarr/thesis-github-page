@@ -54,11 +54,11 @@ for language1 in languages_info:
 	languages_data[lang1_name] = charsArr
 	row_index += 1
 
-# Normalize weights to be from 0 (identity) to 100 (greatest difference)
+# Normalize weights to be from 0 (identity) to 1 (greatest difference)
 for row in data_arr:
     for entry in row:
         value = entry[0]
-        entry[0] = 0 if value == maxData else (value - maxData)*(-1)*(100/maxData)
+        entry[0] = 0 if value == maxData else (value - maxData)*(-1)/maxData
 
 outputFile = open('data/languages_heatmap.json', 'w')
 outputFile.write('{\n"labels":')

@@ -31,6 +31,29 @@
     visibility: hidden;
 }
 
+#scale {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height: 40px;
+    width: 400px;
+    font-family: Arial;
+    font-size: 0.8em;
+    color: green;
+}
+
+.axis text {
+  font: 0.8em Arial;
+  fill: green;
+}
+
+.axis path,
+.axis line {
+  fill: lightgreen;
+  stroke: lightgreen;
+  shape-rendering: crispEdges;
+}
+
 #basic_choropleth {
     top: 50px;
     left: 0px;
