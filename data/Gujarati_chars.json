@@ -1,0 +1,293 @@
+{
+    "chars": [
+        {
+            "char": "\u0a85", 
+            "lines": "7", 
+            "contours": "1", 
+            "curves": "25"
+        }, 
+        {
+            "char": "\u0a86", 
+            "lines": "13", 
+            "contours": "3", 
+            "curves": "29"
+        }, 
+        {
+            "char": "\u0a87", 
+            "lines": "4", 
+            "contours": "1", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0a88", 
+            "lines": "3", 
+            "contours": "1", 
+            "curves": "19"
+        }, 
+        {
+            "char": "\u0a89", 
+            "lines": "4", 
+            "contours": "1", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0a8a", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "20"
+        }, 
+        {
+            "char": "\u0a8b", 
+            "lines": "13", 
+            "contours": "3", 
+            "curves": "22"
+        }, 
+        {
+            "char": "\u0a8c", 
+            "lines": "8", 
+            "contours": "2", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0a8d", 
+            "lines": "11", 
+            "contours": "4", 
+            "curves": "29"
+        }, 
+        {
+            "char": "\u0a8f", 
+            "lines": "11", 
+            "contours": "4", 
+            "curves": "29"
+        }, 
+        {
+            "char": "\u0a90", 
+            "lines": "12", 
+            "contours": "4", 
+            "curves": "33"
+        }, 
+        {
+            "char": "\u0a91", 
+            "lines": "17", 
+            "contours": "6", 
+            "curves": "33"
+        }, 
+        {
+            "char": "\u0a93", 
+            "lines": "17", 
+            "contours": "6", 
+            "curves": "33"
+        }, 
+        {
+            "char": "\u0a94", 
+            "lines": "18", 
+            "contours": "6", 
+            "curves": "37"
+        }, 
+        {
+            "char": "\u0a95", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0a96", 
+            "lines": "9", 
+            "contours": "1", 
+            "curves": "19"
+        }, 
+        {
+            "char": "\u0a97", 
+            "lines": "7", 
+            "contours": "2", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0a98", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "15"
+        }, 
+        {
+            "char": "\u0a99", 
+            "lines": "9", 
+            "contours": "3", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0a9a", 
+            "lines": "7", 
+            "contours": "1", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u0a9b", 
+            "lines": "4", 
+            "contours": "4", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u0a9c", 
+            "lines": "7", 
+            "contours": "5", 
+            "curves": "19"
+        }, 
+        {
+            "char": "\u0a9d", 
+            "lines": "9", 
+            "contours": "2", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0a9e", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0a9f", 
+            "lines": "2", 
+            "contours": "1", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0aa0", 
+            "lines": "3", 
+            "contours": "2", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0aa1", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0aa2", 
+            "lines": "1", 
+            "contours": "2", 
+            "curves": "19"
+        }, 
+        {
+            "char": "\u0aa3", 
+            "lines": "12", 
+            "contours": "3", 
+            "curves": "20"
+        }, 
+        {
+            "char": "\u0aa4", 
+            "lines": "9", 
+            "contours": "1", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0aa5", 
+            "lines": "6", 
+            "contours": "2", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0aa6", 
+            "lines": "3", 
+            "contours": "1", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0aa7", 
+            "lines": "7", 
+            "contours": "1", 
+            "curves": "21"
+        }, 
+        {
+            "char": "\u0aa8", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "11"
+        }, 
+        {
+            "char": "\u0aaa", 
+            "lines": "10", 
+            "contours": "1", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0aab", 
+            "lines": "11", 
+            "contours": "1", 
+            "curves": "13"
+        }, 
+        {
+            "char": "\u0aac", 
+            "lines": "7", 
+            "contours": "1", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0aad", 
+            "lines": "13", 
+            "contours": "1", 
+            "curves": "13"
+        }, 
+        {
+            "char": "\u0aae", 
+            "lines": "13", 
+            "contours": "1", 
+            "curves": "11"
+        }, 
+        {
+            "char": "\u0aaf", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0ab0", 
+            "lines": "2", 
+            "contours": "1", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0ab2", 
+            "lines": "12", 
+            "contours": "2", 
+            "curves": "9"
+        }, 
+        {
+            "char": "\u0ab3", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0ab5", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0ab6", 
+            "lines": "6", 
+            "contours": "3", 
+            "curves": "21"
+        }, 
+        {
+            "char": "\u0ab7", 
+            "lines": "11", 
+            "contours": "2", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0ab8", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "23"
+        }, 
+        {
+            "char": "\u0ab9", 
+            "lines": "8", 
+            "contours": "3", 
+            "curves": "14"
+        }
+    ], 
+    "name": "Gujarati"
+}

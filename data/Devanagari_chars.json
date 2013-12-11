@@ -1,0 +1,389 @@
+{
+    "chars": [
+        {
+            "char": "\u0904", 
+            "lines": "8", 
+            "contours": "2", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0905", 
+            "lines": "14", 
+            "contours": "2", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0906", 
+            "lines": "21", 
+            "contours": "2", 
+            "curves": "15"
+        }, 
+        {
+            "char": "\u0907", 
+            "lines": "13", 
+            "contours": "2", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0908", 
+            "lines": "16", 
+            "contours": "4", 
+            "curves": "22"
+        }, 
+        {
+            "char": "\u0909", 
+            "lines": "10", 
+            "contours": "2", 
+            "curves": "11"
+        }, 
+        {
+            "char": "\u090a", 
+            "lines": "11", 
+            "contours": "2", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u090b", 
+            "lines": "20", 
+            "contours": "2", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u090c", 
+            "lines": "12", 
+            "contours": "2", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u090d", 
+            "lines": "18", 
+            "contours": "4", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u090e", 
+            "lines": "20", 
+            "contours": "4", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u090f", 
+            "lines": "15", 
+            "contours": "2", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0910", 
+            "lines": "22", 
+            "contours": "4", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0911", 
+            "lines": "24", 
+            "contours": "4", 
+            "curves": "21"
+        }, 
+        {
+            "char": "\u0912", 
+            "lines": "24", 
+            "contours": "1", 
+            "curves": "23"
+        }, 
+        {
+            "char": "\u0913", 
+            "lines": "26", 
+            "contours": "1", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0914", 
+            "lines": "24", 
+            "contours": "1", 
+            "curves": "22"
+        }, 
+        {
+            "char": "\u0915", 
+            "lines": "15", 
+            "contours": "4", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0916", 
+            "lines": "17", 
+            "contours": "5", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0917", 
+            "lines": "13", 
+            "contours": "3", 
+            "curves": "7"
+        }, 
+        {
+            "char": "\u0918", 
+            "lines": "14", 
+            "contours": "4", 
+            "curves": "11"
+        }, 
+        {
+            "char": "\u0919", 
+            "lines": "16", 
+            "contours": "4", 
+            "curves": "13"
+        }, 
+        {
+            "char": "\u091a", 
+            "lines": "17", 
+            "contours": "4", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u091b", 
+            "lines": "14", 
+            "contours": "4", 
+            "curves": "23"
+        }, 
+        {
+            "char": "\u091c", 
+            "lines": "15", 
+            "contours": "3", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u091d", 
+            "lines": "19", 
+            "contours": "4", 
+            "curves": "20"
+        }, 
+        {
+            "char": "\u091e", 
+            "lines": "14", 
+            "contours": "3", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u091f", 
+            "lines": "12", 
+            "contours": "3", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0920", 
+            "lines": "9", 
+            "contours": "4", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0921", 
+            "lines": "12", 
+            "contours": "3", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0922", 
+            "lines": "11", 
+            "contours": "4", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0923", 
+            "lines": "16", 
+            "contours": "4", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0924", 
+            "lines": "15", 
+            "contours": "3", 
+            "curves": "4"
+        }, 
+        {
+            "char": "\u0925", 
+            "lines": "14", 
+            "contours": "3", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0926", 
+            "lines": "14", 
+            "contours": "3", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0927", 
+            "lines": "12", 
+            "contours": "4", 
+            "curves": "19"
+        }, 
+        {
+            "char": "\u0928", 
+            "lines": "14", 
+            "contours": "3", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0929", 
+            "lines": "18", 
+            "contours": "4", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u092a", 
+            "lines": "15", 
+            "contours": "4", 
+            "curves": "4"
+        }, 
+        {
+            "char": "\u092b", 
+            "lines": "17", 
+            "contours": "4", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u092c", 
+            "lines": "14", 
+            "contours": "5", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u092d", 
+            "lines": "15", 
+            "contours": "4", 
+            "curves": "13"
+        }, 
+        {
+            "char": "\u092e", 
+            "lines": "19", 
+            "contours": "4", 
+            "curves": "3"
+        }, 
+        {
+            "char": "\u092f", 
+            "lines": "14", 
+            "contours": "4", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0930", 
+            "lines": "8", 
+            "contours": "3", 
+            "curves": "9"
+        }, 
+        {
+            "char": "\u0931", 
+            "lines": "12", 
+            "contours": "4", 
+            "curves": "9"
+        }, 
+        {
+            "char": "\u0932", 
+            "lines": "15", 
+            "contours": "3", 
+            "curves": "9"
+        }, 
+        {
+            "char": "\u0933", 
+            "lines": "14", 
+            "contours": "4", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0934", 
+            "lines": "18", 
+            "contours": "5", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0935", 
+            "lines": "13", 
+            "contours": "4", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0936", 
+            "lines": "14", 
+            "contours": "5", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u0937", 
+            "lines": "17", 
+            "contours": "5", 
+            "curves": "4"
+        }, 
+        {
+            "char": "\u0938", 
+            "lines": "14", 
+            "contours": "4", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0939", 
+            "lines": "14", 
+            "contours": "3", 
+            "curves": "15"
+        }, 
+        {
+            "char": "\u0958", 
+            "lines": "19", 
+            "contours": "5", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0959", 
+            "lines": "21", 
+            "contours": "6", 
+            "curves": "16"
+        }, 
+        {
+            "char": "\u095a", 
+            "lines": "17", 
+            "contours": "4", 
+            "curves": "7"
+        }, 
+        {
+            "char": "\u095b", 
+            "lines": "19", 
+            "contours": "4", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u095c", 
+            "lines": "16", 
+            "contours": "4", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u095d", 
+            "lines": "15", 
+            "contours": "5", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u095e", 
+            "lines": "21", 
+            "contours": "5", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u095f", 
+            "lines": "18", 
+            "contours": "5", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0960", 
+            "lines": "21", 
+            "contours": "2", 
+            "curves": "23"
+        }, 
+        {
+            "char": "\u0961", 
+            "lines": "13", 
+            "contours": "2", 
+            "curves": "25"
+        }
+    ], 
+    "name": "Devanagari"
+}

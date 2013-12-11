@@ -1,0 +1,215 @@
+{
+    "chars": [
+        {
+            "char": "\u0b85", 
+            "lines": "9", 
+            "contours": "3", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u0b86", 
+            "lines": "11", 
+            "contours": "3", 
+            "curves": "30"
+        }, 
+        {
+            "char": "\u0b87", 
+            "lines": "3", 
+            "contours": "5", 
+            "curves": "42"
+        }, 
+        {
+            "char": "\u0b88", 
+            "lines": "10", 
+            "contours": "3", 
+            "curves": "8"
+        }, 
+        {
+            "char": "\u0b89", 
+            "lines": "4", 
+            "contours": "2", 
+            "curves": "17"
+        }, 
+        {
+            "char": "\u0b8a", 
+            "lines": "15", 
+            "contours": "4", 
+            "curves": "29"
+        }, 
+        {
+            "char": "\u0b8e", 
+            "lines": "7", 
+            "contours": "2", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0b8f", 
+            "lines": "9", 
+            "contours": "2", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0b90", 
+            "lines": "8", 
+            "contours": "2", 
+            "curves": "32"
+        }, 
+        {
+            "char": "\u0b92", 
+            "lines": "4", 
+            "contours": "2", 
+            "curves": "31"
+        }, 
+        {
+            "char": "\u0b93", 
+            "lines": "3", 
+            "contours": "3", 
+            "curves": "36"
+        }, 
+        {
+            "char": "\u0b94", 
+            "lines": "15", 
+            "contours": "4", 
+            "curves": "44"
+        }, 
+        {
+            "char": "\u0b95", 
+            "lines": "16", 
+            "contours": "3", 
+            "curves": "12"
+        }, 
+        {
+            "char": "\u0b99", 
+            "lines": "18", 
+            "contours": "1", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0b9a", 
+            "lines": "15", 
+            "contours": "3", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0b9c", 
+            "lines": "4", 
+            "contours": "3", 
+            "curves": "35"
+        }, 
+        {
+            "char": "\u0b9e", 
+            "lines": "9", 
+            "contours": "2", 
+            "curves": "20"
+        }, 
+        {
+            "char": "\u0b9f", 
+            "lines": "6", 
+            "contours": "1", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0ba3", 
+            "lines": "7", 
+            "contours": "4", 
+            "curves": "34"
+        }, 
+        {
+            "char": "\u0ba4", 
+            "lines": "16", 
+            "contours": "3", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0ba8", 
+            "lines": "13", 
+            "contours": "1", 
+            "curves": "10"
+        }, 
+        {
+            "char": "\u0ba9", 
+            "lines": "7", 
+            "contours": "3", 
+            "curves": "22"
+        }, 
+        {
+            "char": "\u0baa", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0bae", 
+            "lines": "8", 
+            "contours": "2", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0baf", 
+            "lines": "12", 
+            "contours": "1", 
+            "curves": "6"
+        }, 
+        {
+            "char": "\u0bb0", 
+            "lines": "12", 
+            "contours": "1", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0bb1", 
+            "lines": "8", 
+            "contours": "1", 
+            "curves": "15"
+        }, 
+        {
+            "char": "\u0bb2", 
+            "lines": "0", 
+            "contours": "2", 
+            "curves": "24"
+        }, 
+        {
+            "char": "\u0bb3", 
+            "lines": "11", 
+            "contours": "2", 
+            "curves": "13"
+        }, 
+        {
+            "char": "\u0bb4", 
+            "lines": "12", 
+            "contours": "2", 
+            "curves": "18"
+        }, 
+        {
+            "char": "\u0bb5", 
+            "lines": "5", 
+            "contours": "2", 
+            "curves": "14"
+        }, 
+        {
+            "char": "\u0bb6", 
+            "lines": "8", 
+            "contours": "2", 
+            "curves": "0"
+        }, 
+        {
+            "char": "\u0bb7", 
+            "lines": "13", 
+            "contours": "4", 
+            "curves": "26"
+        }, 
+        {
+            "char": "\u0bb8", 
+            "lines": "3", 
+            "contours": "2", 
+            "curves": "29"
+        }, 
+        {
+            "char": "\u0bb9", 
+            "lines": "10", 
+            "contours": "2", 
+            "curves": "29"
+        }
+    ], 
+    "name": "Tamil"
+}

@@ -3,7 +3,6 @@ import json
 def getDiff(char1, char2):
 	return (abs(float(char1['evarage_lines']) - float(char2['evarage_lines'])) + abs(float(char1['evarage_curves']) - float(char2['evarage_curves'])))
 
-# def generateCharJson():
 inputFile = open('data/output.json')
 data = json.load(inputFile)
 inputFile.close()
@@ -69,4 +68,5 @@ outputFile.write(',\n"languages_data":')
 outputFile.write(json.dumps(languages_data,indent=4))
 outputFile.write(',\n"minData":0,\n"maxData":100')
 outputFile.write('\n}')
+output.close()
 
