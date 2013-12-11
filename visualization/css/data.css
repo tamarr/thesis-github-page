@@ -1,0 +1,61 @@
+#data {
+    position: absolute;
+    top: 150px;
+    left: 950px;    
+    border: 2px solid limegreen;
+    width: 400px;
+    height: 550px;
+    padding: 5px;
+    visibility: hidden;
+}
+
+.script {
+    font-family: Arial;
+    position: relative;
+    width: 40%;
+    height: 200px;
+}
+
+.scriptName {
+    font-weight: bold;
+    margin: 2px;
+}
+
+#script1 {
+    float: left;
+}
+
+#script2 {
+    float: right;
+}
+
+#scale {
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    height: 40px;
+    width: 400px;
+    font-family: Arial;
+    font-size: 0.8em;
+    color: green;
+}
+
+.axis text {
+  font: 0.8em Arial;
+  fill: green;
+}
+
+.axis path,
+.axis line {
+  fill: lightgreen;
+  stroke: lightgreen;
+  shape-rendering: crispEdges;
+}
+
+#basic_choropleth {
+    top: 50px;
+    left: 0px;
+    position: relative; 
+    width: 400px; 
+    height: 300px;
+}

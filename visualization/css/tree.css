@@ -1,0 +1,19 @@
+path.link {
+    fill: none;
+    stroke: gray;
+}
+
+.tree_label {
+    font-size: 0.8em;
+    font-family: Arial;
+}
+
+.tree {
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.bigger {
+    font-size: 0.9em;
+}
