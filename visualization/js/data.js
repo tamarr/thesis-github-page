@@ -71,6 +71,7 @@ function displayData(script1, script2, weight) {
     var xAxis = d3.svg.axis()
         .scale(x)
         .tickValues([0, weight, 1])
+        .tickFormat(d3.format(".2g"))
         .orient("bottom");
 
     scale.call(xAxis);

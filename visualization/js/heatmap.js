@@ -24,7 +24,7 @@ function load(order) {
 
     //define a color scale using the min and max expression values
     var colorScale = d3.scale.linear()
-    .domain([data.minData, data.maxData])
+    .domain([0, 1])
     .range(["white", "green"]);
 
     //generate heatmap rows
