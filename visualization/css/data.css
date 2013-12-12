@@ -47,9 +47,8 @@
 
 .axis path,
 .axis line {
-  fill: lightgreen;
-  stroke: lightgreen;
-  shape-rendering: crispEdges;
+  fill: none;
+  stroke: green;
 }
 
 #basic_choropleth {

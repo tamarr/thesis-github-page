@@ -17,7 +17,7 @@ function loadData(script_chars) {
       .append("g").attr("transform", "translate(30,10)");
 
     svg.append("g")
-        .attr("class", "axis");
+        .attr("class", "x axis");
 
     // Setup the map
     div.append('div').attr('id', 'basic_choropleth');
