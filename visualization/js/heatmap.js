@@ -76,7 +76,7 @@ function load(order) {
       return getLabelX(i, w);
     })
     .attr('y', 100)
-    .attr('class','label')
+    .attr('class','label green')
     .attr('transform',function(d, i) {
       return 'rotate(-65 '+(getLabelX(i, w))+',90)';
     })
