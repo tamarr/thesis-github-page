@@ -92,6 +92,7 @@ function redrawColumnLabels(svg, data, script1, script2) {
       var str = 'label';
       if (d === script1) str += ' script1_color';
       else if (d === script2) str += ' script2_color';
+      else str += ' green';
       return str;
     })
 }

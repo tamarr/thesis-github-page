@@ -1,7 +1,10 @@
 .label {
   font-family: Arial;
   font-size:0.9em;
-  fill: green;
+}
+
+.green {
+    fill: green;
 }
 
 .heatmap {
