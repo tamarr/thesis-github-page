@@ -24,7 +24,7 @@ function loadData(script_chars) {
 
         var basic_choropleth = new Datamap({
         element: document.getElementById("basic_choropleth"),
-        projection: 'mercator',
+        projection: null,
         fills: {
         defaultFill: "#ABDDA4",
         authorHasTraveledTo: "#fa0fa0"
