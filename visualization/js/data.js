@@ -41,13 +41,17 @@ function loadData(script_chars) {
     d3.json("data/world.json", function(error, world) {
       var countries = topojson.feature(world, world.objects.countries).features,
           neighbors = topojson.neighbors(world.objects.countries.geometries);
-     
+
       map.selectAll(".country")
           .data(countries)
         .enter().insert("path", ".graticule")
           .attr("class", "country")
           .attr("d", path)
-          .style("fill", "#ABDDA4");
+          .style("fill", function(d){
+            // Don't display antarctica - country code 10
+            if (d.id === 10) return "none";
+            return "#ABDDA4";
+          });
      
       map.insert("path", ".graticule")
           .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
