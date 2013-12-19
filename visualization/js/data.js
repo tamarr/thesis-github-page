@@ -20,15 +20,39 @@ function loadData(script_chars) {
         .attr("class", "x axis");
 
     // Setup the map
-    div.append('div').attr('id', 'basic_choropleth');
-
-        var basic_choropleth = new Datamap({
-        element: document.getElementById("basic_choropleth"),
-        projection: null,
-        fills: {
-        defaultFill: "#ABDDA4",
-        authorHasTraveledTo: "#fa0fa0"
-        }
+    var width = 400,
+    height = 300;
+  
+    var projection = d3.geo.naturalEarth()
+        .scale(90)
+        .translate([width / 2, height / 2])
+        .precision(.1);
+     
+    var path = d3.geo.path()
+        .projection(projection);
+     
+    var graticule = d3.geo.graticule();
+     
+    var map = div.append("svg")
+        .attr("id","map")
+        .attr("width", width)
+        .attr("height", height);
+      
+    d3.json("data/world.json", function(error, world) {
+      var countries = topojson.feature(world, world.objects.countries).features,
+          neighbors = topojson.neighbors(world.objects.countries.geometries);
+     
+      map.selectAll(".country")
+          .data(countries)
+        .enter().insert("path", ".graticule")
+          .attr("class", "country")
+          .attr("d", path)
+          .style("fill", "#ABDDA4");
+     
+      map.insert("path", ".graticule")
+          .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
+          .attr("class", "boundary")
+          .attr("d", path);
     });
 }
 
