@@ -1,0 +1,80 @@
+[
+    {
+        "Greek": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Greek_script",
+            "origin_time": "800 BC",
+            "countries": ["GRC"]
+        }
+    },
+    {
+        "Latin": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Latin_alphabet",
+            "origin_time": "700 BC",
+            "countries": ["USA","CAN","BRA","COL","MEX","ARG","PER","CHL","VEN","GTM","ECU","CUB","HTI","BOL","DOM","HND","SLV","PRY",
+            "CRI","NIC","PAN","URY","TTO","JAM","SUR","GUY","ISL","GRL","AUS","NZL","IDN","PNG","VNM","PHL","MYS"]
+        }
+    },
+    {
+        "Cyrillic": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Cyrillic_script",
+            "origin_time": "890 BC",
+            "countries": []
+        }
+    },
+    {
+        "Hebrew": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Hebrew_script",
+            "origin_time": "300 BC",
+            "countries": ["ISR"]
+        }
+    },
+    {
+        "Arabic": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Arabic_script",
+            "origin_time": "400 AD",
+            "countries": []
+        }
+    },
+    {
+        "Thai": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Thai_script",
+            "origin_time": "1283 AD",
+            "countries": []
+        }
+    },
+    {
+        "Tamil": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Tamil_script",
+            "origin_time": "600 AD",
+            "countries": []
+        }
+    },
+    {
+        "Malayalam": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Malayalam_script",
+            "origin_time": "830 AD",
+            "countries": []
+        }
+    },
+    {
+        "Telugu": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Telugu_script",
+            "origin_time": "1100 AD",
+            "countries": []
+        }
+    },
+    {
+        "Gujarati": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Gujarati_script",
+            "origin_time": "1592 AD",
+            "countries": []
+        }
+    },
+    {
+        "Devanagari": {
+            "wiki_link": "http://en.wikipedia.org/wiki/Devanagari_script",
+            "origin_time": "1100 AD",
+            "countries": []
+        }
+    }
+]
