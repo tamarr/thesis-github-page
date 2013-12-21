@@ -11,14 +11,14 @@
             "wiki_link": "http://en.wikipedia.org/wiki/Latin_alphabet",
             "origin_time": "700 BC",
             "countries": ["USA","CAN","BRA","COL","MEX","ARG","PER","CHL","VEN","GTM","ECU","CUB","HTI","BOL","DOM","HND","SLV","PRY",
-            "CRI","NIC","PAN","URY","TTO","JAM","SUR","GUY","ISL","GRL","AUS","NZL","IDN","PNG","VNM","PHL","MYS"]
+            "CRI","NIC","PAN","URY","TTO","JAM","SUR","GUY","ISL","GRL","AUS","NZL","IDN","PNG","VNM","PHL","MYS","HRV","SRB"]
         }
     },
     {
         "Cyrillic": {
             "wiki_link": "http://en.wikipedia.org/wiki/Cyrillic_script",
             "origin_time": "890 BC",
-            "countries": []
+            "countries": ["rus","MNG","KAZ","KGZ","TJK","BLR","UKR","BGR","MKD","HRV","SRB"]
         }
     },
     {

@@ -30,7 +30,7 @@ if __name__ == '__main__':
     import json
     import copy
     import random
-    from languages_heatmap_results import getDiff
+    from languages_heatmap_results import getDiffFromDictionary
 
 
     face = Face('data/Arial Unicode.ttf')
@@ -54,6 +54,6 @@ if __name__ == '__main__':
 
             slice1 = run(charsSlice1, face)
             slice2 = run(charsSlice2, face)
-            total_diff += getDiff(slice1, slice2)
+            total_diff += getDiffFromDictionary(slice1, slice2)
 
         print scriptName, ': ', (total_diff / float(num_iterations))
