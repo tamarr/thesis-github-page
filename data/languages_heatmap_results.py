@@ -66,7 +66,7 @@ for language1 in languages_info:
 	languages_data[lang1_name] = charsArr
 	row_index += 1
 
-# Normalize weights to be from 0 (identity) to 1 (greatest difference)
+# Normalize weights to be from 0 (greatest difference) to 1 (identity)
 for row in data_arr:
     for entry in row:
         value = entry[0]
