@@ -1,5 +1,7 @@
 import json
+from numpy import *
 
+# original formula occumulating differences
 def getFloatDiff(char1_lines, char1_curves, char2_lines, char2_curves):
     return (abs(char1_lines - char2_lines) + abs(char1_curves - char2_curves))    
 
@@ -8,7 +10,11 @@ def getDiffFromDictionary(char1, char2):
     char1_curves = float(char1['evarage_curves'])
     char2_lines = float(char2['evarage_lines'])
     char2_curves = float(char2['evarage_curves'])
-    return getFloatDiff(char1_lines, char2_lines, char1_curves, char2_curves)
+    return distEclud(char1_lines, char1_curves, char2_lines, char2_curves)
+
+# second formula - difference as distance
+def distEclud(x1, y1, x2, y2):
+    return sqrt(power(x1 - x2, 2) + power(y1 - y2, 2))
 
 inputFile = open('data/output.json')
 data = json.load(inputFile)
