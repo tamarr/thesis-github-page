@@ -3,24 +3,33 @@ var h = 400;
 var margin = 20;
 var padding = 20;
 
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
 function loadChars() {
-    d3.json("data/char_heatmap.json", function(error, dataset) {
+    var script_name = getParameterByName("script");
+    d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
         var fillColor = d3.scale.ordinal()
             .domain([0, 1, 2])
             .range(["red", "blue", "green"]);
 
         var xScale = d3.scale.linear()
-            .domain([0, d3.max(chars, function(d) { return d[0]; })])
+            .domain([0, 30])
             .range([padding, w]);
 
         var yScale = d3.scale.linear()
-            .domain([0, d3.max(chars, function(d) { return d[1]; })])
-            .range([h - padding, 0]);
+            .domain([0, 30])
+            .range([h - padding, padding]);
 
         //Create SVG element
         var svg = d3.select("body")
             .append("svg")
+            .attr("id", "scatter_svg")
             .attr("width", w + margin)
             .attr("height", h + margin);
 
