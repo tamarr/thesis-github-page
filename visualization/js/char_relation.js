@@ -1,6 +1,7 @@
 var w = 500;
 var h = 400;
-var margin = 5;
+var margin = 20;
+var padding = 20;
 
 function loadChars() {
     d3.json("data/char_heatmap.json", function(error, dataset) {
@@ -11,17 +12,17 @@ function loadChars() {
 
         var xScale = d3.scale.linear()
             .domain([0, d3.max(chars, function(d) { return d[0]; })])
-            .range([0, w - margin]);
+            .range([padding, w]);
 
         var yScale = d3.scale.linear()
             .domain([0, d3.max(chars, function(d) { return d[1]; })])
-            .range([0, h - margin]);
+            .range([h - padding, 0]);
 
         //Create SVG element
         var svg = d3.select("body")
             .append("svg")
-            .attr("width", w)
-            .attr("height", h);
+            .attr("width", w + margin)
+            .attr("height", h + margin);
 
         svg.selectAll("circle")
            .data(chars)
@@ -59,10 +60,20 @@ function loadChars() {
             .scale(xScale)
             .orient("bottom")
             .ticks(5);
+
+        var yAxis = d3.svg.axis()
+            .scale(yScale)
+            .orient("left")
+            .ticks(5);
         
         svg.append("g")
             .attr("class", "axis")
-            .attr("transform", "translate(0," + (h - margin) + ")")
+            .attr("transform", "translate(0," + (h - padding) + ")")
             .call(xAxis);
+
+        svg.append("g")
+            .attr("class", "axis")
+            .attr("transform", "translate(" + padding + ",0)")
+            .call(yAxis);
     });
 }

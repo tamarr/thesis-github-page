@@ -89,7 +89,7 @@ import matplotlib
 import matplotlib.pyplot as plt
 def cluster(numClust=5):
     clusters = []
-    labelMat, datList = loadDataSet('data/chars/Thai_chars.json')
+    labelMat, datList = loadDataSet('data/chars/Latin_chars.json')
     datMat = mat(datList)
     myCentroids, clustAssing = biKmeans(datMat, numClust)
     for i in range(numClust):
