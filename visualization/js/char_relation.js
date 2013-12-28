@@ -24,7 +24,7 @@ function loadChars() {
             .attr("width", w + margin)
             .attr("height", h + margin);
 
-        svg.selectAll("circle")
+        /*svg.selectAll("circle")
            .data(chars)
            .enter()
            .append("circle")
@@ -37,7 +37,7 @@ function loadChars() {
            .attr("r", 5)
            .attr("style", function(d){
                 return "fill:"+fillColor(d[2]);
-           });
+           });*/
 
         svg.selectAll("text")
            .data(chars)
@@ -54,7 +54,9 @@ function loadChars() {
            })
            .attr("font-family", "sans-serif")
            .attr("font-size", "1em")
-           .attr("fill", "black");
+           .attr("style", function(d){
+                return "fill:"+fillColor(d[2]);
+           });
 
         var xAxis = d3.svg.axis()
             .scale(xScale)
@@ -75,5 +77,20 @@ function loadChars() {
             .attr("class", "axis")
             .attr("transform", "translate(" + padding + ",0)")
             .call(yAxis);
+
+
+        svg.selectAll("clusters")
+           .data(dataset['clusters'])
+           .enter()
+           .append("text")
+           .attr("x", function(d) {
+                return xScale(d[0]);
+           })
+           .attr("y", function(d) {
+                return yScale(d[1]);
+           })
+           .text("+")
+           .attr("font-size", "1.5em")
+           .attr("style", "fill:purple");
     });
 }
