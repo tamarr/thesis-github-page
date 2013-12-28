@@ -5,10 +5,10 @@ by Peter Harrington
 '''
 from numpy import *
 import json
-from languages_heatmap_results import getFloatDiff
+from languages_heatmap_results import distEclud
 
 def getDiff(char1, char2):
-    return getFloatDiff(char1[0,0], char2[0,0], char1[0,1], char2[0,1])
+    return distEclud(char1[0,0], char1[0,1], char2[0,0], char2[0,1])
 
 def loadDataSet(fileName):      #general function to parse char relation json
     dataMat,labelsMat = [], []
@@ -87,10 +87,26 @@ def biKmeans(dataSet, k, distMeas=getDiff):
 
 import matplotlib
 import matplotlib.pyplot as plt
-def cluster(numClust=2):
+def cluster(numClust=5):
+    clusters = []
     labelMat, datList = loadDataSet('data/chars/Thai_chars.json')
     datMat = mat(datList)
     myCentroids, clustAssing = biKmeans(datMat, numClust)
+    for i in range(numClust):
+        clusters.append(map(float,array(myCentroids[i])[0]))
+        cluster = datMat[nonzero(clustAssing[:,0].A==i)[0],:]
+        for pt in cluster:
+            char = map(float,array(pt)[0])
+            idx = datList.index(char)
+            datList[idx].append(i)
+            datList[idx].append(labelMat[idx])
+    outputFile = open('data/char_heatmap.json', 'w')
+    outputFile.write('{\n"chars":')
+    outputFile.write(json.dumps(datList,indent=4))
+    outputFile.write(',\n"clusters":')
+    outputFile.write(json.dumps(clusters,indent=4))
+    outputFile.write('\n}')
+
     fig = plt.figure()
     rect=[0.1,0.1,0.8,0.8]
     scatterMarkers=['s', 'o', '^', '8', 'p', \
@@ -101,8 +117,9 @@ def cluster(numClust=2):
     for i in range(numClust):
         ptsInCurrCluster = datMat[nonzero(clustAssing[:,0].A==i)[0],:]
         markerStyle = scatterMarkers[i % len(scatterMarkers)]
-        ax1.scatter(ptsInCurrCluster[:,0].flatten().A[0], ptsInCurrCluster[:,1].flatten().A[0], marker=markerStyle, s=90)
+        xy = [ptsInCurrCluster[:,0], ptsInCurrCluster[:,1]]
+        ax1.scatter(xy[0].flatten().A[0], xy[1].flatten().A[0], marker=markerStyle, s=90)
     ax1.scatter(myCentroids[:,0].flatten().A[0], myCentroids[:,1].flatten().A[0], marker='+', s=300)
     plt.show()
 
-cluster()
+cluster(3)
