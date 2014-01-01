@@ -1,7 +1,39 @@
 #scatter_svg {
     position: absolute;
     left: 50px;
-    top: 50px;
+    top: 100px;
+}
+
+#rep_chars_div {
+    position: absolute;
+    left: 100px;
+    top: 10px;  
+}
+
+.rep_char {
+    font-family: Arial;
+    font-size: 1.6em;
+    width: 40px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+}
+
+.char_mark {
+    font-family: Arial;
+    font-size: 1.2em;
+}
+
+.cluster_mark {
+    font-size: 1.2em;
+    stroke: black;    
+}
+
+.axis_label {
+    font-family: Arial;
+    font-size: 0.8em;    
 }
 
 .axis path,
