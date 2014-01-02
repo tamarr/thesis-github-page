@@ -1,7 +1,8 @@
 var w = 500;
 var h = 400;
 var margin = 50;
-var padding = 20;
+
+var fillColor = null;
 
 function getParameterByName(name) {
     name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
@@ -37,55 +38,45 @@ function findRepresentativeForCluster(clusters, chars) {
     return rep_chars_arr;
 }
 
-function loadChars() {
-    var script_name = getParameterByName("script");
-    d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
-        var chars = dataset['chars'];
-        var clusters_pts = dataset['clusters']
-        var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
+function generateRepCharsDiv(parent, data) {
+    var rep_chars_div = parent.append("div")
+        .attr("id", "rep_chars_div")
+        .attr("width", 200)
+        .attr("height", 40);
 
-        // Setup scales
-        var fillColor = d3.scale.ordinal()
-            .domain([0, 1, 2])
-            .range(["#CC0066", "#6666FF", "#669900"]);
+    rep_chars_div.selectAll("chars")
+        .data(data)
+        .enter()
+        .append("span")
+        .html(function(d){return d;})
+        .attr("class", "rep_char")
+        .attr("x", function(d){
+            return 40*data.indexOf(d);
+        })
+        .attr("y", "0")
+        .attr("style", function(d){
+            var color = fillColor(data.indexOf(d));
+            return "color:"+color+"; border: 2px solid "+color;
+        });
+}
 
-        var xScale = d3.scale.linear()
-            .domain([0, 50])
-            .range([padding, w]);
+function generateScatterPlot(chars, clusters_pts, width, height, padding, show_chars) {
+    var xScale = d3.scale.linear()
+        .domain([0, 50])
+        .range([padding, width]);
 
-        var yScale = d3.scale.linear()
-            .domain([0, 50])
-            .range([h - padding, padding]);
+    var yScale = d3.scale.linear()
+        .domain([0, 50])
+        .range([height - padding, padding]);
 
-        // Display representative chars
-        var rep_chars_div = d3.select("body")
-            .append("div")
-            .attr("id", "rep_chars_div")
-            .attr("width", w + margin)
-            .attr("height", 40);
+    //Create SVG element
+    var svg = d3.select("body")
+        .append("svg")
+        .attr("id", "scatter_svg")
+        .attr("width", width + margin)
+        .attr("height", height + margin);
 
-        rep_chars_div.selectAll("chars")
-            .data(rep_chars)
-            .enter()
-            .append("span")
-            .html(function(d){return d;})
-            .attr("class", "rep_char")
-            .attr("x", function(d){
-                return 40*rep_chars.indexOf(d);
-            })
-            .attr("y", "0")
-            .attr("style", function(d){
-                var color = fillColor(rep_chars.indexOf(d));
-                return "color:"+color+"; border: 2px solid "+color;
-            });
-
-        //Create SVG element
-        var svg = d3.select("body")
-            .append("svg")
-            .attr("id", "scatter_svg")
-            .attr("width", w + margin)
-            .attr("height", h + margin);
-
+    if (show_chars) {
         // Add char marks
         svg.selectAll("text")
            .data(chars)
@@ -104,34 +95,53 @@ function loadChars() {
            .attr("style", function(d){
                 return "fill:"+fillColor(d[2]);
            });
+    } else {
+        svg.selectAll("circle")
+            .data(chars)
+            .enter()
+            .append("circle")
+            .attr("cx", function(d) {
+                 return xScale(d[0]);
+            })
+            .attr("cy", function(d) {
+                 return yScale(d[1]);
+            })
+            .attr("r", 2)
+            .attr("style", function(d){
+                 return "fill:"+fillColor(d[2]);
+            });
+    }
 
-        // Add Axes
-        var xAxis = d3.svg.axis()
-            .scale(xScale)
-            .orient("bottom")
-            .ticks(5);
+    var ticks = show_chars ? 5 : 0;
 
-        var yAxis = d3.svg.axis()
-            .scale(yScale)
-            .orient("left")
-            .ticks(5);
-        
-        svg.append("g")
-            .attr("class", "axis")
-            .attr("transform", "translate(0," + (h - padding) + ")")
-            .call(xAxis);
+    // Add Axes
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .ticks(ticks);
 
-        svg.append("g")
-            .attr("class", "axis")
-            .attr("transform", "translate(" + padding + ",0)")
-            .call(yAxis);
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left")
+        .ticks(ticks);
+    
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(0," + (height - padding) + ")")
+        .call(xAxis);
 
+    svg.append("g")
+        .attr("class", "axis")
+        .attr("transform", "translate(" + padding + ",0)")
+        .call(yAxis);
+
+    if (show_chars) {
         // Axes labels
         svg.append("text")
             .attr("class", "axis_label")
             .attr("text-anchor", "end")
-            .attr("x", w + padding*2)
-            .attr("y", h - 10)
+            .attr("x", width + padding*2)
+            .attr("y", height - 10)
             .text("Lines");
 
         svg.append("text")
@@ -157,5 +167,23 @@ function loadChars() {
            .attr("style", function(d){
                 return "fill:"+fillColor(clusters_pts.indexOf(d));
            });
+    }
+}
+
+function loadChars() {
+    fillColor = d3.scale.ordinal()
+        .domain([0, 1, 2])
+        .range(["#CC0066", "#6666FF", "#669900"]);
+
+    var script_name = getParameterByName("script");
+    d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
+        var chars = dataset['chars'];
+        var clusters_pts = dataset['clusters']
+        var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
+        
+        // Display representative chars
+        generateRepCharsDiv(d3.select("body"), rep_chars);
+
+        generateScatterPlot(chars, clusters_pts, 500, 500, 40, true);
     });
 }

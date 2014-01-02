@@ -1,5 +1,5 @@
 #scatter_svg {
-    position: absolute;
+    position: relative;
     left: 50px;
     top: 100px;
 }
