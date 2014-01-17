@@ -34,39 +34,42 @@ function load(order) {
 
     //generate heatmap columns
     var heatmapRects = heatmapRow
-    .selectAll(".rect")
-    .data(function(d) {
-      return d;
-    }).enter().append("svg:rect")
-    .attr('width',w)
-    .attr('height',h)
-    .attr('x', function(d) {
-      return (d[2] * w) + 90;
-    })
-    .attr('y', function(d) {
-      return (d[1] * h) + 100;
-    })
-    .style('fill',function(d) {
-      return colorScale(d[0]);
-    }).on("mouseover", function() {
-      d3.select(this).append("svg:title")
-      .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
-      .attr("x", function(d) {return 0;})
-      .attr("y", function (d) {return 0;}); 
-    }).on('click', function(d){
-      // Show extra data on the right-hand side
-      displayData(order[d[1]], order[d[2]], d[0]);
-      // Redraw the columns to color the selected scripts
-      redrawColumnLabels(mySVG, data, order[d[1]], order[d[2]]);
+      .selectAll(".rect")
+      .data(function(d) {
+        return d;
+      }).enter().append("svg:rect")
+      .attr('width',w)
+      .attr('height',h)
+      .attr('x', function(d) {
+        return (d[2] * w) + 90;
+      })
+      .attr('y', function(d) {
+        return (d[1] * h) + 100;
+      })
+      .style('fill',function(d) {
+        if (d[1] <= d[2]) {
+          return "none";
+        }
+        return colorScale(d[0]);
+      }).on("mouseover", function() {
+        d3.select(this).append("svg:title")
+        .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
+        .attr("x", function(d) {return 0;})
+        .attr("y", function (d) {return 0;}); 
+      }).on('click', function(d){
+        // Show extra data on the right-hand side
+        displayData(order[d[1]], order[d[2]], d[0]);
+        // Redraw the columns to color the selected scripts
+        redrawColumnLabels(mySVG, data, order[d[1]], order[d[2]]);
 
-      // Highlight selected rect and unselect previous
-      self = d3.select(this);
-      self.attr('class', 'selected');
-      if (lastSelected) lastSelected.attr('class', '');
-      lastSelected = self;
+        // Highlight selected rect and unselect previous
+        self = d3.select(this);
+        self.attr('class', 'selected');
+        if (lastSelected) lastSelected.attr('class', '');
+        lastSelected = self;
 
-      redrawSelectedNodes(order[d[1]], order[d[2]]);
-    });
+        redrawSelectedNodes(order[d[1]], order[d[2]]);
+      });
 
     // First time we create the labels - redrawColumnLabels will update
     var columnLabel = mySVG.selectAll(".colLabel")

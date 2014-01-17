@@ -60,7 +60,17 @@ function generateRepCharsDiv(parent, data) {
         });
 }
 
-function generateScatterPlot(chars, clusters_pts, width, height, padding, show_chars) {
+function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
+    if (show_chars) {
+        padding = 40;
+        height = 500;
+        width = 500;
+    } else {
+        padding = 0;
+        height = 50;
+        width = 50;
+    }
+
     var xScale = d3.scale.linear()
         .domain([0, 50])
         .range([padding, width]);
@@ -70,9 +80,7 @@ function generateScatterPlot(chars, clusters_pts, width, height, padding, show_c
         .range([height - padding, padding]);
 
     //Create SVG element
-    var svg = d3.select("body")
-        .append("svg")
-        .attr("id", "scatter_svg")
+    svg.attr("id", "scatter_svg")
         .attr("width", width + margin)
         .attr("height", height + margin);
 
@@ -106,7 +114,7 @@ function generateScatterPlot(chars, clusters_pts, width, height, padding, show_c
             .attr("cy", function(d) {
                  return yScale(d[1]);
             })
-            .attr("r", 2)
+            .attr("r", 1)
             .attr("style", function(d){
                  return "fill:"+fillColor(d[2]);
             });
@@ -170,12 +178,25 @@ function generateScatterPlot(chars, clusters_pts, width, height, padding, show_c
     }
 }
 
+function getRect(svg, script) {
+    fillColor = d3.scale.ordinal()
+        .domain([0, 1, 2])
+        .range(["#CC0066", "#6666FF", "#669900"]);
+
+    d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
+        var chars = dataset['chars'];
+        var clusters_pts = dataset['clusters'];
+        generateScatterPlot(svg, chars, clusters_pts, false);
+    });
+}
+
 function loadChars() {
     fillColor = d3.scale.ordinal()
         .domain([0, 1, 2])
         .range(["#CC0066", "#6666FF", "#669900"]);
 
     var script_name = getParameterByName("script");
+    var show_chars = getParameterByName("large");
     d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
         var clusters_pts = dataset['clusters']
@@ -184,6 +205,7 @@ function loadChars() {
         // Display representative chars
         generateRepCharsDiv(d3.select("body"), rep_chars);
 
-        generateScatterPlot(chars, clusters_pts, 500, 500, 40, true);
+        var svg = d3.select("body").append("svg");
+        generateScatterPlot(svg, chars, clusters_pts, show_chars === 'true');
     });
 }
