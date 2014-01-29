@@ -48,7 +48,7 @@ function load(order) {
       })
       .style('fill',function(d) {
         if (d[1] <= d[2]) {
-          return "none";
+          //return "none";
         }
         return colorScale(d[0]);
       }).on("mouseover", function() {
