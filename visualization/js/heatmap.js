@@ -47,8 +47,8 @@ function load(order) {
         return (d[1] * h) + 100;
       })
       .style('fill',function(d) {
-        if (d[1] <= d[2]) {
-          //return "none";
+        if (d[1] == d[2]) {
+          //TODO: add small scatter plots
         }
         return colorScale(d[0]);
       }).on("mouseover", function() {
