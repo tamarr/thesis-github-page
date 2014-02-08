@@ -7,7 +7,7 @@
 #
 #  Assuming the ttf file and input file in a data folder from currently run script
 #  this script will generate the statistics for each character in the given ranges
-#  for the given languages, as well as general statistics for the language
+#  for the given scripts, as well as general statistics for the script
 #
 # -----------------------------------------------------------------------------
 
@@ -80,10 +80,10 @@ if __name__ == '__main__':
     face = Face('data/Arial Unicode.ttf')
     face.set_char_size( 48*64 )
 
-    languages_arr = []
+    scripts_arr = []
     for scriptName, charsRange in scripts.items():
         print scriptName
-        language_dic = {"language": scriptName, "chars": []}
+        script_dic = {"script": scriptName, "chars": []}
 
         total_chars, total_contours, total_lines, total_curves = 0,0,0,0
 
@@ -97,20 +97,20 @@ if __name__ == '__main__':
             total_curves = total_curves + curves
             char_dic = {"char": ch.encode('utf-8'), "contours": str(contours),
                         "lines": str(lines),"curves": str(curves)}
-            language_dic["chars"].append(char_dic)
+            script_dic["chars"].append(char_dic)
 
         total_chars = float(total_chars)
-        language_dic["total_chars"] = total_chars
-        language_dic["total_contours"] = total_contours
-        language_dic["evarage_contours"] = (total_contours/total_chars)
-        language_dic["total_lines"] = total_lines
-        language_dic["evarage_lines"] = (total_lines/total_chars)
-        language_dic["total_curves"] = total_curves
-        language_dic["evarage_curves"] = (total_curves / total_chars)
-        languages_arr.append(language_dic)
+        script_dic["total_chars"] = total_chars
+        script_dic["total_contours"] = total_contours
+        script_dic["evarage_contours"] = (total_contours/total_chars)
+        script_dic["total_lines"] = total_lines
+        script_dic["evarage_lines"] = (total_lines/total_chars)
+        script_dic["total_curves"] = total_curves
+        script_dic["evarage_curves"] = (total_curves / total_chars)
+        scripts_arr.append(script_dic)
 
     outputFile = open('data/output.json','w')
-    outputFile.write('{\n"languages":')
-    outputFile.write(json.dumps(languages_arr,indent=4))
+    outputFile.write('{\n"scripts":')
+    outputFile.write(json.dumps(scripts_arr,indent=4))
     outputFile.write('}')
     outputFile.close()

@@ -1,8 +1,8 @@
 {
-"languages":[
+"scripts":[
     {
         "evarage_contours": 2.7346938775510203, 
-        "language": "Telugu", 
+        "script": "Telugu", 
         "chars": [
             {
                 "char": "\u0c05", 
@@ -308,7 +308,7 @@
     }, 
     {
         "evarage_contours": 1.515625, 
-        "language": "Cyrillic", 
+        "script": "Cyrillic", 
         "chars": [
             {
                 "char": "\u0410", 
@@ -704,7 +704,7 @@
     }, 
     {
         "evarage_contours": 1.7681159420289856, 
-        "language": "Greek", 
+        "script": "Greek", 
         "chars": [
             {
                 "char": "\u0386", 
@@ -1130,7 +1130,7 @@
     }, 
     {
         "evarage_contours": 2.16, 
-        "language": "Malayalam", 
+        "script": "Malayalam", 
         "chars": [
             {
                 "char": "\u0d05", 
@@ -1442,7 +1442,7 @@
     }, 
     {
         "evarage_contours": 2.3846153846153846, 
-        "language": "Thai", 
+        "script": "Thai", 
         "chars": [
             {
                 "char": "\u0e01", 
@@ -1766,7 +1766,7 @@
     }, 
     {
         "evarage_contours": 1.3461538461538463, 
-        "language": "Latin", 
+        "script": "Latin", 
         "chars": [
             {
                 "char": "A", 
@@ -2090,7 +2090,7 @@
     }, 
     {
         "evarage_contours": 2.0625, 
-        "language": "Gujarati", 
+        "script": "Gujarati", 
         "chars": [
             {
                 "char": "\u0a85", 
@@ -2390,7 +2390,7 @@
     }, 
     {
         "evarage_contours": 1.1481481481481481, 
-        "language": "Hebrew", 
+        "script": "Hebrew", 
         "chars": [
             {
                 "char": "\u05d0", 
@@ -2564,7 +2564,7 @@
     }, 
     {
         "evarage_contours": 3.5, 
-        "language": "Devanagari", 
+        "script": "Devanagari", 
         "chars": [
             {
                 "char": "\u0904", 
@@ -2960,7 +2960,7 @@
     }, 
     {
         "evarage_contours": 2.2777777777777777, 
-        "language": "Arabic", 
+        "script": "Arabic", 
         "chars": [
             {
                 "char": "\u0621", 
@@ -3188,7 +3188,7 @@
     }, 
     {
         "evarage_contours": 2.3714285714285714, 
-        "language": "Tamil", 
+        "script": "Tamil", 
         "chars": [
             {
                 "char": "\u0b85", 
