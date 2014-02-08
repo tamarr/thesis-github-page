@@ -35,35 +35,35 @@ order = [
 ]
 
 # Sort the list by order
-languages_info = data['languages']
-languages_info.sort(key=lambda x: order.index(x["language"]))
+scripts_info = data['scripts']
+scripts_info.sort(key=lambda x: order.index(x["script"]))
 
 names_arr = []
 data_arr = []
-languages_data = {}
+scripts_data = {}
 maxData = 0
 row_index = 0
-for language1 in languages_info:
+for script1 in scripts_info:
 
-	lang1_name = language1['language']
+	lang1_name = script1['script']
 	names_arr.append(lang1_name)
 	row_arr, charsArr = [], []
 	col_index = 0
 
 	# Now iterate through the rest of the chars and determine link weight
-	for language2 in languages_info:
-		lang2_name = language2['language']
-		weight = 0 if lang1_name == lang2_name else getDiffFromDictionary(language1, language2)
+	for script2 in scripts_info:
+		lang2_name = script2['script']
+		weight = 0 if lang1_name == lang2_name else getDiffFromDictionary(script1, script2)
 		if weight > maxData: maxData = weight
 		row_arr.append([weight, row_index, col_index])
 		col_index += 1
 
 	data_arr.append(row_arr)
 
-	for char in language1['chars']:
+	for char in script1['chars']:
 		charsArr.append(char['char'])
 
-	languages_data[lang1_name] = charsArr
+	scripts_data[lang1_name] = charsArr
 	row_index += 1
 
 # Normalize weights to be from 0 (greatest difference) to 1 (identity)
@@ -72,13 +72,13 @@ for row in data_arr:
         value = entry[0]
         entry[0] = 0 if value == maxData else (value - maxData)*(-1)/maxData
 
-outputFile = open('data/languages_heatmap.json', 'w')
+outputFile = open('data/scripts_heatmap.json', 'w')
 outputFile.write('{\n"labels":')
 outputFile.write(json.dumps(names_arr,indent=4))
 outputFile.write(',\n"data":')
 outputFile.write(json.dumps(data_arr,indent=4))
-outputFile.write(',\n"languages_data":')
-outputFile.write(json.dumps(languages_data,indent=4))
+outputFile.write(',\n"scripts_data":')
+outputFile.write(json.dumps(scripts_data,indent=4))
 outputFile.write(',\n"minData":0,\n"maxData":100')
 outputFile.write('\n}')
 outputFile.close()

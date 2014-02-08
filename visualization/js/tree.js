@@ -26,7 +26,7 @@ function generate_lang(order) {
         // Remove nodes with one child (single line) to avoid clutter
         for (var i = 0; i < 5; i++) {
             // Break if this is not a single line node OR if this is the origin 
-            // OR if this language has a script associated OR if this is a live script
+            // OR if this script has a script associated OR if this is a live script
             if (!d.children || d.children.length !== 1) {
                 break;
             }

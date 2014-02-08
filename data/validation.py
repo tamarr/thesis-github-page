@@ -4,7 +4,7 @@
 #
 #  This script was created by Tamar Rucham
 #
-#  Measures the the algorithm in data_collection and languages_heatmap_results
+#  Measures the the algorithm in data_collection and scripts_heatmap_results
 #
 # -----------------------------------------------------------------------------
 
@@ -30,7 +30,7 @@ if __name__ == '__main__':
     import json
     import copy
     import random
-    from languages_heatmap_results import getDiffFromDictionary
+    from scripts_heatmap_results import getDiffFromDictionary
 
 
     face = Face('data/Arial Unicode.ttf')

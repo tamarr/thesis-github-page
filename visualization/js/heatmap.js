@@ -16,11 +16,11 @@ function load(order) {
   .attr("height", height)
   .attr('class','heatmap');
 
-  d3.json("data/languages_heatmap.json", function(error, data) {
+  d3.json("data/scripts_heatmap.json", function(error, data) {
     var hash_lookup = [];
 
     //initialize data section
-    loadData(data['languages_data']);
+    loadData(data['scripts_data']);
 
     //define a color scale using the min and max expression values
     var colorScale = d3.scale.linear()

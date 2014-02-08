@@ -5,7 +5,7 @@ by Peter Harrington
 '''
 from numpy import *
 import json
-from languages_heatmap_results import distEclud, order
+from scripts_heatmap_results import distEclud, order
 
 def getDiff(char1, char2):
     return distEclud(char1[0,0], char1[0,1], char2[0,0], char2[0,1])

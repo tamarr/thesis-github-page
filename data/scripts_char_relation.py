@@ -5,8 +5,8 @@ if __name__ == '__main__':
     data = json.load(inputFile)
     inputFile.close()
 
-    for script in data['languages']:
-        name = script['language']
+    for script in data['scripts']:
+        name = script['script']
         outputFile = open('data/chars/'+name+'_chars.json', 'w')
         outputFile.write(json.dumps({'name':name, 'chars':script['chars']},indent=4))
         outputFile.close()
