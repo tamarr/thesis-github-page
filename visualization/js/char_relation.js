@@ -182,7 +182,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
 function getRect(svg, script) {
     fillColor = d3.scale.ordinal()
         .domain([0, 1, 2])
-        .range(["#CC0066", "#6666FF", "#669900"]);
+        .range(["#F0B2D1", "#C2C2FF", "#D1E0B2"]);
 
     d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
