@@ -1,7 +1,5 @@
-#scatter_svg {
-    position: relative;
-    left: 50px;
-    top: 100px;
+.scatter_svg {
+    border: 2px solid black;
 }
 
 #rep_chars_div {
@@ -40,6 +38,7 @@
 .axis line {
     fill: none;
     stroke: black;
+    stroke-width: 2px;
     shape-rendering: crispEdges;
 }
 

@@ -69,6 +69,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
         padding = 0;
         height = 50;
         width = 50;
+        margin = 0;
     }
 
     var xScale = d3.scale.linear()
@@ -80,7 +81,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
         .range([height - padding, padding]);
 
     //Create SVG element
-    svg.attr("id", "scatter_svg")
+    svg.attr("class", "scatter_svg")
         .attr("width", width + margin)
         .attr("height", height + margin);
 

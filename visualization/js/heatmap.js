@@ -41,14 +41,14 @@ function load(order) {
       .attr('width',w)
       .attr('height',h)
       .attr('x', function(d) {
-        return (d[2] * w) + 90;
+        return getRectXY(w, d[2], 90);
       })
       .attr('y', function(d) {
-        return (d[1] * h) + 100;
+        return getRectXY(h, d[1], 100);
       })
       .style('fill',function(d) {
         if (d[1] == d[2]) {
-          //TODO: add small scatter plots
+          return 'none';
         }
         return colorScale(d[0]);
       }).on("mouseover", function() {
@@ -70,6 +70,14 @@ function load(order) {
 
         redrawSelectedNodes(order[d[1]], order[d[2]]);
       });
+
+    for (var i = 0; i < data.labels.length; i++) {
+      var svg = mySVG.append('svg')
+        .attr('x', getRectXY(w, i, 90))
+        .attr('y', getRectXY(h, i, 100));
+
+      getRect(svg, data.labels[i]);
+    }
 
     // First time we create the labels - redrawColumnLabels will update
     var columnLabel = mySVG.selectAll(".colLabel")
@@ -102,4 +110,8 @@ function redrawColumnLabels(svg, data, script1, script2) {
 
 function getLabelX(i, w) {
   return ((i + 0.5) * w) + 70;
+}
+
+function getRectXY(m, i, padd) {
+  return (i * m) + padd;
 }
