@@ -2,7 +2,7 @@ var color = 'green';
 var svg = null;
 
 function generate_lang(order) {
-  d3.json("data/Egyptian_hieroglyphs_script.json", function(error, data) {  
+  d3.json("data/tree.json", function(error, data) {  
     svg = d3.select("body")
       .append("svg")
       .attr('class','tree');
