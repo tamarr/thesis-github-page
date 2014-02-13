@@ -40,13 +40,13 @@
     color: green;
 }
 
-.axis text {
+.scale text {
   font: 0.8em Arial;
   fill: green;
 }
 
-.axis path,
-.axis line {
+.scale path,
+.scale line {
   fill: none;
   stroke: green;
 }

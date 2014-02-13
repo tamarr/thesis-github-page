@@ -17,7 +17,7 @@ function loadData(script_chars) {
       .append("g").attr("transform", "translate(30,10)");
 
     svg.append("g")
-        .attr("class", "x axis");
+        .attr("class", "x axis scale");
 
     // Setup the map
     var width = 400,
@@ -90,7 +90,7 @@ function displayData(script1, script2, weight) {
     document.getElementById('script1').innerHTML = script1Chars;
     document.getElementById('script2').innerHTML = script2Chars;
 
-    scale = d3.select(".axis")
+    scale = d3.select(".scale")
 
     var x = d3.scale.linear()
         .domain([0, 1])
