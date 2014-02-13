@@ -1,4 +1,5 @@
 var data = null;
+var static_data = null;
 var div = null;
 
 function loadData(script_chars) {
@@ -58,6 +59,10 @@ function loadData(script_chars) {
           .attr("class", "boundary")
           .attr("d", path);
     });
+
+    d3.json("data/static_data.json", function(error, stats) {
+        static_data = stats;
+    });
 }
 
 function convertArrayToStr(arr) {
@@ -84,8 +89,10 @@ function displayData(script1, script2, weight) {
     document.getElementById('data').style.visibility = 'visible';
 
     // Put all chars in a column
-    var script1Chars = '<div class="scriptName">' + script1 + '</div>' + convertArrayToStr(data[script1]);
-    var script2Chars = '<div class="scriptName">' + script2 + '</div>' + convertArrayToStr(data[script2]);
+    var script1Link = static_data[script1]["wiki_link"];
+    var script2Link = static_data[script2]["wiki_link"];
+    var script1Chars = '<a href="' + script1Link + '" target="_blank"><div class="scriptName script1_color">' + script1 + '</div></a>' + convertArrayToStr(data[script1]);
+    var script2Chars = '<a href="' + script2Link + '" target="_blank"><div class="scriptName script2_color">' + script2 + '</div></a>' + convertArrayToStr(data[script2]);
 
     document.getElementById('script1').innerHTML = script1Chars;
     document.getElementById('script2').innerHTML = script2Chars;

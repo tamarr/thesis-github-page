@@ -19,6 +19,7 @@
 .scriptName {
     font-weight: bold;
     margin: 2px;
+    text-decoration:underline;
 }
 
 #script1 {

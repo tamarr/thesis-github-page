@@ -1,80 +1,157 @@
-[
-    {
-        "Greek": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Greek_script",
-            "origin_time": "800 BC",
-            "countries": ["GRC"]
-        }
+{
+    "Greek": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Greek_script",
+        "origin_time": "800 BC",
+        "countries": [
+            "GRC"
+        ]
     },
-    {
-        "Latin": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Latin_alphabet",
-            "origin_time": "700 BC",
-            "countries": ["USA","CAN","BRA","COL","MEX","ARG","PER","CHL","VEN","GTM","ECU","CUB","HTI","BOL","DOM","HND","SLV","PRY",
-            "CRI","NIC","PAN","URY","TTO","JAM","SUR","GUY","ISL","GRL","AUS","NZL","IDN","PNG","VNM","PHL","MYS","HRV","SRB"]
-        }
+    "Latin": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Latin_alphabet",
+        "origin_time": "700 BC",
+        "countries": [
+            "USA",
+            "CAN",
+            "BRA",
+            "COL",
+            "MEX",
+            "ARG",
+            "PER",
+            "CHL",
+            "VEN",
+            "GTM",
+            "ECU",
+            "CUB",
+            "HTI",
+            "BOL",
+            "DOM",
+            "HND",
+            "SLV",
+            "PRY",
+            "CRI",
+            "NIC",
+            "PAN",
+            "URY",
+            "TTO",
+            "JAM",
+            "SUR",
+            "GUY",
+            "ISL",
+            "GRL",
+            "AUS",
+            "NZL",
+            "IDN",
+            "PNG",
+            "VNM",
+            "PHL",
+            "MYS",
+            "HRV",
+            "SDN",
+            "TCD",
+            "SOM",
+            "SRB"
+        ],
+        "africa_except": [
+            "EGY",
+            "LBY",
+            "TUN",
+            "MAR",
+            "MRT",
+            "ETH"
+        ]
     },
-    {
-        "Cyrillic": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Cyrillic_script",
-            "origin_time": "890 BC",
-            "countries": ["rus","MNG","KAZ","KGZ","TJK","BLR","UKR","BGR","MKD","HRV","SRB"]
-        }
+    "Cyrillic": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Cyrillic_script",
+        "origin_time": "890 BC",
+        "countries": [
+            "rus",
+            "MNG",
+            "KAZ",
+            "KGZ",
+            "TJK",
+            "BLR",
+            "UKR",
+            "BGR",
+            "MKD",
+            "HRV",
+            "SRB"
+        ]
     },
-    {
-        "Hebrew": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Hebrew_script",
-            "origin_time": "300 BC",
-            "countries": ["ISR"]
-        }
+    "Hebrew": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Hebrew_script",
+        "origin_time": "300 BC",
+        "countries": [
+            "ISR"
+        ]
     },
-    {
-        "Arabic": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Arabic_script",
-            "origin_time": "400 AD",
-            "countries": []
-        }
+    "Arabic": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Arabic_script",
+        "origin_time": "400 AD",
+        "countries": [
+            "AFG",
+            "PAK",
+            "IRN",
+            "IRQ",
+            "SAU",
+            "SYR",
+            "YEM",
+            "JOR",
+            "EGY",
+            "LBY",
+            "TUN",
+            "MAR",
+            "MRT",
+            "OMN",
+            "LBN",
+            "SDN",
+            "TCD",
+            "SOM",
+            "ISR"
+        ]
     },
-    {
-        "Thai": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Thai_script",
-            "origin_time": "1283 AD",
-            "countries": []
-        }
+    "Thai": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Thai_script",
+        "origin_time": "1283 AD",
+        "countries": [
+            "THA"
+        ]
     },
-    {
-        "Tamil": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Tamil_script",
-            "origin_time": "600 AD",
-            "countries": []
-        }
+    "Tamil": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Tamil_script",
+        "origin_time": "600 AD",
+        "countries": [
+            "LKA",
+            "IND"
+        ]
     },
-    {
-        "Malayalam": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Malayalam_script",
-            "origin_time": "830 AD",
-            "countries": []
-        }
+    "Malayalam": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Malayalam_script",
+        "origin_time": "830 AD",
+        "countries": [
+            "IND"
+        ]
     },
-    {
-        "Telugu": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Telugu_script",
-            "origin_time": "1100 AD",
-            "countries": []
-        }
+    "Telugu": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Telugu_script",
+        "origin_time": "1100 AD",
+        "countries": [
+            "IND"
+        ]
     },
-    {
-        "Gujarati": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Gujarati_script",
-            "origin_time": "1592 AD",
-            "countries": []
-        }
+    "Gujarati": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Gujarati_script",
+        "origin_time": "1592 AD",
+        "countries": [
+            "NPL",
+            "IND"
+        ]
     },
-    {
-        "Devanagari": {
-            "wiki_link": "http://en.wikipedia.org/wiki/Devanagari_script",
-            "origin_time": "1100 AD",
-            "countries": []
-        }
+    "Devanagari": {
+        "wiki_link": "http://en.wikipedia.org/wiki/Devanagari_script",
+        "origin_time": "1100 AD",
+        "countries": [
+            "NPL",
+            "IND"
+        ]
     }
-]
+}
