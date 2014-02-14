@@ -17,8 +17,10 @@ function loadData(script_chars) {
     var svg = div.append("svg").attr('id', 'scale')
       .append("g").attr("transform", "translate(30,10)");
 
-    svg.append("g")
+    var scale = svg.append("g")
         .attr("class", "x axis scale");
+
+    generateScale(scale, [0,1]);
 
     // Setup the map
     var width = 400,
@@ -86,8 +88,6 @@ function displayData(script1, script2, weight) {
         return;
     }
 
-    document.getElementById('data').style.visibility = 'visible';
-
     // Put all chars in a column
     var script1Link = static_data[script1]["wiki_link"];
     var script2Link = static_data[script2]["wiki_link"];
@@ -99,13 +99,17 @@ function displayData(script1, script2, weight) {
 
     scale = d3.select(".scale")
 
-    var x = d3.scale.linear()
+    generateScale(scale, [0, weight, 1]);
+}
+
+function generateScale(scale, tickValues) {
+        var x = d3.scale.linear()
         .domain([0, 1])
         .range([0, 350]);
 
     var xAxis = d3.svg.axis()
         .scale(x)
-        .tickValues([0, weight, 1])
+        .tickValues(tickValues)
         .tickFormat(d3.format(".2g"))
         .orient("bottom");
 

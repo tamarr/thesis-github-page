@@ -115,7 +115,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
             .attr("cy", function(d) {
                  return yScale(d[1]);
             })
-            .attr("r", 1)
+            .attr("r", 1.5)
             .attr("style", function(d){
                  return "fill:"+fillColor(d[2]);
             });
