@@ -27,12 +27,24 @@
     margin: 30px;
 }
 
+.subtitle {
+    font-family: Arial;
+    font-size:1.3em;    
+}
+
 .orange {
     color: #D47A1F;
 }
 
 .name {
     font-family: Arial;
-    font-size:1.1em; 
+    font-size:1em; 
     color: #B2215B;
+    margin: 30px;
+}
+
+.bottomDiv {
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
 }
