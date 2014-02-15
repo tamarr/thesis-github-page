@@ -9,3 +9,30 @@
     fill: #DF2972;
     font-weight: bold;
 }
+
+#header {
+    position: relative;
+    top: 15px;
+    text-align: center;
+    border-bottom: 1px solid #D47A1F;
+    padding-bottom: 10px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.title {
+    font-family: Arial;
+    font-size:1.5em;
+    color: green;
+    margin: 30px;
+}
+
+.orange {
+    color: #D47A1F;
+}
+
+.name {
+    font-family: Arial;
+    font-size:1.1em; 
+    color: #B2215B;
+}
