@@ -110,8 +110,8 @@ function displayData(script1, script2, weight) {
 
     generateScale(scale, [0, weight, 1]);
 
-    var script1Countries = static_data[script1]['countries'];
-    var script2Countries = static_data[script2]['countries'];
+    var script1Info = static_data[script1];
+    var script2Info = static_data[script2];
 
     map.selectAll('.country').data(countries)
         .style("fill", function(d){
@@ -119,12 +119,14 @@ function displayData(script1, script2, weight) {
                 return "none";
             } 
 
+            // Check if script 1, 2 or both is used in this country
             var result = 0
-            if (script1Countries.indexOf(countryCodes[d.id]) > -1) {
+            var countryInfo = countryCodes[d.id];
+            if (isCountryInScriptLists(countryInfo, script1Info)) {
                 result = 1;
             };
 
-            if (script2Countries.indexOf(countryCodes[d.id]) > -1) {
+            if (isCountryInScriptLists(countryInfo, script2Info)) {
                 if (result == 1) {
                     result = 3;
                 } else {
@@ -138,12 +140,36 @@ function displayData(script1, script2, weight) {
                 case 2:
                     return '#DF2972';
                 case 3:
-                    return '#800000'
+                    return '#800000';
                 case 0:
                 default:
                     return "#ABDDA4";
             }
         });
+}
+
+function isCountryInScriptLists(countryInfo, scriptInfo) {
+    if (countryInfo==undefined) {
+        return false;
+    };
+
+    var countryCode = countryInfo['alphaCode'];
+    if (scriptInfo['countries'].indexOf(countryCode) > -1) {
+        return true;
+    };
+
+    var countryContinent = countryInfo['region'];
+    var africa = scriptInfo['africa_except'];
+    if (africa != undefined && countryContinent === 'Africa' && africa.indexOf(countryCode) <= -1) {
+        return true;
+    }
+
+    var europe = scriptInfo['europe_except'];
+    if (europe != undefined && countryContinent === 'Europe' && europe.indexOf(countryCode) <= -1) {
+        return true;
+    }
+
+    return false;
 }
 
 function generateScale(scale, tickValues) {

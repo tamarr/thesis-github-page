@@ -11,6 +11,7 @@
         "origin_time": "700 BC",
         "countries": [
             "USA",
+            "AUS",
             "CAN",
             "BRA",
             "COL",
@@ -49,6 +50,7 @@
             "SDN",
             "TCD",
             "SOM",
+            "AGO",
             "SRB"
         ],
         "africa_except": [
@@ -58,13 +60,25 @@
             "MAR",
             "MRT",
             "ETH"
+        ],
+        "europe_except": [
+            "GRC",
+            "RUS",
+            "MNG",
+            "KAZ",
+            "KGZ",
+            "TJK",
+            "BLR",
+            "UKR",
+            "BGR",
+            "HRV"
         ]
     },
     "Cyrillic": {
         "wiki_link": "http://en.wikipedia.org/wiki/Cyrillic_script",
         "origin_time": "890 BC",
         "countries": [
-            "rus",
+            "RUS",
             "MNG",
             "KAZ",
             "KGZ",
@@ -74,6 +88,7 @@
             "BGR",
             "MKD",
             "HRV",
+            "BIH",
             "SRB"
         ]
     },

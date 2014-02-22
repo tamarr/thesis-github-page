@@ -1,251 +1,998 @@
 {
-    "214": "DOM", 
-    "212": "DMA", 
-    "090": "SLB", 
-    "666": "SPM", 
-    "092": "VGB", 
-    "663": "MAF", 
-    "662": "LCA", 
-    "096": "BRN", 
-    "660": "AIA", 
-    "010": "ATA", 
-    "132": "CPV", 
-    "012": "DZA", 
-    "620": "PRT", 
-    "498": "MDA", 
-    "136": "CYM", 
-    "016": "ASM", 
-    "804": "UKR", 
-    "218": "ECU", 
-    "492": "MCO", 
-    "690": "SYC", 
-    "694": "SLE", 
-    "818": "EGY", 
-    "288": "GHA", 
-    "540": "NCL", 
-    "404": "KEN", 
-    "340": "HND", 
-    "400": "JOR", 
-    "570": "NIU", 
-    "882": "WSM", 
-    "504": "MAR", 
-    "348": "HUN", 
-    "760": "SYR", 
-    "408": "PRK", 
-    "336": "VAT", 
-    "678": "STP", 
-    "674": "SMR", 
-    "716": "ZWE", 
-    "670": "VCT", 
-    "710": "ZAF", 
-    "120": "CMR", 
-    "024": "AGO", 
-    "752": "SWE", 
-    "260": "ATF", 
-    "124": "CAN", 
-    "020": "AND", 
-    "268": "GEO", 
-    "028": "ATG", 
-    "414": "KWT", 
-    "535": "BES", 
-    "417": "KGZ", 
-    "533": "ABW", 
-    "531": "CUW", 
-    "296": "KIR", 
-    "372": "IRL", 
-    "292": "GIB", 
-    "776": "TON", 
-    "376": "ISR", 
-    "591": "PAN", 
-    "586": "PAK", 
-    "704": "VNM", 
-    "312": "GLP", 
-    "706": "SOM", 
-    "196": "CYP", 
-    "191": "HRV", 
-    "316": "GUM", 
-    "702": "SGP", 
-    "192": "CUB", 
-    "270": "GMB", 
-    "392": "JPN", 
-    "116": "KHM", 
-    "275": "PSE", 
-    "276": "DEU", 
-    "112": "BLR", 
-    "032": "ARG", 
-    "031": "AZE", 
-    "036": "AUS", 
-    "250": "FRA", 
-    "832": "JEY", 
-    "833": "IMN", 
-    "795": "TKM", 
-    "831": "GGY", 
-    "792": "TUR", 
-    "762": "TJK", 
-    "798": "TUV", 
-    "524": "NPL", 
-    "428": "LVA", 
-    "534": "SXM", 
-    "520": "NRU", 
-    "254": "GUF", 
-    "368": "IRQ", 
-    "410": "KOR", 
-    "364": "IRN", 
-    "422": "LBN", 
-    "528": "NLD", 
-    "360": "IDN", 
-    "426": "LSO", 
-    "308": "GRD", 
-    "584": "MHL", 
-    "585": "PLW", 
-    "583": "FSM", 
-    "580": "MNP", 
-    "581": "UMI", 
-    "300": "GRC", 
-    "442": "LUX", 
-    "440": "LTU", 
-    "304": "GRL", 
-    "446": "MAC", 
-    "380": "ITA", 
-    "108": "BDI", 
-    "246": "FIN", 
-    "384": "CIV", 
-    "048": "BHR", 
-    "388": "JAM", 
-    "100": "BGR", 
-    "044": "BHS", 
-    "248": "ALA", 
-    "104": "MMR", 
-    "040": "AUT", 
-    "784": "ARE", 
-    "729": "SDN", 
-    "780": "TTO", 
-    "840": "USA", 
-    "418": "LAO", 
-    "768": "TGO", 
-    "788": "TUN", 
-    "764": "THA", 
-    "643": "RUS", 
-    "642": "ROU", 
-    "438": "LIE", 
-    "646": "RWA", 
-    "434": "LBY", 
-    "512": "OMN", 
-    "430": "LBR", 
-    "516": "NAM", 
-    "458": "MYS", 
-    "740": "SUR", 
-    "826": "GBR", 
-    "578": "NOR", 
-    "887": "YEM", 
-    "626": "TLS", 
-    "624": "GNB", 
-    "450": "MDG", 
-    "334": "HMD", 
-    "242": "FJI", 
-    "454": "MWI", 
-    "332": "HTI", 
-    "144": "LKA", 
-    "258": "PYF", 
-    "178": "COG", 
-    "574": "NFK", 
-    "744": "SJM", 
-    "056": "BEL", 
-    "174": "COM", 
-    "050": "BGD", 
-    "051": "ARM", 
-    "052": "BRB", 
-    "170": "COL", 
-    "854": "BFA", 
-    "344": "HKG", 
-    "484": "MEX", 
-    "850": "VIR", 
-    "175": "MYT", 
-    "858": "URY", 
-    "654": "SHN", 
-    "180": "COD", 
-    "732": "ESH", 
-    "652": "BLM", 
-    "184": "COK", 
-    "598": "PNG", 
-    "796": "TCA", 
-    "188": "CRI", 
-    "500": "MSR", 
-    "659": "KNA", 
-    "630": "PRI", 
-    "060": "BMU", 
-    "634": "QAT", 
-    "064": "BTN", 
-    "638": "REU", 
-    "068": "BOL", 
-    "562": "NER", 
-    "466": "MLI", 
-    "566": "NGA", 
-    "462": "MDV", 
-    "226": "GNQ", 
-    "166": "CCK", 
-    "703": "SVK", 
-    "222": "SLV", 
-    "162": "CXR", 
-    "860": "UZB", 
-    "862": "VEN", 
-    "724": "ESP", 
-    "158": "TWN", 
-    "728": "SSD", 
-    "239": "SGS", 
-    "076": "BRA", 
-    "604": "PER", 
-    "074": "BVT", 
-    "152": "CHL", 
-    "072": "BWA", 
-    "558": "NIC", 
-    "070": "BIH", 
-    "156": "CHN", 
-    "748": "SWZ", 
-    "554": "NZL", 
-    "608": "PHL", 
-    "238": "FLK", 
-    "499": "MNE", 
-    "756": "CHE", 
-    "234": "FRO", 
-    "231": "ETH", 
-    "232": "ERI", 
-    "233": "EST", 
-    "496": "MNG", 
-    "398": "KAZ", 
-    "600": "PRY", 
-    "876": "WLF", 
-    "800": "UGA", 
-    "320": "GTM", 
-    "324": "GIN", 
-    "328": "GUY", 
-    "688": "SRB", 
-    "203": "CZE", 
-    "508": "MOZ", 
-    "894": "ZMB", 
-    "204": "BEN", 
-    "140": "CAF", 
-    "772": "TKL", 
-    "612": "PCN", 
-    "208": "DNK", 
-    "616": "POL", 
-    "086": "IOT", 
-    "148": "TCD", 
-    "084": "BLZ", 
-    "004": "AFG", 
-    "008": "ALB", 
-    "480": "MUS", 
-    "686": "SEN", 
-    "834": "TZA", 
-    "262": "DJI", 
-    "705": "SVN", 
-    "356": "IND", 
-    "470": "MLT", 
-    "548": "VUT", 
-    "352": "ISL", 
-    "474": "MTQ", 
-    "478": "MRT", 
-    "682": "SAU", 
-    "807": "MKD", 
-    "266": "GAB"
+    "512": {
+        "alphaCode": "OMN", 
+        "region": "Asia"
+    }, 
+    "4": {
+        "alphaCode": "AFG", 
+        "region": "Asia"
+    }, 
+    "598": {
+        "alphaCode": "PNG", 
+        "region": "Oceania"
+    }, 
+    "8": {
+        "alphaCode": "ALB", 
+        "region": "Europe"
+    }, 
+    "10": {
+        "alphaCode": "ATA", 
+        "region": ""
+    }, 
+    "12": {
+        "alphaCode": "DZA", 
+        "region": "Africa"
+    }, 
+    "16": {
+        "alphaCode": "ASM", 
+        "region": "Oceania"
+    }, 
+    "531": {
+        "alphaCode": "CUW", 
+        "region": "Americas"
+    }, 
+    "20": {
+        "alphaCode": "AND", 
+        "region": "Europe"
+    }, 
+    "533": {
+        "alphaCode": "ABW", 
+        "region": "Americas"
+    }, 
+    "534": {
+        "alphaCode": "SXM", 
+        "region": "Americas"
+    }, 
+    "535": {
+        "alphaCode": "BES", 
+        "region": "Americas"
+    }, 
+    "24": {
+        "alphaCode": "AGO", 
+        "region": "Africa"
+    }, 
+    "516": {
+        "alphaCode": "NAM", 
+        "region": "Africa"
+    }, 
+    "28": {
+        "alphaCode": "ATG", 
+        "region": "Americas"
+    }, 
+    "31": {
+        "alphaCode": "AZE", 
+        "region": "Asia"
+    }, 
+    "32": {
+        "alphaCode": "ARG", 
+        "region": "Americas"
+    }, 
+    "36": {
+        "alphaCode": "AUS", 
+        "region": "Oceania"
+    }, 
+    "40": {
+        "alphaCode": "AUT", 
+        "region": "Europe"
+    }, 
+    "604": {
+        "alphaCode": "PER", 
+        "region": "Americas"
+    }, 
+    "554": {
+        "alphaCode": "NZL", 
+        "region": "Oceania"
+    }, 
+    "44": {
+        "alphaCode": "BHS", 
+        "region": "Americas"
+    }, 
+    "690": {
+        "alphaCode": "SYC", 
+        "region": "Africa"
+    }, 
+    "558": {
+        "alphaCode": "NIC", 
+        "region": "Americas"
+    }, 
+    "48": {
+        "alphaCode": "BHR", 
+        "region": "Asia"
+    }, 
+    "520": {
+        "alphaCode": "NRU", 
+        "region": "Oceania"
+    }, 
+    "50": {
+        "alphaCode": "BGD", 
+        "region": "Asia"
+    }, 
+    "51": {
+        "alphaCode": "ARM", 
+        "region": "Asia"
+    }, 
+    "52": {
+        "alphaCode": "BRB", 
+        "region": "Americas"
+    }, 
+    "566": {
+        "alphaCode": "NGA", 
+        "region": "Africa"
+    }, 
+    "56": {
+        "alphaCode": "BEL", 
+        "region": "Europe"
+    }, 
+    "570": {
+        "alphaCode": "NIU", 
+        "region": "Oceania"
+    }, 
+    "60": {
+        "alphaCode": "BMU", 
+        "region": "Americas"
+    }, 
+    "574": {
+        "alphaCode": "NFK", 
+        "region": "Oceania"
+    }, 
+    "64": {
+        "alphaCode": "BTN", 
+        "region": "Asia"
+    }, 
+    "608": {
+        "alphaCode": "PHL", 
+        "region": "Asia"
+    }, 
+    "578": {
+        "alphaCode": "NOR", 
+        "region": "Europe"
+    }, 
+    "68": {
+        "alphaCode": "BOL", 
+        "region": "Americas"
+    }, 
+    "581": {
+        "alphaCode": "UMI", 
+        "region": "Americas"
+    }, 
+    "70": {
+        "alphaCode": "BIH", 
+        "region": "Europe"
+    }, 
+    "583": {
+        "alphaCode": "FSM", 
+        "region": "Oceania"
+    }, 
+    "72": {
+        "alphaCode": "BWA", 
+        "region": "Africa"
+    }, 
+    "524": {
+        "alphaCode": "NPL", 
+        "region": "Asia"
+    }, 
+    "74": {
+        "alphaCode": "BVT", 
+        "region": ""
+    }, 
+    "76": {
+        "alphaCode": "BRA", 
+        "region": "Americas"
+    }, 
+    "591": {
+        "alphaCode": "PAN", 
+        "region": "Americas"
+    }, 
+    "84": {
+        "alphaCode": "BLZ", 
+        "region": "Americas"
+    }, 
+    "86": {
+        "alphaCode": "IOT", 
+        "region": "Africa"
+    }, 
+    "804": {
+        "alphaCode": "UKR", 
+        "region": "Europe"
+    }, 
+    "600": {
+        "alphaCode": "PRY", 
+        "region": "Americas"
+    }, 
+    "612": {
+        "alphaCode": "PCN", 
+        "region": "Oceania"
+    }, 
+    "90": {
+        "alphaCode": "SLB", 
+        "region": "Oceania"
+    }, 
+    "92": {
+        "alphaCode": "VGB", 
+        "region": "Americas"
+    }, 
+    "96": {
+        "alphaCode": "BRN", 
+        "region": "Asia"
+    }, 
+    "528": {
+        "alphaCode": "NLD", 
+        "region": "Europe"
+    }, 
+    "100": {
+        "alphaCode": "BGR", 
+        "region": "Europe"
+    }, 
+    "104": {
+        "alphaCode": "MMR", 
+        "region": "Asia"
+    }, 
+    "716": {
+        "alphaCode": "ZWE", 
+        "region": "Africa"
+    }, 
+    "108": {
+        "alphaCode": "BDI", 
+        "region": "Africa"
+    }, 
+    "112": {
+        "alphaCode": "BLR", 
+        "region": "Europe"
+    }, 
+    "616": {
+        "alphaCode": "POL", 
+        "region": "Europe"
+    }, 
+    "626": {
+        "alphaCode": "TLS", 
+        "region": "Asia"
+    }, 
+    "116": {
+        "alphaCode": "KHM", 
+        "region": "Asia"
+    }, 
+    "630": {
+        "alphaCode": "PRI", 
+        "region": "Americas"
+    }, 
+    "120": {
+        "alphaCode": "CMR", 
+        "region": "Africa"
+    }, 
+    "788": {
+        "alphaCode": "TUN", 
+        "region": "Africa"
+    }, 
+    "634": {
+        "alphaCode": "QAT", 
+        "region": "Asia"
+    }, 
+    "703": {
+        "alphaCode": "SVK", 
+        "region": "Europe"
+    }, 
+    "124": {
+        "alphaCode": "CAN", 
+        "region": "Americas"
+    }, 
+    "638": {
+        "alphaCode": "REU", 
+        "region": "Africa"
+    }, 
+    "686": {
+        "alphaCode": "SEN", 
+        "region": "Africa"
+    }, 
+    "704": {
+        "alphaCode": "VNM", 
+        "region": "Asia"
+    }, 
+    "642": {
+        "alphaCode": "ROU", 
+        "region": "Europe"
+    }, 
+    "643": {
+        "alphaCode": "RUS", 
+        "region": "Europe"
+    }, 
+    "132": {
+        "alphaCode": "CPV", 
+        "region": "Africa"
+    }, 
+    "646": {
+        "alphaCode": "RWA", 
+        "region": "Africa"
+    }, 
+    "136": {
+        "alphaCode": "CYM", 
+        "region": "Americas"
+    }, 
+    "620": {
+        "alphaCode": "PRT", 
+        "region": "Europe"
+    }, 
+    "140": {
+        "alphaCode": "CAF", 
+        "region": "Africa"
+    }, 
+    "654": {
+        "alphaCode": "SHN", 
+        "region": "Africa"
+    }, 
+    "144": {
+        "alphaCode": "LKA", 
+        "region": "Asia"
+    }, 
+    "659": {
+        "alphaCode": "KNA", 
+        "region": "Americas"
+    }, 
+    "148": {
+        "alphaCode": "TCD", 
+        "region": "Africa"
+    }, 
+    "662": {
+        "alphaCode": "LCA", 
+        "region": "Americas"
+    }, 
+    "663": {
+        "alphaCode": "MAF", 
+        "region": "Americas"
+    }, 
+    "152": {
+        "alphaCode": "CHL", 
+        "region": "Americas"
+    }, 
+    "666": {
+        "alphaCode": "SPM", 
+        "region": "Americas"
+    }, 
+    "156": {
+        "alphaCode": "CHN", 
+        "region": "Asia"
+    }, 
+    "670": {
+        "alphaCode": "VCT", 
+        "region": "Americas"
+    }, 
+    "624": {
+        "alphaCode": "GNB", 
+        "region": "Africa"
+    }, 
+    "162": {
+        "alphaCode": "CXR", 
+        "region": "Oceania"
+    }, 
+    "166": {
+        "alphaCode": "CCK", 
+        "region": "Oceania"
+    }, 
+    "540": {
+        "alphaCode": "NCL", 
+        "region": "Oceania"
+    }, 
+    "170": {
+        "alphaCode": "COL", 
+        "region": "Americas"
+    }, 
+    "772": {
+        "alphaCode": "TKL", 
+        "region": "Oceania"
+    }, 
+    "174": {
+        "alphaCode": "COM", 
+        "region": "Africa"
+    }, 
+    "175": {
+        "alphaCode": "MYT", 
+        "region": "Africa"
+    }, 
+    "688": {
+        "alphaCode": "SRB", 
+        "region": "Europe"
+    }, 
+    "178": {
+        "alphaCode": "COG", 
+        "region": "Africa"
+    }, 
+    "180": {
+        "alphaCode": "COD", 
+        "region": "Africa"
+    }, 
+    "694": {
+        "alphaCode": "SLE", 
+        "region": "Africa"
+    }, 
+    "184": {
+        "alphaCode": "COK", 
+        "region": "Oceania"
+    }, 
+    "188": {
+        "alphaCode": "CRI", 
+        "region": "Americas"
+    }, 
+    "702": {
+        "alphaCode": "SGP", 
+        "region": "Asia"
+    }, 
+    "191": {
+        "alphaCode": "HRV", 
+        "region": "Europe"
+    }, 
+    "192": {
+        "alphaCode": "CUB", 
+        "region": "Americas"
+    }, 
+    "705": {
+        "alphaCode": "SVN", 
+        "region": "Europe"
+    }, 
+    "706": {
+        "alphaCode": "SOM", 
+        "region": "Africa"
+    }, 
+    "196": {
+        "alphaCode": "CYP", 
+        "region": "Asia"
+    }, 
+    "710": {
+        "alphaCode": "ZAF", 
+        "region": "Africa"
+    }, 
+    "876": {
+        "alphaCode": "WLF", 
+        "region": "Oceania"
+    }, 
+    "203": {
+        "alphaCode": "CZE", 
+        "region": "Europe"
+    }, 
+    "204": {
+        "alphaCode": "BEN", 
+        "region": "Africa"
+    }, 
+    "208": {
+        "alphaCode": "DNK", 
+        "region": "Europe"
+    }, 
+    "840": {
+        "alphaCode": "USA", 
+        "region": "Americas"
+    }, 
+    "212": {
+        "alphaCode": "DMA", 
+        "region": "Americas"
+    }, 
+    "214": {
+        "alphaCode": "DOM", 
+        "region": "Americas"
+    }, 
+    "728": {
+        "alphaCode": "SSD", 
+        "region": "Africa"
+    }, 
+    "729": {
+        "alphaCode": "SDN", 
+        "region": "Africa"
+    }, 
+    "218": {
+        "alphaCode": "ECU", 
+        "region": "Americas"
+    }, 
+    "732": {
+        "alphaCode": "ESH", 
+        "region": "Africa"
+    }, 
+    "222": {
+        "alphaCode": "SLV", 
+        "region": "Americas"
+    }, 
+    "226": {
+        "alphaCode": "GNQ", 
+        "region": "Africa"
+    }, 
+    "740": {
+        "alphaCode": "SUR", 
+        "region": "Americas"
+    }, 
+    "231": {
+        "alphaCode": "ETH", 
+        "region": "Africa"
+    }, 
+    "232": {
+        "alphaCode": "ERI", 
+        "region": "Africa"
+    }, 
+    "233": {
+        "alphaCode": "EST", 
+        "region": "Europe"
+    }, 
+    "234": {
+        "alphaCode": "FRO", 
+        "region": "Europe"
+    }, 
+    "748": {
+        "alphaCode": "SWZ", 
+        "region": "Africa"
+    }, 
+    "238": {
+        "alphaCode": "FLK", 
+        "region": "Americas"
+    }, 
+    "239": {
+        "alphaCode": "SGS", 
+        "region": "Americas"
+    }, 
+    "752": {
+        "alphaCode": "SWE", 
+        "region": "Europe"
+    }, 
+    "242": {
+        "alphaCode": "FJI", 
+        "region": "Oceania"
+    }, 
+    "756": {
+        "alphaCode": "CHE", 
+        "region": "Europe"
+    }, 
+    "246": {
+        "alphaCode": "FIN", 
+        "region": "Europe"
+    }, 
+    "248": {
+        "alphaCode": "ALA", 
+        "region": "Europe"
+    }, 
+    "724": {
+        "alphaCode": "ESP", 
+        "region": "Europe"
+    }, 
+    "250": {
+        "alphaCode": "FRA", 
+        "region": "Europe"
+    }, 
+    "764": {
+        "alphaCode": "THA", 
+        "region": "Asia"
+    }, 
+    "254": {
+        "alphaCode": "GUF", 
+        "region": "Americas"
+    }, 
+    "768": {
+        "alphaCode": "TGO", 
+        "region": "Africa"
+    }, 
+    "258": {
+        "alphaCode": "PYF", 
+        "region": "Oceania"
+    }, 
+    "260": {
+        "alphaCode": "ATF", 
+        "region": ""
+    }, 
+    "262": {
+        "alphaCode": "DJI", 
+        "region": "Africa"
+    }, 
+    "776": {
+        "alphaCode": "TON", 
+        "region": "Oceania"
+    }, 
+    "266": {
+        "alphaCode": "GAB", 
+        "region": "Africa"
+    }, 
+    "268": {
+        "alphaCode": "GEO", 
+        "region": "Asia"
+    }, 
+    "270": {
+        "alphaCode": "GMB", 
+        "region": "Africa"
+    }, 
+    "784": {
+        "alphaCode": "ARE", 
+        "region": "Asia"
+    }, 
+    "275": {
+        "alphaCode": "PSE", 
+        "region": "Asia"
+    }, 
+    "276": {
+        "alphaCode": "DEU", 
+        "region": "Europe"
+    }, 
+    "792": {
+        "alphaCode": "TUR", 
+        "region": "Asia"
+    }, 
+    "795": {
+        "alphaCode": "TKM", 
+        "region": "Asia"
+    }, 
+    "796": {
+        "alphaCode": "TCA", 
+        "region": "Americas"
+    }, 
+    "798": {
+        "alphaCode": "TUV", 
+        "region": "Oceania"
+    }, 
+    "288": {
+        "alphaCode": "GHA", 
+        "region": "Africa"
+    }, 
+    "292": {
+        "alphaCode": "GIB", 
+        "region": "Europe"
+    }, 
+    "807": {
+        "alphaCode": "MKD", 
+        "region": "Europe"
+    }, 
+    "296": {
+        "alphaCode": "KIR", 
+        "region": "Oceania"
+    }, 
+    "300": {
+        "alphaCode": "GRC", 
+        "region": "Europe"
+    }, 
+    "562": {
+        "alphaCode": "NER", 
+        "region": "Africa"
+    }, 
+    "304": {
+        "alphaCode": "GRL", 
+        "region": "Americas"
+    }, 
+    "818": {
+        "alphaCode": "EGY", 
+        "region": "Africa"
+    }, 
+    "308": {
+        "alphaCode": "GRD", 
+        "region": "Americas"
+    }, 
+    "312": {
+        "alphaCode": "GLP", 
+        "region": "Americas"
+    }, 
+    "826": {
+        "alphaCode": "GBR", 
+        "region": "Europe"
+    }, 
+    "316": {
+        "alphaCode": "GUM", 
+        "region": "Oceania"
+    }, 
+    "831": {
+        "alphaCode": "GGY", 
+        "region": "Europe"
+    }, 
+    "320": {
+        "alphaCode": "GTM", 
+        "region": "Americas"
+    }, 
+    "833": {
+        "alphaCode": "IMN", 
+        "region": "Europe"
+    }, 
+    "834": {
+        "alphaCode": "TZA", 
+        "region": "Africa"
+    }, 
+    "324": {
+        "alphaCode": "GIN", 
+        "region": "Africa"
+    }, 
+    "328": {
+        "alphaCode": "GUY", 
+        "region": "Americas"
+    }, 
+    "652": {
+        "alphaCode": "BLM", 
+        "region": "Americas"
+    }, 
+    "332": {
+        "alphaCode": "HTI", 
+        "region": "Americas"
+    }, 
+    "334": {
+        "alphaCode": "HMD", 
+        "region": ""
+    }, 
+    "336": {
+        "alphaCode": "VAT", 
+        "region": "Europe"
+    }, 
+    "850": {
+        "alphaCode": "VIR", 
+        "region": "Americas"
+    }, 
+    "340": {
+        "alphaCode": "HND", 
+        "region": "Americas"
+    }, 
+    "854": {
+        "alphaCode": "BFA", 
+        "region": "Africa"
+    }, 
+    "344": {
+        "alphaCode": "HKG", 
+        "region": "Asia"
+    }, 
+    "858": {
+        "alphaCode": "URY", 
+        "region": "Americas"
+    }, 
+    "348": {
+        "alphaCode": "HUN", 
+        "region": "Europe"
+    }, 
+    "862": {
+        "alphaCode": "VEN", 
+        "region": "Americas"
+    }, 
+    "352": {
+        "alphaCode": "ISL", 
+        "region": "Europe"
+    }, 
+    "356": {
+        "alphaCode": "IND", 
+        "region": "Asia"
+    }, 
+    "860": {
+        "alphaCode": "UZB", 
+        "region": "Asia"
+    }, 
+    "360": {
+        "alphaCode": "IDN", 
+        "region": "Asia"
+    }, 
+    "364": {
+        "alphaCode": "IRN", 
+        "region": "Asia"
+    }, 
+    "368": {
+        "alphaCode": "IRQ", 
+        "region": "Asia"
+    }, 
+    "744": {
+        "alphaCode": "SJM", 
+        "region": "Europe"
+    }, 
+    "882": {
+        "alphaCode": "WSM", 
+        "region": "Oceania"
+    }, 
+    "372": {
+        "alphaCode": "IRL", 
+        "region": "Europe"
+    }, 
+    "887": {
+        "alphaCode": "YEM", 
+        "region": "Asia"
+    }, 
+    "376": {
+        "alphaCode": "ISR", 
+        "region": "Asia"
+    }, 
+    "660": {
+        "alphaCode": "AIA", 
+        "region": "Americas"
+    }, 
+    "380": {
+        "alphaCode": "ITA", 
+        "region": "Europe"
+    }, 
+    "894": {
+        "alphaCode": "ZMB", 
+        "region": "Africa"
+    }, 
+    "384": {
+        "alphaCode": "CIV", 
+        "region": "Africa"
+    }, 
+    "832": {
+        "alphaCode": "JEY", 
+        "region": "Europe"
+    }, 
+    "388": {
+        "alphaCode": "JAM", 
+        "region": "Americas"
+    }, 
+    "780": {
+        "alphaCode": "TTO", 
+        "region": "Americas"
+    }, 
+    "392": {
+        "alphaCode": "JPN", 
+        "region": "Asia"
+    }, 
+    "548": {
+        "alphaCode": "VUT", 
+        "region": "Oceania"
+    }, 
+    "398": {
+        "alphaCode": "KAZ", 
+        "region": "Asia"
+    }, 
+    "400": {
+        "alphaCode": "JOR", 
+        "region": "Asia"
+    }, 
+    "404": {
+        "alphaCode": "KEN", 
+        "region": "Africa"
+    }, 
+    "408": {
+        "alphaCode": "PRK", 
+        "region": "Asia"
+    }, 
+    "580": {
+        "alphaCode": "MNP", 
+        "region": "Oceania"
+    }, 
+    "410": {
+        "alphaCode": "KOR", 
+        "region": "Asia"
+    }, 
+    "414": {
+        "alphaCode": "KWT", 
+        "region": "Asia"
+    }, 
+    "417": {
+        "alphaCode": "KGZ", 
+        "region": "Asia"
+    }, 
+    "418": {
+        "alphaCode": "LAO", 
+        "region": "Asia"
+    }, 
+    "422": {
+        "alphaCode": "LBN", 
+        "region": "Asia"
+    }, 
+    "426": {
+        "alphaCode": "LSO", 
+        "region": "Africa"
+    }, 
+    "428": {
+        "alphaCode": "LVA", 
+        "region": "Europe"
+    }, 
+    "430": {
+        "alphaCode": "LBR", 
+        "region": "Africa"
+    }, 
+    "584": {
+        "alphaCode": "MHL", 
+        "region": "Oceania"
+    }, 
+    "434": {
+        "alphaCode": "LBY", 
+        "region": "Africa"
+    }, 
+    "158": {
+        "alphaCode": "TWN", 
+        "region": "Asia"
+    }, 
+    "438": {
+        "alphaCode": "LIE", 
+        "region": "Europe"
+    }, 
+    "585": {
+        "alphaCode": "PLW", 
+        "region": "Oceania"
+    }, 
+    "440": {
+        "alphaCode": "LTU", 
+        "region": "Europe"
+    }, 
+    "442": {
+        "alphaCode": "LUX", 
+        "region": "Europe"
+    }, 
+    "586": {
+        "alphaCode": "PAK", 
+        "region": "Asia"
+    }, 
+    "446": {
+        "alphaCode": "MAC", 
+        "region": "Asia"
+    }, 
+    "450": {
+        "alphaCode": "MDG", 
+        "region": "Africa"
+    }, 
+    "454": {
+        "alphaCode": "MWI", 
+        "region": "Africa"
+    }, 
+    "458": {
+        "alphaCode": "MYS", 
+        "region": "Asia"
+    }, 
+    "674": {
+        "alphaCode": "SMR", 
+        "region": "Europe"
+    }, 
+    "462": {
+        "alphaCode": "MDV", 
+        "region": "Asia"
+    }, 
+    "760": {
+        "alphaCode": "SYR", 
+        "region": "Asia"
+    }, 
+    "466": {
+        "alphaCode": "MLI", 
+        "region": "Africa"
+    }, 
+    "470": {
+        "alphaCode": "MLT", 
+        "region": "Europe"
+    }, 
+    "474": {
+        "alphaCode": "MTQ", 
+        "region": "Americas"
+    }, 
+    "762": {
+        "alphaCode": "TJK", 
+        "region": "Asia"
+    }, 
+    "478": {
+        "alphaCode": "MRT", 
+        "region": "Africa"
+    }, 
+    "800": {
+        "alphaCode": "UGA", 
+        "region": "Africa"
+    }, 
+    "480": {
+        "alphaCode": "MUS", 
+        "region": "Africa"
+    }, 
+    "484": {
+        "alphaCode": "MEX", 
+        "region": "Americas"
+    }, 
+    "678": {
+        "alphaCode": "STP", 
+        "region": "Africa"
+    }, 
+    "492": {
+        "alphaCode": "MCO", 
+        "region": "Europe"
+    }, 
+    "496": {
+        "alphaCode": "MNG", 
+        "region": "Asia"
+    }, 
+    "498": {
+        "alphaCode": "MDA", 
+        "region": "Europe"
+    }, 
+    "499": {
+        "alphaCode": "MNE", 
+        "region": "Europe"
+    }, 
+    "500": {
+        "alphaCode": "MSR", 
+        "region": "Americas"
+    }, 
+    "504": {
+        "alphaCode": "MAR", 
+        "region": "Africa"
+    }, 
+    "508": {
+        "alphaCode": "MOZ", 
+        "region": "Africa"
+    }, 
+    "682": {
+        "alphaCode": "SAU", 
+        "region": "Asia"
+    }
 }
