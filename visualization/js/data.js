@@ -1,6 +1,9 @@
 var data = null;
 var static_data = null;
 var div = null;
+var countryCodes = null;
+var countries = null;
+var map = null;
 
 function loadData(script_chars) {
     data = script_chars;
@@ -36,13 +39,13 @@ function loadData(script_chars) {
      
     var graticule = d3.geo.graticule();
      
-    var map = div.append("svg")
+    map = div.append("svg")
         .attr("id","map")
         .attr("width", width)
         .attr("height", height);
       
     d3.json("data/world.json", function(error, world) {
-      var countries = topojson.feature(world, world.objects.countries).features,
+      countries = topojson.feature(world, world.objects.countries).features,
           neighbors = topojson.neighbors(world.objects.countries.geometries);
 
       map.selectAll(".country")
@@ -52,7 +55,9 @@ function loadData(script_chars) {
           .attr("d", path)
           .style("fill", function(d){
             // Don't display antarctica - country code 10
-            if (d.id === 10) return "none";
+            if (d.id === 10){
+                return "none";
+            } 
             return "#ABDDA4";
           });
      
@@ -60,6 +65,10 @@ function loadData(script_chars) {
           .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
           .attr("class", "boundary")
           .attr("d", path);
+    });
+
+    d3.json("data/countries_mapping.json", function(error, countriesData) {
+        countryCodes = countriesData;
     });
 
     d3.json("data/static_data.json", function(error, stats) {
@@ -100,6 +109,41 @@ function displayData(script1, script2, weight) {
     scale = d3.select(".scale")
 
     generateScale(scale, [0, weight, 1]);
+
+    var script1Countries = static_data[script1]['countries'];
+    var script2Countries = static_data[script2]['countries'];
+
+    map.selectAll('.country').data(countries)
+        .style("fill", function(d){
+            if (d.id === 10){
+                return "none";
+            } 
+
+            var result = 0
+            if (script1Countries.indexOf(countryCodes[d.id]) > -1) {
+                result = 1;
+            };
+
+            if (script2Countries.indexOf(countryCodes[d.id]) > -1) {
+                if (result == 1) {
+                    result = 3;
+                } else {
+                    result = 2;
+                }
+            };
+
+            switch (result){
+                case 1:
+                    return '#EC8722';
+                case 2:
+                    return '#DF2972';
+                case 3:
+                    return '#800000'
+                case 0:
+                default:
+                    return "#ABDDA4";
+            }
+        });
 }
 
 function generateScale(scale, tickValues) {
