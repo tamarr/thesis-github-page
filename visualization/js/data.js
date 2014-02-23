@@ -100,11 +100,22 @@ function displayData(script1, script2, weight) {
     // Put all chars in a column
     var script1Link = static_data[script1]["wiki_link"];
     var script2Link = static_data[script2]["wiki_link"];
-    var script1Chars = '<a href="' + script1Link + '" target="_blank"><div class="scriptName script1_color">' + script1 + '</div></a>' + convertArrayToStr(data[script1]);
-    var script2Chars = '<a href="' + script2Link + '" target="_blank"><div class="scriptName script2_color">' + script2 + '</div></a>' + convertArrayToStr(data[script2]);
+    var script1Chars = '<a href="' + script1Link + '" target="_blank"><div class="scriptName script1_color">' + script1 + '</div></a>';
+    var script2Chars = '<a href="' + script2Link + '" target="_blank"><div class="scriptName script2_color">' + script2 + '</div></a>';
 
-    document.getElementById('script1').innerHTML = script1Chars;
-    document.getElementById('script2').innerHTML = script2Chars;
+    var script1Div = document.getElementById('script1');
+    var script2Div = document.getElementById('script2');
+    
+    script1Div.innerHTML = script1Chars;
+    script2Div.innerHTML = script2Chars;
+
+    var script1Selected = d3.select(script1Div);
+    getRepCharsDiv(script1Selected, script1);
+    getRectLarge(script1Selected.append("svg"), script1);
+
+    var script2Selected = d3.select(script2Div);
+    getRepCharsDiv(script2Selected, script2);    
+    getRectLarge(script2Selected.append("svg"), script2);
 
     scale = d3.select(".scale")
 

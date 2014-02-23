@@ -47,9 +47,6 @@ function load(order) {
         return getRectXY(h, d[1], 100);
       })
       .style('fill',function(d) {
-        if (d[1] == d[2]) {
-          //return 'none';
-        }
         return colorScale(d[0]);
       }).on("mouseover", function() {
         d3.select(this).append("svg:title")

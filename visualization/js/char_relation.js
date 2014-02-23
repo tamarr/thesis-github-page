@@ -56,15 +56,16 @@ function generateRepCharsDiv(parent, data) {
         .attr("y", "0")
         .attr("style", function(d){
             var color = fillColor(data.indexOf(d));
-            return "color:"+color+"; border: 2px solid "+color;
+            return "color:"+color+"; border: 1px solid "+color;
         });
 }
 
 function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
     if (show_chars) {
-        padding = 40;
-        height = 500;
-        width = 500;
+        padding = 30;
+        height = 200;
+        width = 200;
+        margin = 20;
     } else {
         padding = 0;
         height = 50;
@@ -149,15 +150,15 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
         svg.append("text")
             .attr("class", "axis_label")
             .attr("text-anchor", "end")
-            .attr("x", width + padding*2)
-            .attr("y", height - 10)
+            .attr("x", width)
+            .attr("y", height)
             .text("Lines");
 
         svg.append("text")
             .attr("class", "axis_label")
             .attr("text-anchor", "top")
             .attr("x", 0)
-            .attr("y", 10)
+            .attr("y", 20)
             .text("Curves");
             
         // Mark clusters centers
@@ -174,7 +175,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
            .text("+")
            .attr("class", "cluster_mark")
            .attr("style", function(d){
-                return "fill:"+fillColor(clusters_pts.indexOf(d));
+                return "fill: darkgrey";
            });
     }
 }
@@ -188,6 +189,33 @@ function getRect(svg, script) {
         var chars = dataset['chars'];
         var clusters_pts = dataset['clusters'];
         generateScatterPlot(svg, chars, clusters_pts, false);
+    });
+}
+
+function getRectLarge(svg, script) {
+    fillColor = d3.scale.ordinal()
+        .domain([0, 1, 2])
+        .range(["#CC0066", "#6666FF", "#669900"]);
+
+    d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
+        var chars = dataset['chars'];
+        var clusters_pts = dataset['clusters'];
+        generateScatterPlot(svg, chars, clusters_pts, true);
+    });
+}
+
+function getRepCharsDiv(parent, script_name) {
+    fillColor = d3.scale.ordinal()
+        .domain([0, 1, 2])
+        .range(["#CC0066", "#6666FF", "#669900"]);
+
+    d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
+        var chars = dataset['chars'];
+        var clusters_pts = dataset['clusters']
+        var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
+        
+        // Display representative chars
+        generateRepCharsDiv(parent, rep_chars);
     });
 }
 

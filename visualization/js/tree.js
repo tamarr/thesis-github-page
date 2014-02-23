@@ -113,12 +113,12 @@ function generate_lang(order) {
     })
     .attr("dx", function(d){
         if (isLiveScript(d.name)) {
-            return 80;
+            return 85;
         } else if (d.name === data.name) {
             return 130;
         }
 
-        return 30;
+        return 10;
     })
     .attr("dy", function(d){
         if (isLiveScript(d.name)) {
