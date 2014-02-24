@@ -149,7 +149,7 @@ function displayData(script1, script2, weight) {
                 case 1:
                     return '#EC8722';
                 case 2:
-                    return '#DF2972';
+                    return '#E9699C';
                 case 3:
                     return '#800000';
                 case 0:

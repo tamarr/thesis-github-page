@@ -74,7 +74,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
     }
 
     var xScale = d3.scale.linear()
-        .domain([0, 30])
+        .domain([0, 50])
         .range([padding, width]);
 
     var yScale = d3.scale.linear()
