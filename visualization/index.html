@@ -7,6 +7,7 @@
 <link rel="stylesheet" type="text/css" href="./css/heatmap.css"/>
 <link rel="stylesheet" type="text/css" href="./css/data.css"/>
 <link rel="stylesheet" type="text/css" href="./css/char_relation.css"/>
+<script src="./js/main.js"></script>
 <script src="./js/heatmap.js"></script>
 <script src="./js/tree.js"></script>
 <script src="./js/data.js"></script>
@@ -17,6 +18,7 @@
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <script src="http://d3js.org/d3.geo.projection.v0.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
+<div id="meta">
 <script>
   var order = [
    "Greek", 
@@ -31,9 +33,14 @@
    "Gujarati",
    "Devanagari"
   ];
-  
+
   load(order);
   generate_lang(order);
 </script>
+
 <div id="header"><span class="title">Con<span class="orange">TEXT</span>ual Scripts </span><span class="subtitle orange"> a visual exploration of scripts in their context</span></div><div class="bottomDiv"><span class="name">by Tamar Rucham</span></div>
+<div id="infoText">The shapes of characters today stem from a long history of human culture. The goal of this visualization is to enable exploration of the visual themes of scripts in their historical and geographical context. On the left there is an evolutionary tree of the scripts leading up to a heatmap mapping the similarity scores between these scripts, as calculated by our algorithm. On the right there is a comparison information area that is populated once an intersection of scripts on the heatmap is selected. More information on each section can be found on the bottom. This project was done as part of a Thesis for a Master in IT at the Harvard Extension School, under the advising of Professor Hanspeter Pfister and Alexander Lex.</div>
+<div><span id="treeHeader" class="subheader">Evolution Tree <img class="infoIcon" src="./images/get_info.png" alt="more info" onClick="popupInfo('tree')"></span><span id="heatmapHeader" class="subheader">Comparison Heatmap <img class="infoIcon" src="./images/get_info.png" alt="more info" onClick="popupInfo('heatmap')"></span><span id="dataHeader" class="subheader">Comparison Information<img class="infoIcon" src="./images/get_info.png" alt="more info" onClick="popupInfo('data')"></span></div>
+<div id="popup"><button id="closebutton" onClick="closeInfo()">Close</button></div>
+</div>
 </body>

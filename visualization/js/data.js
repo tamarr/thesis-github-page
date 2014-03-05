@@ -8,7 +8,7 @@ var map = null;
 function loadData(script_chars) {
     data = script_chars;
 
-    div = d3.select("body")
+    div = d3.select("#meta")
     .append("div")
     .attr('id','data');
 

@@ -3,7 +3,7 @@ var svg = null;
 
 function generate_lang(order) {
   d3.json("data/tree.json", function(error, data) {  
-    svg = d3.select("body")
+    svg = d3.select("#meta")
       .append("svg")
       .attr('class','tree');
 
@@ -118,7 +118,7 @@ function generate_lang(order) {
             return 130;
         }
 
-        return 10;
+        return 40;
     })
     .attr("dy", function(d){
         if (isLiveScript(d.name)) {

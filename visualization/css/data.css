@@ -1,11 +1,21 @@
 #data {
     position: absolute;
-    top: 200px;
+    top: 310px;
     left: 920px;    
     border: 2px solid limegreen;
     width: 450px;
     height: 538px;
     padding: 5px;
+}
+
+#dataHeader {
+    left: 930px;  
+}
+
+.comparisonInfo {
+    position: absolute;
+    top: 640px;
+    left: 900px;
 }
 
 .script {

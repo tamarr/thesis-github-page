@@ -9,8 +9,8 @@ function load(order) {
   //width of each column in the heatmap
   var w = 50;
 
-  //attach a SVG element to the document's body
-  var mySVG = d3.select("body")
+  //attach a SVG element to the div
+  var mySVG = d3.select("#meta")
   .append("svg")
   .attr("width", width) 
   .attr("height", height)
@@ -40,6 +40,9 @@ function load(order) {
       }).enter().append("svg:rect")
       .attr('width',w)
       .attr('height',h)
+      .attr('id', function(d){
+        return d[1]+d[2];
+      })
       .attr('x', function(d) {
         return getRectXY(w, d[2], 90);
       })
@@ -47,12 +50,7 @@ function load(order) {
         return getRectXY(h, d[1], 100);
       })
       .style('fill',function(d) {
-        return colorScale(d[0]);
-      }).on("mouseover", function() {
-        d3.select(this).append("svg:title")
-        .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
-        .attr("x", function(d) {return 0;})
-        .attr("y", function (d) {return 0;}); 
+        return colorScale(d[0]); 
       }).on('click', function(d){
         // Show extra data on the right-hand side
         displayData(order[d[1]], order[d[2]], d[0]);
@@ -66,7 +64,10 @@ function load(order) {
         lastSelected = self;
 
         redrawSelectedNodes(order[d[1]], order[d[2]]);
-      });
+      }).append("svg:title")
+        .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
+        .attr("x", function(d) {return 0;})
+        .attr("y", function (d) {return 0;});
 
     for (var i = 0; i < data.labels.length; i++) {
       var svg = mySVG.append('svg')
@@ -89,7 +90,6 @@ function load(order) {
       return 'rotate(-65 '+(getLabelX(i, w))+',90)';
     })
     .text(function(d) {return d;});
-
   });
 }
 

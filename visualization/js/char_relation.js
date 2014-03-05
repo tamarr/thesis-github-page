@@ -60,7 +60,7 @@ function generateRepCharsDiv(parent, data) {
         });
 }
 
-function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
+function generateScatterPlot(svg, chars, clusters_pts, show_chars, script) {
     if (show_chars) {
         padding = 30;
         height = 200;
@@ -103,7 +103,12 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars) {
            })
            .attr("class", "char_mark")
            .attr("style", function(d){
-                return "fill:"+fillColor(d[2]);
+                var style = "fill:"+fillColor(d[2]);
+                // Since the characters of Tamil are exceptionaly narrow we make the border smaller
+                if (script === 'Tamil') {
+                    style += '; stroke-width: 0.2px; '
+                };
+                return style;
            });
     } else {
         svg.selectAll("circle")
@@ -188,7 +193,7 @@ function getRect(svg, script) {
     d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
         var clusters_pts = dataset['clusters'];
-        generateScatterPlot(svg, chars, clusters_pts, false);
+        generateScatterPlot(svg, chars, clusters_pts, false, script);
     });
 }
 
@@ -200,7 +205,7 @@ function getRectLarge(svg, script) {
     d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
         var clusters_pts = dataset['clusters'];
-        generateScatterPlot(svg, chars, clusters_pts, true);
+        generateScatterPlot(svg, chars, clusters_pts, true, script);
     });
 }
 
@@ -232,9 +237,9 @@ function loadChars() {
         var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
         
         // Display representative chars
-        generateRepCharsDiv(d3.select("body"), rep_chars);
+        //generateRepCharsDiv(d3.select("body"), rep_chars);
 
-        var svg = d3.select("body").append("svg");
-        generateScatterPlot(svg, chars, clusters_pts, show_chars === 'true');
+        var svg = d3.select("#meta").append("svg");
+        generateScatterPlot(svg, chars, clusters_pts, show_chars === 'true', script_name);
     });
 }
