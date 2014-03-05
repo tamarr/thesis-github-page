@@ -10,6 +10,7 @@
 
 from freetype import *
 from data_collection import CalcChar, scripts
+from scripts_heatmap_results import normalize
 
 def run(chars, face):
     total_chars, total_contours, total_lines, total_curves = 0,0,0,0
@@ -36,7 +37,8 @@ if __name__ == '__main__':
     face = Face('data/Arial Unicode.ttf')
     face.set_char_size( 48*64 )
 
-    num_iterations = 150
+    num_iterations = 1000
+    maxData = 21.5224352153
 
     for scriptName, charsRange in scripts.items():
         total_diff = 0
@@ -49,11 +51,13 @@ if __name__ == '__main__':
             charsSlice2 = []
             for i in range(len(charsRange) / 2):
                 # Dynamically get the len of the remaining of the array
-                randIdx = random.randint(0, len(charsSlice1) - 1)
+                randIdx = numpy.random.randint(0, len(charsSlice1) - 1)
                 charsSlice2.append(charsSlice1.pop(randIdx))
 
             slice1 = run(charsSlice1, face)
             slice2 = run(charsSlice2, face)
-            total_diff += getDiffFromDictionary(slice1, slice2)
+            diff = getDiffFromDictionary(slice1, slice2)
+            total_diff = total_diff + diff
+            #print  normalize(maxData,diff)
 
-        print scriptName, ': ', (total_diff / float(num_iterations))
+        print scriptName, ': ', normalize(maxData, total_diff / float(num_iterations))

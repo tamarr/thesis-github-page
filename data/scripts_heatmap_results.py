@@ -16,6 +16,9 @@ def getDiffFromDictionary(char1, char2):
 def distEclud(x1, y1, x2, y2):
     return sqrt(power(x1 - x2, 2) + power(y1 - y2, 2))
 
+def normalize(maxData, value):
+    return 0 if value == maxData else (value - maxData)*(-1)/maxData
+
 inputFile = open('data/output.json')
 data = json.load(inputFile)
 inputFile.close()
@@ -70,7 +73,7 @@ for script1 in scripts_info:
 for row in data_arr:
     for entry in row:
         value = entry[0]
-        entry[0] = 0 if value == maxData else (value - maxData)*(-1)/maxData
+        entry[0] = normalize(maxData, value)
 
 outputFile = open('data/scripts_heatmap.json', 'w')
 outputFile.write('{\n"labels":')
@@ -79,7 +82,8 @@ outputFile.write(',\n"data":')
 outputFile.write(json.dumps(data_arr,indent=4))
 outputFile.write(',\n"scripts_data":')
 outputFile.write(json.dumps(scripts_data,indent=4))
-outputFile.write(',\n"minData":0,\n"maxData":100')
+outputFile.write(',\n"minData":0,\n"maxData":')
+outputFile.write(str(maxData))
 outputFile.write('\n}')
 outputFile.close()
 
