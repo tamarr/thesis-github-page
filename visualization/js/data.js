@@ -147,9 +147,9 @@ function displayData(script1, script2, weight) {
 
             switch (result){
                 case 1:
-                    return '#EC8722';
+                    return '#F2AB64';
                 case 2:
-                    return '#E9699C';
+                    return '#ED87B0';
                 case 3:
                     return '#800000';
                 case 0:
