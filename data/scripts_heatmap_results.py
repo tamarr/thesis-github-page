@@ -17,7 +17,7 @@ def distEclud(x1, y1, x2, y2):
     return sqrt(power(x1 - x2, 2) + power(y1 - y2, 2))
 
 def normalize(maxData, value):
-    return 0 if value == maxData else (value - maxData)*(-1)/maxData
+    return 0 if value == maxData else (maxData - value)/maxData
 
 inputFile = open('data/output.json')
 data = json.load(inputFile)

@@ -41,7 +41,7 @@ function load(order) {
       .attr('width',w)
       .attr('height',h)
       .attr('id', function(d){
-        return d[1]+d[2];
+        return d[1]+'_'+d[2];
       })
       .attr('x', function(d) {
         return getRectXY(w, d[2], 90);
