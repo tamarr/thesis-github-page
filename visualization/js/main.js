@@ -25,8 +25,3 @@ function popupInfo(type) {
 function closeInfo() {
     d3.select("#popup").style("visibility", "hidden");
 }
-
-window.onload = function(){
-    //TODO: After everything is loaded - select Arabic and Latin
-    //d3.select("#41").on("click");
-}

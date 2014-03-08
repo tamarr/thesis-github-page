@@ -28,7 +28,7 @@ function load(order) {
     .range(["white", "green"]);
 
     //generate heatmap rows
-    var heatmapRow = mySVG.selectAll(".heatmap")
+    var heatmapRow = mySVG.selectAll(".heatmapRows")
     .data(data.data)
     .enter().append("g");
 
@@ -41,7 +41,9 @@ function load(order) {
       .attr('width',w)
       .attr('height',h)
       .attr('id', function(d){
-        return d[1]+'_'+d[2];
+        if (d[1] === 4 && d[2] === 1) {
+          return "toSelect";
+        };
       })
       .attr('x', function(d) {
         return getRectXY(w, d[2], 90);

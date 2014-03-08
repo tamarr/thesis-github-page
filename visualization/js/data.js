@@ -65,14 +65,17 @@ function loadData(script_chars) {
           .datum(topojson.mesh(world, world.objects.countries, function(a, b) { return a !== b; }))
           .attr("class", "boundary")
           .attr("d", path);
-    });
-
-    d3.json("data/countries_mapping.json", function(error, countriesData) {
-        countryCodes = countriesData;
-    });
-
-    d3.json("data/static_data.json", function(error, stats) {
-        static_data = stats;
+        d3.json("data/countries_mapping.json", function(error, countriesData) {
+            countryCodes = countriesData;
+            d3.json("data/static_data.json", function(error, stats) {
+                static_data = stats;
+                
+                //After everything is loaded - select Arabic and Latin
+                var e = document.createEvent('UIEvents');
+                e.initUIEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
+                d3.select("rect#toSelect").node().dispatchEvent(e);
+            });
+        });
     });
 }
 
