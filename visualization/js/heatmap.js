@@ -66,6 +66,11 @@ function load(order) {
         lastSelected = self;
 
         redrawSelectedNodes(order[d[1]], order[d[2]]);
+
+        scale = d3.select(".scale")
+
+        generateScale(scale, [0, d[0], 1]);
+
       }).append("svg:title")
         .text(function(d) {return order[d[1]] + " & " + order[d[2]];})
         .attr("x", function(d) {return 0;})
@@ -92,6 +97,16 @@ function load(order) {
       return 'rotate(-65 '+(getLabelX(i, w))+',90)';
     })
     .text(function(d) {return d;});
+
+   // Setup the scale
+    var scaleSvg = d3.select("#meta")
+      .append("svg").attr('id', 'scale')
+      .append("g").attr("transform", "translate(30,10)");
+
+    var scale = scaleSvg.append("g")
+        .attr("class", "x axis scale");
+
+    generateScale(scale, [0,1]);
   });
 }
 
@@ -113,4 +128,18 @@ function getLabelX(i, w) {
 
 function getRectXY(m, i, padd) {
   return (i * m) + padd;
+}
+
+function generateScale(scale, tickValues) {
+        var x = d3.scale.linear()
+        .domain([0, 1])
+        .range([0, 250]);
+
+    var xAxis = d3.svg.axis()
+        .scale(x)
+        .tickValues(tickValues)
+        .tickFormat(d3.format(".2g"))
+        .orient("bottom");
+
+    scale.call(xAxis);
 }

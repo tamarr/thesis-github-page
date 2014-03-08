@@ -16,15 +16,6 @@ function loadData(script_chars) {
     div.append('div').attr('class','script script1_color').attr('id', 'script1')
     div.append('div').attr('class','script script2_color').attr('id', 'script2')
 
-    // Setup the scale
-    var svg = div.append("svg").attr('id', 'scale')
-      .append("g").attr("transform", "translate(30,10)");
-
-    var scale = svg.append("g")
-        .attr("class", "x axis scale");
-
-    generateScale(scale, [0,1]);
-
     // Setup the map
     var width = 400,
     height = 300;
@@ -69,7 +60,7 @@ function loadData(script_chars) {
             countryCodes = countriesData;
             d3.json("data/static_data.json", function(error, stats) {
                 static_data = stats;
-                
+
                 //After everything is loaded - select Arabic and Latin
                 var e = document.createEvent('UIEvents');
                 e.initUIEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
@@ -119,10 +110,6 @@ function displayData(script1, script2, weight) {
     var script2Selected = d3.select(script2Div);
     getRepCharsDiv(script2Selected, script2);    
     getRectLarge(script2Selected.append("svg"), script2);
-
-    scale = d3.select(".scale")
-
-    generateScale(scale, [0, weight, 1]);
 
     var script1Info = static_data[script1];
     var script2Info = static_data[script2];
@@ -184,18 +171,4 @@ function isCountryInScriptLists(countryInfo, scriptInfo) {
     }
 
     return false;
-}
-
-function generateScale(scale, tickValues) {
-        var x = d3.scale.linear()
-        .domain([0, 1])
-        .range([0, 350]);
-
-    var xAxis = d3.svg.axis()
-        .scale(x)
-        .tickValues(tickValues)
-        .tickFormat(d3.format(".2g"))
-        .orient("bottom");
-
-    scale.call(xAxis);
 }

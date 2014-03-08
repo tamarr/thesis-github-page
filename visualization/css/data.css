@@ -39,28 +39,6 @@
     float: right;
 }
 
-#scale {
-    position: absolute;
-    top: 260px;
-    left: 20px;
-    height: 40px;
-    width: 400px;
-    font-family: Arial;
-    font-size: 0.8em;
-    color: green;
-}
-
-.scale text {
-  font: 0.8em Arial;
-  fill: green;
-}
-
-.scale path,
-.scale line {
-  fill: none;
-  stroke: green;
-}
-
 #map {
     top: 300px;
     left: 10px;

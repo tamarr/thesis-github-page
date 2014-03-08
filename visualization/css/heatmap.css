@@ -26,3 +26,25 @@
     top: 650px;
     left: 280px;
 }
+
+#scale {
+    position: absolute;
+    top: 860px;
+    left: 600px;
+    height: 40px;
+    width: 400px;
+    font-family: Arial;
+    font-size: 0.8em;
+    color: green;
+}
+
+.scale text {
+  font: 0.8em Arial;
+  fill: green;
+}
+
+.scale path,
+.scale line {
+  fill: none;
+  stroke: green;
+}
