@@ -104,12 +104,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars, script) {
            })
            .attr("class", "char_mark")
            .attr("style", function(d){
-                var style = "fill:"+fillColor(d[2]);
-                // Since the characters of Tamil are exceptionaly narrow we make the border smaller
-                if (script === 'Tamil') {
-                    style += '; stroke-width: 0.05px; '
-                };
-                return style;
+                return "fill:"+fillColor(d[2]);
            });
     } else {
         svg.selectAll("circle")

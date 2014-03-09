@@ -162,8 +162,8 @@ function redrawSelectedNodes(script1, script2) {
 
     svg.selectAll('.tree_label').attr('style', function(d){
         var str = 'fill: ';
-        if (d.name === script1) str += '#F2AB64; font-weight: bold;';
-        else if (d.name === script2) str +='#ED87B0; font-weight: bold;';
+        if (d.name === script1) str += '#F2AB64;';
+        else if (d.name === script2) str +='#ED87B0;';
         else str += color;
         return str;
     });
