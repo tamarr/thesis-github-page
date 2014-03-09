@@ -1,7 +1,26 @@
-#rep_chars_div {
-    position: absolute;
-    left: 75px;
-    top: 5px;  
+.rep_chars_div {
+    position: relative;
+    left: 10px;
+    top: 0px;  
+}
+
+#allCharsRelations{
+    width: 1200px;
+    margin: 20px;
+}
+
+.scriptName {
+    font-family: Arial;
+    font-size: 1em;
+    text-align: center;
+}
+
+.plot {
+    width: 250px;
+    height: 220px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-top: 10px;
 }
 
 .rep_char {

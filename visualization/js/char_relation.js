@@ -40,7 +40,7 @@ function findRepresentativeForCluster(clusters, chars) {
 
 function generateRepCharsDiv(parent, data) {
     var rep_chars_div = parent.append("div")
-        .attr("id", "rep_chars_div")
+        .attr("class", "rep_chars_div")
         .attr("width", 200)
         .attr("height", 40);
 
@@ -58,14 +58,16 @@ function generateRepCharsDiv(parent, data) {
             var color = fillColor(data.indexOf(d));
             return "color:"+color+"; border: 1px solid "+color;
         });
+
+    return rep_chars_div;
 }
 
 function generateScatterPlot(svg, chars, clusters_pts, show_chars, script) {
     if (show_chars) {
         padding = 30;
-        height = 200;
-        width = 200;
-        margin = 20;
+        height = 180;
+        width = 180;
+        margin = 10;
     } else {
         padding = 0;
         height = 50;
@@ -82,8 +84,7 @@ function generateScatterPlot(svg, chars, clusters_pts, show_chars, script) {
         .range([height - padding, padding]);
 
     //Create SVG element
-    svg.attr("class", "scatter_svg")
-        .attr("width", width + margin)
+    svg.attr("width", width + margin)
         .attr("height", height + margin);
 
     if (show_chars) {
@@ -220,7 +221,7 @@ function getRepCharsDiv(parent, script_name) {
         var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
         
         // Display representative chars
-        generateRepCharsDiv(parent, rep_chars);
+        var repDiv = generateRepCharsDiv(parent, rep_chars);
     });
 }
 
@@ -231,15 +232,28 @@ function loadChars() {
 
     var script_name = getParameterByName("script");
     var show_chars = getParameterByName("large");
-    d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
+    if (script_name !== "") {
+        fullScatter(d3.select("body"), script_name, show_chars);
+    } else {
+        var div = d3.select("body").append("div").attr("id", "allCharsRelations");
+        for (var i = 0; i < order.length; i++) {
+            script_name = order[i];
+            fullScatter(div, script_name, 'true');
+        };
+    }
+}
+
+function fullScatter(parent, script_name, show_chars) {
+        d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
         var clusters_pts = dataset['clusters']
         var rep_chars = findRepresentativeForCluster(clusters_pts, chars);
-        
-        // Display representative chars
-        //generateRepCharsDiv(d3.select("body"), rep_chars);
 
-        var svg = d3.select("#meta").append("svg");
+        var div = parent.append('div').attr('class', 'plot');
+        div.append('div').attr('class', 'scriptName').text(script_name);
+
+        var svg = div.append("svg");
         generateScatterPlot(svg, chars, clusters_pts, show_chars === 'true', script_name);
+
     });
 }

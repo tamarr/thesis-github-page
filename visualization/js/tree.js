@@ -1,7 +1,7 @@
 var color = 'green';
 var svg = null;
 
-function generate_lang(order) {
+function generate_lang() {
   d3.json("data/tree.json", function(error, data) {  
     svg = d3.select("#meta")
       .append("svg")

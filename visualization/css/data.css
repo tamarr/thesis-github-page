@@ -23,11 +23,12 @@
     font-size: 0.8em;
     position: relative;
     height: 200px;
+    padding: 10px;
 }
 
 .scriptName {
     font-weight: bold;
-    margin: 2px;
+    margin-bottom: 20px;
     text-decoration:underline;
 }
 

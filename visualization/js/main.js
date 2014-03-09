@@ -4,6 +4,20 @@ var comparisonInfo='Comparison Info:</br>This section displays additional inform
 
 var closeButton = '<button id="closeButton" onClick="closeInfo()">X</button>'
 
+var order = [
+   "Greek", 
+   "Latin", 
+   "Cyrillic", 
+   "Hebrew", 
+   "Arabic", 
+   "Thai", 
+   "Tamil", 
+   "Malayalam", 
+   "Telugu",
+   "Gujarati",
+   "Devanagari"
+  ];
+  
 function popupInfo(type) {
     var infoText = treeInfo;
     var infoClass = "treeInfo";

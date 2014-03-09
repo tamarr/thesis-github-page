@@ -1,6 +1,6 @@
 var lastSelected = null;
 
-function load(order) {
+function load() {
   var width = 650,
   height = 750;
 
