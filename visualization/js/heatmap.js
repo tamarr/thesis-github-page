@@ -98,12 +98,23 @@ function load() {
     })
     .text(function(d) {return d;});
 
-   // Setup the scale
+    // Setup the scale
     var scaleSvg = d3.select("#meta")
-      .append("svg").attr('id', 'scale')
-      .append("g").attr("transform", "translate(30,10)");
+      .append("svg").attr('id', 'scale');
 
-    var scale = scaleSvg.append("g")
+    // Add gradient - this gradient is referenced in the fill of the scale in the css
+    var defs = scaleSvg.append('defs').append('linearGradient')
+      .attr('id','grad1')
+      .attr('x1','0%').attr('y1','0%')
+      .attr('x2','100%').attr('y2','0%');
+    defs.append('stop')
+      .attr('offset','0%').attr('style','stop-color:white;stop-opacity:1')
+    defs.append('stop')
+      .attr('offset','100%').attr('style','stop-color:green;stop-opacity:1')
+
+    var scaleG = scaleSvg.append("g").attr("transform", "translate(30,10)");
+
+    var scale = scaleG.append("g")
         .attr("class", "x axis scale");
 
     generateScale(scale, [0,1]);
@@ -139,6 +150,7 @@ function generateScale(scale, tickValues) {
         .scale(x)
         .tickValues(tickValues)
         .tickFormat(d3.format(".2g"))
+        .tickSize(10)
         .orient("bottom");
 
     scale.call(xAxis);

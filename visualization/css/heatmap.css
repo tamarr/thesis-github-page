@@ -30,7 +30,7 @@
 #scale {
     position: absolute;
     top: 860px;
-    left: 600px;
+    left: 610px;
     height: 40px;
     width: 400px;
     font-family: Arial;
@@ -38,13 +38,14 @@
     color: green;
 }
 
-.scale text {
+#scale text {
   font: 0.8em Arial;
   fill: green;
 }
 
-.scale path,
-.scale line {
-  fill: none;
-  stroke: green;
+#scale path,
+#scale line {
+  fill: url(#grad1);
+  stroke-width: 1px;
+  opacity: 0.8;
 }
