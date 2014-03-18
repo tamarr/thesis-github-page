@@ -28,8 +28,10 @@
 
 #infoText {
     width: 60%;
-    margin-left: 200px;
+    margin-left: auto;
+    margin-right: auto;
     font-family: Arial;  
+    line-height: 140%;
     position: relative;
     top: 24px;
     text-align: justify;
@@ -41,7 +43,7 @@
     visibility: hidden;
     font-family: Arial;
     font-size: 0.8em;
-    line-height: 120%;
+    line-height: 140%;
     border: 1px solid green;
     padding: 5px;
     z-index: 500;
