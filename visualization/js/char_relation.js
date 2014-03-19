@@ -196,7 +196,7 @@ function getRect(svg, script) {
 function getRectLarge(svg, script) {
     fillColor = d3.scale.ordinal()
         .domain([0, 1, 2])
-        .range(["#800000", "#6666FF", "#669900"]);
+        .range(["#754719", "#6666FF", "#669900"]);
 
     d3.json("data/chars_outputs/"+script+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
@@ -208,7 +208,7 @@ function getRectLarge(svg, script) {
 function getRepCharsDiv(parent, script_name) {
     fillColor = d3.scale.ordinal()
         .domain([0, 1, 2])
-        .range(["#800000", "#6666FF", "#669900"]);
+        .range(["#754719", "#6666FF", "#669900"]);
 
     d3.json("data/chars_outputs/"+script_name+"_chars_output.json", function(error, dataset) {
         var chars = dataset['chars'];
@@ -223,7 +223,7 @@ function getRepCharsDiv(parent, script_name) {
 function loadChars() {
     fillColor = d3.scale.ordinal()
         .domain([0, 1, 2])
-        .range(["#800000", "#6666FF", "#669900"]);
+        .range(["#754719", "#6666FF", "#669900"]);
 
     var script_name = getParameterByName("script");
     var show_chars = getParameterByName("large");
