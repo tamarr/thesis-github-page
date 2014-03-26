@@ -49,7 +49,7 @@ function loadData(script_chars) {
             if (d.id === 10){
                 return "none";
             } 
-            return "#ABDDA4";
+            return "lightgrey";
           });
      
       map.insert("path", ".graticule")
@@ -144,7 +144,7 @@ function displayData(script1, script2, weight) {
                     return '#800000';
                 case 0:
                 default:
-                    return "#ABDDA4";
+                    return "lightgrey";
             }
         });
 }

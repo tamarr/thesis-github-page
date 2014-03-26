@@ -1,3 +1,8 @@
+/***
+* The heatmap itself is created based on an example by Damian Kap, presented in a blog post:
+* http://blog.nextgenetics.net/?e=44 
+***/
+
 var lastSelected = null;
 
 function load() {

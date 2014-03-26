@@ -14,7 +14,7 @@ path.link {
 
 .tree {
     position: absolute;
-    top: 210px;
+    top: 260px;
     left: 30px;
 }
 
@@ -24,6 +24,6 @@ path.link {
 
 .treeInfo {
     position: absolute;
-    top: 700px;
+    top: 750px;
     left: 20px;
 }

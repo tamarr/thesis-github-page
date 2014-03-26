@@ -1,6 +1,6 @@
 #data {
     position: absolute;
-    top: 310px;
+    top: 360px;
     left: 920px;    
     border: 2px solid limegreen;
     width: 450px;
@@ -14,7 +14,7 @@
 
 .comparisonInfo {
     position: absolute;
-    top: 600px;
+    top: 650px;
     left: 900px;
 }
 

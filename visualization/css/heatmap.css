@@ -13,7 +13,7 @@
 
 .heatmap {
     position: absolute;
-    top: 210px;
+    top: 250px;
     left: 250px;
 }
 
@@ -23,13 +23,13 @@
 
 .heatmapInfo {
     position: absolute;
-    top: 590px;
+    top: 640px;
     left: 280px;
 }
 
 #scale {
     position: absolute;
-    top: 860px;
+    top: 910px;
     left: 610px;
     height: 40px;
     width: 400px;
