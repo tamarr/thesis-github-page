@@ -1,0 +1,162 @@
+.font
+{
+    font-family: sans-serif;
+    color: grey;
+}
+
+.panel
+{
+    width: 150px;
+    height: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.header
+{
+    font-size: 1em;
+    font-weight: bold;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.entry
+{
+    width: 120px;
+    padding: 15px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.svg_position
+{
+    position: absolute;
+    top: 50;
+    left: 150;
+}
+
+#container
+{
+    display: inline-block;
+    width: 800px;
+    z-index:999;
+}
+
+#title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid grey;
+}
+
+#content
+{
+    margin: 20px;
+    border: 2px solid grey;
+    padding: 10px;
+}
+
+#right-panel
+{
+    border-left: 2px solid grey;
+}
+
+#left-panel
+{
+    border-right: 2px solid grey;
+}
+
+#border
+{
+    border-top: 2px solid grey;
+}
+
+#lang_wikipedia
+{
+    float: left;
+}
+
+#script_wikipedia
+{
+    float: right;
+}
+
+.wikipedia
+{
+    border: 0px;
+    width: 40%;
+    height: 300px;
+    display: inline-block;
+    margin: 20px;
+    padding: 8px;
+}
+
+path.link {
+    fill: none;
+    stroke: gray;
+}
+
+.label {
+    font-size: 0.7em;
+}
+
+.secondary
+{
+    font-size: 0.7em;
+    padding-top: 10px
+}
+
+.steps
+{
+    position: absolute;
+    z-index: 0;
+    background-color: white;
+    box-shadow:0 0 4px 4px #FF8000;
+    font-size: 0.8em;
+    padding: 5px;
+    width: 200px;
+    display: none;
+}
+
+.step_index
+{
+    font-size: 0.7em;
+    text-align: right;
+}
+
+#step1
+{
+    top: 750px;
+    left: 750px;
+}
+
+#step2
+{
+    top: 690px;
+    left: 900px;
+}
+
+#step3
+{
+    top: 300px;
+    left: 900px;
+}
+
+.red
+{
+    color: #B40404;
+}
+
+.green
+{
+    color: #5FB404;
+}
+
+.orange
+{
+    color: #FF8000;
+}

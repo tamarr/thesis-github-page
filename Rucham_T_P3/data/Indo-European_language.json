@@ -1,0 +1,604 @@
+{
+    "name": "Indo-European",
+    "children": [
+        {
+            "name": "Indo-Iranian",
+            "children": [
+                {
+                    "name": "Indo-Aryan",
+                    "children": [
+                        {
+                            "name": "Western",
+                            "children": [
+                                {
+                                    "name": "Gujarati languages",
+                                    "children": [
+                                        {
+                                            "title": "Gujarati language",
+                                            "script_origin": null,
+                                            "name": "Gujarati",
+                                            "script_name": "Gujarati alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Eastern",
+                            "children": [
+                                {
+                                    "name": "Oriya languages",
+                                    "children": [
+                                        {
+                                            "title": "Oriya language",
+                                            "script_origin": null,
+                                            "name": "Oriya",
+                                            "script_name": "Oriya alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Bengali–Assamese",
+                                    "children": [
+                                        {
+                                            "title": "Assamese language",
+                                            "script_origin": null,
+                                            "name": "Assamese",
+                                            "script_name": "Assamese script",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "North-Western",
+                            "children": [
+                                {
+                                    "title": "Punjabi language",
+                                    "script_origin": null,
+                                    "name": "Punjabi",
+                                    "script_name": "Gurmukhi alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Central zone",
+                            "children": [
+                                {
+                                    "name": "Western Hindi",
+                                    "children": [
+                                        {
+                                            "name": "Hindustani",
+                                            "children": [
+                                                {
+                                                    "name": "Khariboli",
+                                                    "children": [
+                                                        {
+                                                            "title": "Hindi",
+                                                            "script_origin": null,
+                                                            "name": "Hindi",
+                                                            "script_name": "Devanagari alphabet",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "title": "Urdu",
+                                                            "script_origin": null,
+                                                            "name": "Urdu",
+                                                            "script_name": "Arabic alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Southern Indo-Aryan",
+                            "children": [
+                                {
+                                    "title": "Marathi language",
+                                    "script_origin": null,
+                                    "name": "Marathi",
+                                    "script_name": "Devanagari alphabet",
+                                    "children": []
+                                },
+                                {
+                                    "name": "Insular Indo-Aryan",
+                                    "children": [
+                                        {
+                                            "title": "Sinhala language",
+                                            "script_origin": null,
+                                            "name": "Sinhala",
+                                            "script_name": "Sinhala alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Northern",
+                            "children": [
+                                {
+                                    "name": "Eastern Pahari",
+                                    "children": [
+                                        {
+                                            "title": "Nepali language",
+                                            "script_origin": null,
+                                            "name": "Nepali",
+                                            "script_name": "Devanagari alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Northwestern Zone\n",
+                            "children": [
+                                {
+                                    "name": "Sindhi languages",
+                                    "children": [
+                                        {
+                                            "title": "Sindhi language",
+                                            "script_origin": null,
+                                            "name": "Sindhi",
+                                            "script_name": "Arabic alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Iranian",
+                    "children": [
+                        {
+                            "name": "Western Iranian",
+                            "children": [
+                                {
+                                    "name": "Southwestern Iranian",
+                                    "children": [
+                                        {
+                                            "title": "Persian language",
+                                            "script_origin": null,
+                                            "name": "Persian",
+                                            "script_name": "Arabic alphabet",
+                                            "children": [
+                                                {
+                                                    "title": "Tajik language",
+                                                    "script_origin": null,
+                                                    "name": "Tajik",
+                                                    "script_name": "Cyrillic alphabet",
+                                                    "children": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Italic",
+            "children": [
+                {
+                    "name": "Romance",
+                    "children": [
+                        {
+                            "name": "Western",
+                            "children": [
+                                {
+                                    "name": "Gallo-Iberian",
+                                    "children": [
+                                        {
+                                            "name": "Ibero-Romance",
+                                            "children": [
+                                                {
+                                                    "name": "West-Iberian",
+                                                    "children": [
+                                                        {
+                                                            "name": "Galician-Portuguese",
+                                                            "children": [
+                                                                {
+                                                                    "title": "Galician language",
+                                                                    "script_origin": null,
+                                                                    "name": "Galician",
+                                                                    "script_name": "Latin alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Gallo-Romance",
+                                            "children": [
+                                                {
+                                                    "name": "Occitano-Romance",
+                                                    "children": [
+                                                        {
+                                                            "title": "Catalan language",
+                                                            "script_origin": null,
+                                                            "name": "Catalan",
+                                                            "script_name": "Latin alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Western Romance",
+                            "children": [
+                                {
+                                    "name": "Gallo-Iberian",
+                                    "children": [
+                                        {
+                                            "name": "Ibero-Romance",
+                                            "children": [
+                                                {
+                                                    "name": "West-Iberian",
+                                                    "children": [
+                                                        {
+                                                            "name": "Castilian languages",
+                                                            "children": [
+                                                                {
+                                                                    "title": "Spanish language",
+                                                                    "script_origin": null,
+                                                                    "name": "Spanish",
+                                                                    "script_name": "Latin alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "West Iberian",
+                                                    "children": [
+                                                        {
+                                                            "name": "Galician-Portuguese",
+                                                            "children": [
+                                                                {
+                                                                    "title": "Portuguese language",
+                                                                    "script_origin": null,
+                                                                    "name": "Portuguese",
+                                                                    "script_name": "Latin alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Gallo-Romance",
+                                            "children": [
+                                                {
+                                                    "name": "Gallo-Rhaetian",
+                                                    "children": [
+                                                        {
+                                                            "name": "Oïl",
+                                                            "children": [
+                                                                {
+                                                                    "title": "French language",
+                                                                    "script_origin": null,
+                                                                    "name": "French",
+                                                                    "script_name": "Latin alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Eastern Romance",
+                            "children": [
+                                {
+                                    "title": "Romanian language",
+                                    "script_origin": null,
+                                    "name": "Romanian",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Italo-Dalmatian",
+                            "children": [
+                                {
+                                    "name": "Italian (Tuscan)",
+                                    "children": [
+                                        {
+                                            "title": "Corsican language",
+                                            "script_origin": null,
+                                            "name": "Corsican",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "title": "Italian language",
+                                    "script_origin": null,
+                                    "name": "Italian",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Latino-Faliscan",
+                    "children": [
+                        {
+                            "title": "Latin",
+                            "script_origin": null,
+                            "name": "Latin",
+                            "script_name": "Latin alphabet",
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Balto-Slavic",
+            "children": [
+                {
+                    "name": "Baltic",
+                    "children": [
+                        {
+                            "name": "Eastern Baltic",
+                            "children": [
+                                {
+                                    "title": "Lithuanian language",
+                                    "script_origin": null,
+                                    "name": "Lithuanian",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Slavic",
+                    "children": [
+                        {
+                            "name": "East Slavic",
+                            "children": [
+                                {
+                                    "title": "Ukrainian language",
+                                    "script_origin": null,
+                                    "name": "Ukrainian",
+                                    "script_name": "Cyrillic alphabet",
+                                    "children": []
+                                },
+                                {
+                                    "title": "Russian language",
+                                    "script_origin": null,
+                                    "name": "Russian",
+                                    "script_name": "Cyrillic alphabet",
+                                    "children": []
+                                },
+                                {
+                                    "title": "Belarusian language",
+                                    "script_origin": null,
+                                    "name": "Belarusian",
+                                    "script_name": "Cyrillic alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "West Slavic",
+                            "children": [
+                                {
+                                    "name": "Czech–Slovak",
+                                    "children": [
+                                        {
+                                            "title": "Czech language",
+                                            "script_origin": null,
+                                            "name": "Czech",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        },
+                                        {
+                                            "title": "Slovak language",
+                                            "script_origin": null,
+                                            "name": "Slovak",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Lechitic",
+                                    "children": [
+                                        {
+                                            "title": "Polish language",
+                                            "script_origin": null,
+                                            "name": "Polish",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "South",
+                            "children": [
+                                {
+                                    "name": "Western\n",
+                                    "children": [
+                                        {
+                                            "title": "Serbo-Croatian",
+                                            "script_origin": null,
+                                            "name": "Serbo-Croatian",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Germanic",
+            "children": [
+                {
+                    "name": "West Germanic",
+                    "children": [
+                        {
+                            "name": "High German",
+                            "children": [
+                                {
+                                    "title": "German language",
+                                    "script_origin": null,
+                                    "name": "German",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Anglo–Frisian",
+                            "children": [
+                                {
+                                    "name": "Anglic",
+                                    "children": [
+                                        {
+                                            "title": "English language",
+                                            "script_origin": null,
+                                            "name": "English",
+                                            "script_name": "Latin alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Low Franconian",
+                            "children": [
+                                {
+                                    "title": "Dutch language",
+                                    "script_origin": null,
+                                    "name": "Dutch",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "North Germanic",
+                    "children": [
+                        {
+                            "name": "East Scandinavian\n",
+                            "children": [
+                                {
+                                    "title": "Danish language",
+                                    "script_origin": null,
+                                    "name": "Danish",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                },
+                                {
+                                    "title": "Swedish language",
+                                    "script_origin": null,
+                                    "name": "Swedish",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "West Scandinavian\n",
+                            "children": [
+                                {
+                                    "title": "Icelandic language",
+                                    "script_origin": null,
+                                    "name": "Icelandic",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                },
+                                {
+                                    "title": "Faroese language",
+                                    "script_origin": null,
+                                    "name": "Faroese",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "West Scandinavian",
+                            "children": [
+                                {
+                                    "title": "Norwegian language",
+                                    "script_origin": null,
+                                    "name": "Norwegian",
+                                    "script_name": "Latin alphabet",
+                                    "children": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Hellenic",
+            "children": [
+                {
+                    "title": "Greek language",
+                    "script_origin": null,
+                    "name": "Greek",
+                    "script_name": "Greek alphabet",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "title": "Albanian language",
+            "script_origin": null,
+            "name": "Albanian",
+            "script_name": "Latin alphabet",
+            "children": []
+        }
+    ]
+}

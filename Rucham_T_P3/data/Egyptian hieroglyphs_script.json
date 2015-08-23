@@ -1,0 +1,221 @@
+{
+    "name": "Egyptian hieroglyphs",
+    "children": [
+        {
+            "name": "Proto-Sinaitic",
+            "children": [
+                {
+                    "name": "South Arabian",
+                    "children": [
+                        {
+                            "name": "Ge'ez script",
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "name": "Proto-Canaanite alphabet",
+                    "children": [
+                        {
+                            "name": "Phoenician alphabet",
+                            "children": [
+                                {
+                                    "name": "Aramaic alphabet",
+                                    "children": [
+                                        {
+                                            "name": "Syriac",
+                                            "children": [
+                                                {
+                                                    "name": "Sogdian alphabet",
+                                                    "children": [
+                                                        {
+                                                            "name": "Old Uyghur alphabet",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Mongolian script",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Nabataean",
+                                                    "children": [
+                                                        {
+                                                            "name": "Arabic alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Brāhmī",
+                                            "children": [
+                                                {
+                                                    "name": "Pallava",
+                                                    "children": [
+                                                        {
+                                                            "name": "Khmer script",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Thai alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Mon",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Burmese script",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Bhattiprolu script",
+                                                    "children": [
+                                                        {
+                                                            "name": "Telugu alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Kalinga",
+                                                    "children": [
+                                                        {
+                                                            "name": "Oriya alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Kadamba",
+                                                    "children": [
+                                                        {
+                                                            "name": "Kannada",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Kannada alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Southern branch\n",
+                                                    "children": [
+                                                        {
+                                                            "name": "Sinhala alphabet",
+                                                            "children": []
+                                                        },
+                                                        {
+                                                            "name": "Tamil alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Grantha script",
+                                                    "children": [
+                                                        {
+                                                            "name": "Malayalam alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "name": "Gupta script",
+                                                    "children": [
+                                                        {
+                                                            "name": "Nāgarī",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Devanāgarī",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Devanagari alphabet",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "name": "Gujarati alphabet",
+                                                                    "children": []
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Śāradā",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Laṇḍā",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Gurmukhi alphabet",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "name": "Siddham",
+                                                            "children": [
+                                                                {
+                                                                    "name": "Assamese/Bengali",
+                                                                    "children": [
+                                                                        {
+                                                                            "name": "Assamese script",
+                                                                            "children": []
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "name": "Hebrew alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Greek alphabet",
+                                    "children": [
+                                        {
+                                            "name": "Etruscan alphabet",
+                                            "children": [
+                                                {
+                                                    "name": "Latin",
+                                                    "children": [
+                                                        {
+                                                            "name": "Latin alphabet",
+                                                            "children": []
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }, {
+                                            "name": "Cyrillic alphabet",
+                                            "children": []
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,736 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"creditCardSe",
+				"creditCardSetup"
+			],
+			[
+				"loca",
+				"locale"
+			],
+			[
+				"local",
+				"locale_decimal_separator"
+			],
+			[
+				"split",
+				"split_locale"
+			],
+			[
+				"submite",
+				"submitError"
+			],
+			[
+				"slice",
+				"sliceFieldName"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"ta",
+				"tax_cents"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"ma",
+				"margin-left"
+			],
+			[
+				"m",
+				"margin"
+			],
+			[
+				"img",
+				"img_path"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2651,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "re",
+		"selected_items":
+		[
+			[
+				"re",
+				"File: Revert"
+			],
+			[
+				"reve",
+				"File: Revert"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/tamarr/Documents/Projects/thesis-github-page/visualization"
+	],
+	"file_history":
+	[
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/controllers/promotions_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/_payment_submit.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/account/upgrade.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/account/billing_detail.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/mailing.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/payment_form.js.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/routes.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/controllers/service_agreements_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/plans/change_plan.js.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/change_plan.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/_custom_plan.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/_upgrade_plans.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/_payment_confirm.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/stylesheets/ui.scss",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/locales/js/de.yml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/locales/js/en.yml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/test/unit/account/billing_detail_test.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/services/mailings/start.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/locales/views/service_agreements/en.yml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/close_paypal_popup.html.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/environment.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/deploy/gdtest.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/initializers/billing_stub.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/controllers/application_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/test/functional/signups_controller_test.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/controllers/signups_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/deploy/gddev.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/Gemfile",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/lib/e_commerce_integration/product.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/account/user_mailing_credits.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/coverage/rcov/app-models-event_brite_rb.html",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/mailing_saver.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/lib/auth_strategies.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/README.md",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/account/affiliate_details/_us_person.html.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/models/factory/new_billing_details.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/ext/number.js",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/account/affiliate_details/_form.html.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/get_payment_for_upgrade.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/get_payment.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/service_agreements/_get_upgrade.html.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/plans/change_plan_old.js",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/config/locales/js/mimiflash/de.yml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/affiliate_details_dialog_base.js.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/helpers/account/affiliate_details_helper.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/controllers/account/affiliate_details_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/affiliate_details.js",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/update_affiliate_details_dialog.js.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/account/affiliate_details/_update_affiliate_details_dialog.html.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/layouts/application.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/assets/javascripts/mimi/affiliate_details_dialog.js.erb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimi/app/views/account/affiliate_details/_affiliate_details_dialog.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/account/affiliate_details/_shared_content.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/account/affiliate_details/_update_affiliate_details_dialog.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/account/affiliate_details/_form.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/assets/javascripts/mimi/affiliate_details.js",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/layouts/application.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/helpers/account/affiliate_details_helper.rb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/affiliates/edit.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/account/affiliate_details/_us_person.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/assets/javascripts/mimi/update_affiliate_details_dialog.js.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/views/account/affiliate_details/_affiliate_details_dialog.html.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/config/application.rb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/config/locales/js/mimiflash/en.yml",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/config/environments/development.rb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/config/billing_servers.yml",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/log/development.log",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/assets/javascripts/mimi/affiliate_details_dialog.js.erb",
+		"/Users/tamarr/Documents/Projects/NewMadMimi/mimi/app/controllers/account_statuses_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/app/models/web_hook.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/db/schema.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/config/schedule.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/app/controllers/sessions_controller.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/config/s3.yml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/app/views/shared/_reports.html.haml",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/app/models/reports/regional_charge.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/spec/models/reports/regional_charge_spec.rb",
+		"/Users/tamarr/Documents/Projects/MadMimi/mimibilling/app/models/authorization/permission.rb",
+		"/Users/tamarr/Documents/Projects/thesis-github-page/visualization/js/main.js",
+		"/Users/tamarr/Documents/Projects/SeferVeSefel/css/style.css",
+		"/Users/tamarr/Documents/Projects/thesis-github-page/visualization/index.html",
+		"/Users/tamarr/Documents/Projects/thesis-github-page/server_run.sh"
+	],
+	"find":
+	{
+		"height": 22.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.yml",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"test_use_credit_card_with_failing_reques",
+			"head",
+			"creditCardSetup",
+			"paypalHeader",
+			"changetocre",
+			"haspaypal",
+			"paypalHeader",
+			"changetocred",
+			"haspay",
+			"ask_user",
+			"haspaypal",
+			"solo",
+			"solow",
+			"creditcard",
+			"has_paypal",
+			"haspaypal",
+			"changeToCreditCard",
+			"changePaypalAccount",
+			"change_paypal_account",
+			"use_credit_card",
+			"confirm_dialog",
+			"changeToCreditCard",
+			"getProrateUpgradeCost",
+			"updateSubmitTotals",
+			"paymentConfirmed",
+			"paymentConfirmed ",
+			": paymentConfirmed ",
+			"payment_submit_summary",
+			"paySubmit",
+			"paymentConfirmed",
+			"custom",
+			"paypal",
+			"translate_error_from_billing",
+			"paypal_token",
+			"paypalob",
+			"translate_error_from_billing",
+			"payment_card_back",
+			"vat_number",
+			"BillingDetail.update",
+			"BillingDetail.create",
+			"billing_detail",
+			"paymentDetailsObject",
+			"potential_promotion_attempts",
+			"MAX_AUDIENCE_WHEN_OVER_LIMIT",
+			"def prepared_to_send",
+			"send",
+			".completed",
+			"completed",
+			"def total",
+			"def purchased",
+			"available",
+			"purchased",
+			"credits_key",
+			"count",
+			"def redis",
+			"credits_key",
+			"count",
+			"paypal",
+			"unstub",
+			"AuthStrategy",
+			"Current User",
+			"email",
+			"signup",
+			"def assert_response",
+			"attr_required",
+			"puta",
+			"payment_confirm",
+			"NewBillingDetails",
+			"getupda",
+			"formatThousands",
+			"thousandsSeparator",
+			"formatThousands",
+			">\n",
+			"retfailure",
+			"interpretfa",
+			"performUpgrade:",
+			"performUpgrade",
+			"performUpg",
+			"interpretFailure",
+			"interpretFailure:",
+			"interpretFailure",
+			"proceed",
+			"proceed:",
+			"proceed",
+			"submitError",
+			"getUpdateOrUpgradeUrl",
+			"onUpdateDetailsFailure",
+			"getUpdateOrUpgradeUrl",
+			"onUpdateDetailsFailure",
+			"submitError",
+			"onsubmit",
+			"submit",
+			"get_payment_for_update",
+			"_.each",
+			"affiliate_details.js",
+			"Mimi.AffiliateDetails =",
+			"legal",
+			"Mimi.AffiliateDetails.URL",
+			"Mimi.AffiliateDetails =",
+			"affiliate_details_and_tax_form_present",
+			"shouldForceRequest:",
+			"affiliate_details_dialog",
+			"onuspersonformsubmit:",
+			"to_json",
+			"w9FieldLabels",
+			"w9Errors",
+			"tax_classification_other",
+			"submituspe",
+			"validateus",
+			"hideAllusPersonCurrentStep",
+			"affiliate_details_dialog",
+			"ssn_9_digits",
+			"ssn_rege",
+			"validateus",
+			"allowed",
+			"sliceFieldName",
+			"validateus",
+			"validate",
+			"highli",
+			".length",
+			"validateU",
+			"raise",
+			";\n"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"w9_field_labels",
+			"w9_errors",
+			"hideAllUSPersonCurrentStep"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2651,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 22.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "website.sublime-project",
+	"replace":
+	{
+		"height": 40.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"service_agreements",
+				"test/functional/service_agreements_controller_test.rb"
+			],
+			[
+				"serv",
+				"app/controllers/service_agreements_controller.rb"
+			],
+			[
+				"application_controller.rb",
+				"app/controllers/application_controller.rb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"_payme",
+				"app/views/service_agreements/_payment_form.erb"
+			],
+			[
+				"service_agreem",
+				"app/controllers/service_agreements_controller.rb"
+			],
+			[
+				"paymen",
+				"app/assets/javascripts/mimi/payment_form.js.erb"
+			],
+			[
+				"_custom_plan",
+				"app/views/service_agreements/_custom_plan.erb"
+			],
+			[
+				"_upgrade_plans",
+				"app/views/service_agreements/_upgrade_plans.erb"
+			],
+			[
+				"_change_plan",
+				"app/views/service_agreements/change_plan.erb"
+			],
+			[
+				"change",
+				"app/assets/javascripts/mimi/plans/change_plan.js.erb"
+			],
+			[
+				"paym",
+				"app/assets/javascripts/mimi/payment_form.js.erb"
+			],
+			[
+				"_paym",
+				"app/views/service_agreements/_payment_form.erb"
+			],
+			[
+				"_pay",
+				"app/views/service_agreements/_payment_confirm.erb"
+			],
+			[
+				"_payment",
+				"app/views/service_agreements/_payment_form.erb"
+			],
+			[
+				"app/assets/stylesheets/ui.scss",
+				"app/assets/stylesheets/ui.scss"
+			],
+			[
+				"payme",
+				"app/assets/javascripts/mimi/payment_form.js.erb"
+			],
+			[
+				"mailing/start",
+				"app/services/mailings/start.rb"
+			],
+			[
+				"mailingsaver",
+				"app/models/mailing_saver.rb"
+			],
+			[
+				"promo",
+				"app/controllers/promotions_controller.rb"
+			],
+			[
+				"mail",
+				"app/models/mailing.rb"
+			],
+			[
+				"usermailing",
+				"app/models/account/user_mailing_credits.rb"
+			],
+			[
+				"user_mailing",
+				"app/models/account/user_mailing_credits.rb"
+			],
+			[
+				"product",
+				"lib/e_commerce_integration/product.rb"
+			],
+			[
+				"gemfile",
+				"Gemfile"
+			],
+			[
+				"environment.rb",
+				"config/environment.rb"
+			],
+			[
+				"close",
+				"app/views/service_agreements/close_paypal_popup.html.erb"
+			],
+			[
+				"gdte",
+				"config/deploy/gdtest.rb"
+			],
+			[
+				"promotionscontroller",
+				"app/controllers/promotions_controller.rb"
+			],
+			[
+				"gdtes",
+				"config/deploy/gdtest.rb"
+			],
+			[
+				"gdde",
+				"config/deploy/gddev.rb"
+			],
+			[
+				"signup_con",
+				"app/controllers/signups_controller.rb"
+			],
+			[
+				"signupscontrollertest",
+				"test/functional/signups_controller_test.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			],
+			[
+				"gdtest",
+				"config/deploy/gdtest.rb"
+			],
+			[
+				"_payment_confirm",
+				"app/views/service_agreements/_payment_confirm.erb"
+			],
+			[
+				"newbillin",
+				"app/models/factory/new_billing_details.rb"
+			],
+			[
+				"payment",
+				"app/assets/javascripts/mimi/payment_form.js.erb"
+			],
+			[
+				"number",
+				"app/assets/javascripts/ext/number.js"
+			],
+			[
+				"_us_",
+				"app/views/account/affiliate_details/_us_person.html.erb"
+			],
+			[
+				"change_",
+				"app/assets/javascripts/mimi/plans/change_plan.js.erb"
+			],
+			[
+				"_get_",
+				"app/views/service_agreements/_get_upgrade.html.erb"
+			],
+			[
+				"get_paymen",
+				"app/views/service_agreements/get_payment.erb"
+			],
+			[
+				"get_payment_for_upd",
+				"app/views/service_agreements/get_payment_for_upgrade.erb"
+			],
+			[
+				"_afilliate",
+				"app/views/account/affiliate_details/_affiliate_details_dialog.html.erb"
+			],
+			[
+				"add.js",
+				"app/assets/javascripts/mimi/affiliate_details_dialog.js.erb"
+			],
+			[
+				"adc",
+				"app/controllers/account/affiliate_details_controller.rb"
+			],
+			[
+				"adh",
+				"app/helpers/account/affiliate_details_helper.rb"
+			],
+			[
+				"application.er",
+				"app/views/layouts/application.erb"
+			],
+			[
+				"_update",
+				"app/views/account/affiliate_details/_update_affiliate_details_dialog.html.erb"
+			],
+			[
+				"update_a",
+				"app/assets/javascripts/mimi/update_affiliate_details_dialog.js.erb"
+			],
+			[
+				"_form",
+				"app/views/account/affiliate_details/_form.html.erb"
+			],
+			[
+				"_affiliate",
+				"app/views/account/affiliate_details/_affiliate_details_dialog.html.erb"
+			],
+			[
+				"affiliate_details_dia",
+				"app/views/account/affiliate_details/_affiliate_details_dialog.html.erb"
+			],
+			[
+				"appli",
+				"config/application.rb"
+			],
+			[
+				"add",
+				"app/assets/javascripts/mimi/affiliate_details_dialog.js.erb"
+			],
+			[
+				"addb",
+				"app/assets/javascripts/mimi/affiliate_details_dialog_base.js.erb"
+			],
+			[
+				"w9",
+				"app/models/tax_form/w9.rb"
+			],
+			[
+				"schema",
+				"db/schema.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 299.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

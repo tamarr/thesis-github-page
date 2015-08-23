@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project 3 - The Origin Of Languages And Their Scripts</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/intro.css"/>
+
+    <!-- Link to d3 library or change path to local copy -->
+    <script src="./lib/d3.v3.min.js"></script>
+    <script type="text/javascript" src="./lib/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/intro.js"></script>
+
+  </head>
+
+  <body>
+<div id="title" class="font">The Origin Of Languages And Their Scripts 
+	<span class="secondary"> according to Wikipedia</span>      
+	<a href="./main.html" class="font next">Go To Visualization</a>
+	<div class="secondary font">By Tamar Rucham</div>
+      </div>
+    <div id="intro_content" class="content font"><div class="sub_title">Introduction:</div>
+The origin of languages and their scripts is a project that aims to collect and visualize the evolution tree of different languages and their writing systems. We tend to consider spoken language and written language together, when in fact the two had very different evolution paths and form some unexpected connections between them.
+<br/><br/>
+<div class="sub_title">Explanation:</div>
+Click a language family on the left or a writing system origin on the right to view their evolution trees. Languages and scripts that are in full color have additional information. They represet a wikipedia article in that language or a script that is used by one of those languages. Select one of those nodes to display the correlating languages or script, and see snippets of the Wikipedia articles about them at the bottom. 
+
+<br/><br/>Once you move on to the actual visualization, you will find the Indo-European tree already open and English selected. You will also find a short walk through that highlights some interesting facts. You can click on any other node to dismiss it.
+
+<br/><br/><div class="sub_title">Technical Details:</div>
+To create this visualization Wikipedia was scraped using a script. All the languages that have a wikipedia article about wikipedia were gathered and for each the article about that language was processed to extract the family hirarchy and the script. The information was later cleaned manually to remove entries that did not follow teh standart structure. Therefore, take into account that the languages represented here are skewed based on that. The tree were created using the example by <a href="http://blog.pixelingene.com/2011/07/building-a-tree-diagram-in-d3-js/">Pavan Podila in his blog Pixel-In-Gene</a>. Some dynamic tree resizing was based on the <a href="http://stackoverflow.com/a/14145316">StackOverflow answer by user Superboggly</a>.
+
+<br/><br/>
+<div class="sub_title">Video:</div>
+<div class="video"><iframe src="http://player.vimeo.com/video/65267514" width="500" height="281"></iframe> <p class="small"><a href="http://vimeo.com/65267514">The Origin Of Languages And Their Scripts</a> from <a href="http://vimeo.com/user16657032">Tamar Rucham</a> on <a href="http://vimeo.com">Vimeo</a>.</p></div>
+	</div>
+    <a href="./main.html" class="font next">Go To Visualization</a>
+  </body>
+</html>
+ 

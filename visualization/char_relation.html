@@ -5,15 +5,19 @@
 <script src="./js/char_relation.js"></script>
 <script src="./js/main.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://d3js.org/d3.v3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="./css/char_relation.css"/>
 <link rel="stylesheet" type="text/css" href="./css/style.css"/>
 
 </head>
 
 <body>
-<script src="http://d3js.org/d3.v3.min.js"></script>
-<div id="header"><span class="title">Con<span class="orange">TEXT</span>ual Scripts </span><span class="subtitle orange"> a visual exploration of scripts in their context</span></div><div class="bottomDiv"><span class="name">by Tamar Rucham</span></div>
+<div id="website_header"></div>
 <script>
+  $(function(){
+      $("#website_header").load("header.html"); 
+    });
   loadChars();
 </script>
+
 </body>
